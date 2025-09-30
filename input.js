@@ -2055,11 +2055,6 @@ function executeDataCollection() {
     }, 2000);
 }
 
-// Trigger on world load (initial join)
-register("worldLoad", function() {
-    executeDataCollection();
-});
-
 // Trigger on script load/reload (works with /ct reload)
 register("gameLoad", function() {
     executeDataCollection();
@@ -2076,3 +2071,4 @@ setTimeout(function() {
         // Player not available yet, that's fine
     }
 }, 1000);
+
